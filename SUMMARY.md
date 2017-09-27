@@ -9,7 +9,5 @@
   * [Running Python](chapter1/running-python.md)
 * [Data Types](data-types.md)
   * [Variables ](variables.md)
-  * Numbers
-
-
+  * [Numbers](numbers.md)
 
