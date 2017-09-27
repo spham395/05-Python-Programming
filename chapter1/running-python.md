@@ -1,5 +1,9 @@
 # Running Python
 
+
+
+## Python Interpreter
+
 There are a couple of ways to execute Python code. One way is through the **Python Interpreter,** which allows for on the fly code testing and sandboxing. The Python Interpreter uses **REPL:**
 
 * **Read: **the user input
@@ -15,7 +19,7 @@ The Python Interpreter can be launched from the command prompt or terminal using
 
 #### Linux & OS X
 
-**python2 **opens up Python 2
+**python2 or python **opens up Python 2
 
 **python3 **opens up Python 3
 
@@ -27,8 +31,6 @@ The Python Interpreter can be launched from the command prompt or terminal using
 
 **python -3 **opens up Python 3
 
-
-
 #### Additional Commands/Info
 
 **exit\(\) or shortcut crtl-D **to exit the Python Interpreter.
@@ -36,4 +38,18 @@ The Python Interpreter can be launched from the command prompt or terminal using
 Typing simply a variable or expression will yield a printed output
 
 ![](/assets/Screen Shot 2017-09-27 at 12.16.42 PM.png)
+
+
+
+## Python Source Files
+
+The other way to run Python code is using source files with the extension of .py. Python does not require compilation on the user's end. Executing .py source code is similar to starting the Interpreter.
+
+**Be sure to:**
+
+* Use appropiate bash commands for source codes Python version
+* Include filename and extension after bash command
+* Include any arguments after filename and extension.
+
+![](/assets/Screen Shot 2017-09-27 at 12.24.50 PM.png)
 
