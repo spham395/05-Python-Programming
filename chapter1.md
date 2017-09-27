@@ -1,5 +1,7 @@
 # Python Features
 
+
+
 #### **Topics:**
 
 * #### The Language
@@ -9,8 +11,6 @@
 * #### Styling and PEP8
 * #### Python Interpetor
 * #### Running Python
-
-
 
 ### By the end of this lesson you should know:
 
