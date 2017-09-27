@@ -7,5 +7,6 @@
   * [Objects](chapter1/objects.md)
   * [Py2 vs Py3 Differences ](chapter1/py2-vs-py3-differences.md)
   * [Running Python](chapter1/running-python.md)
-* Data Types
+* [Data Types](data-types.md)
+* [Variables ](variables.md)
 
