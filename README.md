@@ -1,3 +1,17 @@
-# My Awesome Book
+# Welcome to Python
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+![](/assets/python-logo-master-v3-TM.png)
+
+#### Chapters:
+
+* #### Features
+* #### Data Types
+* #### Flow Control
+* #### Functions
+* #### Modules and Classes
+* #### Ctypes and Misc
+
+#### 
+
+
+
