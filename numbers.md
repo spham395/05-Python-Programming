@@ -2,7 +2,7 @@
 
 ### Prefixes
 
-Prefixes convert types like **binary, hex and octal **into int. 
+Prefixes convert types like **binary, hex and octal **into int.
 
 * No prefix for decimal​
 
@@ -14,5 +14,10 @@ Prefixes convert types like **binary, hex and octal **into int.
 
 ![](/assets/Screen Shot 2017-09-27 at 1.09.39 PM.png)
 
+## Types
+
+* int \(integer\)
+  * Equivalent to C-Longs in Python 2 and non-limited in Python 3
+* 
 
 
