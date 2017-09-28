@@ -67,8 +67,6 @@ Bools are a subclass of int. This was done around Python 2.2 to allow previous i
 
   * non-empty sequence/mapping, etc
 
-
-
 ## Operators
 
 | Operator | Description | Example | Result |
@@ -82,4 +80,23 @@ Bools are a subclass of int. This was done around Python 2.2 to allow previous i
 | \*\* | Exponentiation | 4 \*\* 2 | 16 |
 
 **\*3.0 / 2 will return 1.5 for both Python 2 and Python 3**
+
+
+
+### Order of Operations
+
+| Operation | Precedence | Extra |
+| :--- | :--- | :--- |
+| \(\) |  |  |
+| \*\* |  |  |
+| -x, +x |  |  |
+| / |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
 
