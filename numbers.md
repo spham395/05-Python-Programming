@@ -51,6 +51,7 @@ Bools are a subclass of int. This was done around Python 2.2 to allow previous i
 #### Truth Value Testing
 
 * The following will evaluate to False:
+
   * False
   * zero numeric type- 0 0.0 0
   * None
@@ -58,7 +59,7 @@ Bools are a subclass of int. This was done around Python 2.2 to allow previous i
   * empty mapping- {}
   * instances of user defined classes \(will get into later\)​
 
-* The following will evaluate to True: Everything else, not limited to but including– 
+* The following will evaluate to True: Everything else, not limited to but including–
 
   * True, 1
 
@@ -67,4 +68,18 @@ Bools are a subclass of int. This was done around Python 2.2 to allow previous i
   * non-empty sequence/mapping, etc
 
 
+
+## Operators
+
+| Operator | Description | Example | Result |
+| :--- | :--- | :--- | :--- |
+| + | Addition | 4 + 5 | 9 |
+| - | Subtraction | 10 - 5 | 5 |
+| \* | Multiplication | 4 \* 2 | 8 |
+| / | Division\* | 3 / 2 | Py2\(1\) Py3\(1.5\) |
+| // | Floor Division | 3.0 // 1.0 | 1 \(~int division\) |
+| % | Modulus \(remainder\) | 4 % 2 | 0 |
+| \*\* | Exponentiation | 4 \*\* 2 | 16 |
+
+**\*3.0 / 2 will return 1.5 for both Python 2 and Python 3**
 
