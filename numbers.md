@@ -38,11 +38,33 @@ Prefixes convert types like **binary, hex and octal **into int.
   #Output: (3.5+5j)
   ```
 
-
-
 ### Numbers are IMMUTABLE!
 
 Numbers cannot be modified in place. Be sure to either reassign your current variable or assign the number to a new variable.
 
 ![](/assets/Screen Shot 2017-09-28 at 2.00.11 PM.png)
+
+## Bool \(True or False\)
+
+Bools are a subclass of int. This was done around Python 2.2 to allow previous implementations of bools \(0 and 1\) to continue working… especially so with C code that utilizes Pylint\_Check\(\)
+
+#### Truth Value Testing
+
+* The following will evaluate to False:
+  * False
+  * zero numeric type- 0 0.0 0
+  * None
+  * empty sequence – ‘’ \(\) \[\]
+  * empty mapping- {}
+  * instances of user defined classes \(will get into later\)​
+
+* The following will evaluate to True: Everything else, not limited to but including– 
+
+  * True, 1
+
+  * any number that is less than or greater than 0... but not 0
+
+  * non-empty sequence/mapping, etc
+
+
 
