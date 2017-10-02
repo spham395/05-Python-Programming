@@ -95,8 +95,6 @@ Bools are a subclass of int. This was done around Python 2.2 to allow previous i
 | Logical And | 8 |  |
 | Logical Or | 9 |  |
 
-
-
 ### Type Conversion
 
 ```py
@@ -110,4 +108,15 @@ oct(x) # Returns x as octal​
 ```
 
 _There are some differences between Python 2 and Python 3 numbers. The biggest difference being the removal of the Long Type in Python 3._
+
+
+
+# Lab 2A and 2B
+
+Download the following files and follow the instructions within. 
+
+* 2A: numbers.py
+* 2B: tax\_calc.py
+
+
 
