@@ -97,3 +97,17 @@ Bools are a subclass of int. This was done around Python 2.2 to allow previous i
 
 
 
+### Type Conversion
+
+```py
+int(‘x’, base) # Returns x as base integer​
+float(x) # Returns x as float​
+complex(real, imag) # Returns complex number​
+chr(x) # Returns string of one character for x as ASCII​
+ord(x) # Returns ASCII value for x as string of one char​
+hex(x) # Returns x as hex​
+oct(x) # Returns x as octal​
+```
+
+_There are some differences between Python 2 and Python 3 numbers. The biggest difference being the removal of the Long Type in Python 3._
+
