@@ -81,22 +81,19 @@ Bools are a subclass of int. This was done around Python 2.2 to allow previous i
 
 **\*3.0 / 2 will return 1.5 for both Python 2 and Python 3**
 
-
-
 ### Order of Operations
 
 | Operation | Precedence | Extra |
 | :--- | :--- | :--- |
-| \(\) |  |  |
-| \*\* |  |  |
-| -x, +x |  |  |
-| / |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| \(\) | 1 | Anything in brackets is first |
+| \*\* | 2 | Exponentiation |
+| -x, +x | 3 |  |
+| \*, /, %, // | 4 | Will evaluate left to right |
+| +, - | 5 | Will Evaluate left to right |
+| &lt;, &gt;, &lt;=, &gt;=, !=, == | 6 | Relational Operators |
+| Logical Not | 7 |  |
+| Logical And | 8 |  |
+| Logical Or | 9 |  |
 
 
 
