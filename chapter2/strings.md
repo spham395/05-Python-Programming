@@ -131,8 +131,6 @@ r
 
 * When slicing a range, you grab everything UPTO \(not including\) the second defined number.
 
-
-
 ### More String Manipulation
 
 ```py
@@ -143,13 +141,14 @@ H​
 Hello​
 >>> print my_string[6:]​
 World!​
+
 >>> print my_string[-6:] # ???​
 >>> print my_string[::2] # ???​
 >>> print my_string  * 2 # ???​
 >>> print my_string + my_string # ???​
 ```
 
-​
+What did you get? Try different operations to manipulate strings!
 
 ​
 
@@ -188,6 +187,26 @@ As you more than likely guessed, the user input is assigned to the variable _nam
 * **symbol.join\(string/list\)** \# Most commonly used to join list items, outputs string.​
 
 * **string.split\(symbol \)**\# Most commonly used to split a string up into a list of items, outputs list.​
+
+```py
+>>> my_string = "Hello World!”"
+>>> a = my_string.upper()​
+>>> print a​
+'HELLO WORLD!'​
+>>> a = my_string.lower()​
+>>> print a ​
+'hello world!'​
+>>> a = len(my_string)​
+>>> print a​
+12​
+>>> a = my_string.split(" ")​
+['Hello', 'World!']​
+>>> print my_string​
+'Hello World!'​
+>>> my_string = "+".join(a)​
+>>> print my_string​
+'Hello+World!'
+```
 
 
 
