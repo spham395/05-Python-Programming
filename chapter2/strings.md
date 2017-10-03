@@ -49,11 +49,11 @@ Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias o
 **Python 2**
 
 ```py
->>> x = “I am a string”​
->>> type(x)​
-<type ‘str’>​
+>>> x = "I am a string"
+>>> type(x)
+<type 'str'>​
 >>> x​
-‘I am a string’​
+'I am a string'
 >>> hex(ord(x[0]))​
 0x49​
 ```
@@ -61,11 +61,61 @@ Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias o
 **Python 3**
 
 ```py
->>> x = ‘I am a string’.encode(‘ASCII’)​
+>>> x = 'I am a string'.encode('ASCII')​
 >>> type(x)​
-<class ‘bytes’>​
+<class 'bytes'>​
 >>> print(hex(x[0]))​
 0x49 # ASCII code for capital I​
+```
+
+```py
+>>> x = b'I am a string' # Doing this in Python 2 makes no difference
+>>> type(x)
+<class 'bytes'>
+```
+
+
+
+### Unicode Strings
+
+**Python 2**
+
+```py
+>>> x = u"I am a unicode string”"
+>>> type(x)​
+<type 'unicode'>​
+>>> y = unicode("Look at me! I’m a unicode string.")​
+>>> type(y)​
+<type 'unicode'>​
+# You can use ‘…’ quotes “…” quotes or “””…””” quotes​
+```
+
+**Python 3**
+
+```py
+>>> x = 'I am a unicode string”'
+>>> type(x)​
+<class 'str'>​
+​
+# class str is unicode in Python 3 natively​
+# You can use ‘…’ quotes “…” quotes or “””…””” quotes​
+```
+
+### 
+
+### User Input
+
+There are a few ways to capture user input in Python. The most common are rawinput\(\) in Python 2 and input\(\) in Python 3. It is important that you use raw\_input\(\) in Python 2... as input\(\) has security vulnerabilities. In Python 3, input\(\) takes user input as a string, no matter the input. On the other hand, input\(\) in Python 2 will take user input as the type presented. This can lead to users implementing false bools and such. 
+
+
+
+**Python 2**
+
+```py
+>>> name = raw_input("What is your name? ")
+What is your name? <user input>
+>>> name
+<user input>
 ```
 
 
