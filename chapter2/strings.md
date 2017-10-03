@@ -46,7 +46,27 @@ Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias o
 
 ​
 
-**Python 2**![](/assets/Screen Shot 2017-10-03 at 10.09.01 AM.png)output '0x49' is ASCII for capital I
+**Python 2**
 
-**Python 3**![](/assets/Screen Shot 2017-10-03 at 10.10.15 AM.png)
+```py
+>>> x = “I am a string”​
+>>> type(x)​
+<type ‘str’>​
+>>> x​
+‘I am a string’​
+>>> hex(ord(x[0]))​
+0x49​
+```
+
+**Python 3**
+
+```py
+>>> x = ‘I am a string’.encode(‘ASCII’)​
+>>> type(x)​
+<class ‘bytes’>​
+>>> print(hex(x[0]))​
+0x49 # ASCII code for capital I​
+```
+
+
 
