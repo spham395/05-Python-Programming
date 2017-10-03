@@ -40,11 +40,11 @@ To declare a string, use one of the following. There is no Pythonic way aside fr
 
 * A ‘u’ or ‘b’ prefix may be followed by a ‘r’ prefix.​
 
+Yes, this stuff is old school and not very Pythonic... but it can't be helped.
 
 
-Yes, this stuff is old school and not very Pythonic... but it can't be helped. 
+
+## Byte String vs Data String
 
 ​
-
-
 
