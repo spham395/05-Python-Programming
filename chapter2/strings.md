@@ -46,7 +46,7 @@ Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias o
 
 ​
 
-**Python 2**![](/assets/Screen Shot 2017-10-03 at 10.09.01 AM.png)
+**Python 2**![](/assets/Screen Shot 2017-10-03 at 10.09.01 AM.png)output '0x49' is ASCII for capital I
 
 **Python 3**![](/assets/Screen Shot 2017-10-03 at 10.10.15 AM.png)
 
