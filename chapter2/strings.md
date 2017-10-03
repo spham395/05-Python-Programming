@@ -125,7 +125,11 @@ What is your name? <user input>
 
 As you more than likely guessed, the user input is assigned to the variable _name_ and stored as a string. From here, you can treat var name as any other regular string.
 
-# Lab 2D: 
+
+
+### Slicing
+
+
 
 
 
