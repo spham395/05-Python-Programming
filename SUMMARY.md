@@ -11,5 +11,4 @@
   * [Variables ](chapter2/variables.md)
   * [Numbers](chapter2/numbers.md)
   * [Strings](chapter2/strings.md)
-  * Slicing
 

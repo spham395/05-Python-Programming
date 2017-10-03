@@ -99,6 +99,38 @@ Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias o
 # You can use ‘…’ quotes “…” quotes or “””…””” quotes​
 ```
 
+
+
+
+
+### Slicing
+
+Slicing allows you to grab a substring of a string
+
+**Grabbing a specific element**
+
+```py
+>>> x = "hello world"​
+>>> print x[4] # grabs 5th element​
+o
+```
+
+**Grab a range of elements**
+
+```py
+>>> x = "hello world”"
+>>> print x[4:9] # grabs 5th element to between 9th element​
+o wor
+```
+
+**Grabbing backwards from the last element**
+
+```py
+>>> x = "hello world”"
+>>> print x[-3] # grabs 8th element (3 elements from end)​
+r
+```
+
 ### 
 
 ### User Input
@@ -124,8 +156,6 @@ What is your name? <user input>
 ```
 
 As you more than likely guessed, the user input is assigned to the variable _name_ and stored as a string. From here, you can treat var name as any other regular string.
-
-
 
 ### Useful String Methods
 
