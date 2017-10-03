@@ -111,7 +111,7 @@ _There are some differences between Python 2 and Python 3 numbers. The biggest d
 
 # 
 
-# Lab 2A and 2B
+# Lab 2B and 2C
 
 Download the following files and follow the instructions within.
 

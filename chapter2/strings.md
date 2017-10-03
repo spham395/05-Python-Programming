@@ -74,8 +74,6 @@ Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias o
 <class 'bytes'>
 ```
 
-
-
 ### Unicode Strings
 
 **Python 2**
@@ -105,9 +103,7 @@ Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias o
 
 ### User Input
 
-There are a few ways to capture user input in Python. The most common are rawinput\(\) in Python 2 and input\(\) in Python 3. It is important that you use raw\_input\(\) in Python 2... as input\(\) has security vulnerabilities. In Python 3, input\(\) takes user input as a string, no matter the input. On the other hand, input\(\) in Python 2 will take user input as the type presented. This can lead to users implementing false bools and such. 
-
-
+There are a few ways to capture user input in Python. The most common are rawinput\(\) in Python 2 and input\(\) in Python 3. It is important that you use raw\_input\(\) in Python 2... as input\(\) has security vulnerabilities. In Python 3, input\(\) takes user input as a string, no matter the input. On the other hand, input\(\) in Python 2 will take user input as the type presented. This can lead to users implementing false bools and such.
 
 **Python 2**
 
@@ -117,6 +113,21 @@ What is your name? <user input>
 >>> name
 <user input>
 ```
+
+**Python 3**
+
+```py
+>>> name = input("What is your name? ")
+What is your name? <user input>
+>>> name
+<user input>
+```
+
+As you more than likely guessed, the user input is assigned to the variable _name_ and stored as a string. From here, you can treat var name as any other regular string. 
+
+
+
+# 
 
 
 
