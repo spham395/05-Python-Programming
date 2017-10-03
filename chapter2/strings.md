@@ -103,7 +103,7 @@ Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias o
 
 ### User Input
 
-There are a few ways to capture user input in Python. The most common are rawinput\(\) in Python 2 and input\(\) in Python 3. It is important that you use raw\_input\(\) in Python 2... as input\(\) has security vulnerabilities. In Python 3, input\(\) takes user input as a string, no matter the input. On the other hand, input\(\) in Python 2 will take user input as the type presented. This can lead to users implementing false bools and such.
+There are a few ways to capture user input in Python. The most common are **raw\_input\(\)** in Python 2 and **input\(\)** in Python 3. It is important that you use raw\_input\(\) in Python 2... as input\(\) has security vulnerabilities. In Python 3, input\(\) takes user input as a string, no matter the input. On the other hand, input\(\) in Python 2 will take user input as the type presented. This can lead to users implementing false bools and such.
 
 **Python 2**
 
@@ -127,9 +127,17 @@ As you more than likely guessed, the user input is assigned to the variable _nam
 
 
 
-### Slicing
+### Useful String Methods
 
+* **string.upper\(\) **\# Outputs string as uppercase​
 
+* **string.lower\(\) **\# Outputs string as lowercase​
+
+* **len\(string\)** \# Outputs string length​
+
+* **symbol.join\(string/list\)** \# Most commonly used to join list items, outputs string.​
+
+* **string.split\(symbol \)**\# Most commonly used to split a string up into a list of items, outputs list.​
 
 
 
