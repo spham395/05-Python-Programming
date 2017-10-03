@@ -210,3 +210,42 @@ As you more than likely guessed, the user input is assigned to the variable _nam
 
 
 
+### Changing a Character
+
+```py
+>>> my_string = "Hello World!"​
+>>> my_string[1]​
+'e'
+>>> my_string[1] = 'E'
+```
+
+What's the outcome? How does replace\(\) work?
+
+
+
+### Additional Standard Library Functionality
+
+* startswith,endswith​
+
+* find,rfind​
+
+* count​
+
+* isalnum​
+
+* strip​
+
+* capitalize​
+
+* title​
+
+* upper, lower​
+
+* swapcase​
+
+* center​
+
+* ljust,rjust​
+
+
+
