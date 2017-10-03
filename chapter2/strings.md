@@ -99,13 +99,9 @@ Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias o
 # You can use ‘…’ quotes “…” quotes or “””…””” quotes​
 ```
 
-
-
-
-
 ### Slicing
 
-Slicing allows you to grab a substring of a string
+Slicing allows you to grab a substring of a string. Just like C/C++, Pythons indexing structure starts at 0. The only exception is when grabbing an element using a negative index. There is an example further below. 
 
 **Grabbing a specific element**
 
@@ -131,7 +127,17 @@ o wor
 r
 ```
 
-### 
+* Slicing with negative values start at -1, not 0​. So if a string is equal to "test" t= -4, e = -3 s = -2 t = -1... a -2 slice will grab the 's'. 
+
+* When slicing a range, you grab everything UPTO \(not including\) the second defined number. 
+
+​
+
+​
+
+
+
+
 
 ### User Input
 
