@@ -208,8 +208,6 @@ As you more than likely guessed, the user input is assigned to the variable _nam
 'Hello+World!'
 ```
 
-
-
 ### Changing a Character
 
 ```py
@@ -220,8 +218,6 @@ As you more than likely guessed, the user input is assigned to the variable _nam
 ```
 
 What's the outcome? How does replace\(\) work?
-
-
 
 ### Additional Standard Library Functionality
 
@@ -246,6 +242,10 @@ What's the outcome? How does replace\(\) work?
 * center​
 
 * ljust,rjust​
+
+# LAB 2D and 2E:
+
+Pull down **2D: stringsexercise.py **and** 2E: count\_words.py** and follow the instructions within. 
 
 
 
