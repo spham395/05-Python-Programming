@@ -41,8 +41,6 @@ Much like strings, you can slice lists. There are some differences though. Slici
 >>> nested_list[0:2][1] # ???​
 ```
 
-
-
 ### Indexing Lists
 
 index\(\) will output the index of an element that matches index\(\)s argument. index\(\) looks for strict matches. Overall, this is useful for finding the index of a specific item. For example:
@@ -55,6 +53,19 @@ index\(\) will output the index of an element that matches index\(\)s argument. 
 Traceback (most recent call last):………​
 # index method looks for strict matches​
 # useful for finding index of a specific item
+```
+
+#### In/not in Operator
+
+Works just like index\(\).
+
+```py
+>>> True in my_list​
+True​
+>>> 'Hello' in my_list​
+False​
+>>> 20 not in my_list​
+True
 ```
 
 
