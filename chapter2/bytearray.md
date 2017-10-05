@@ -23,7 +23,7 @@ b'hello world'
 101 # Unicode dec value
 ```
 
-This can go both ways. We can convert these integer representations back into unicode or ASCII strings. 
+**This can go both ways. We can convert these integer representations back into Unicode or ASCII strings.**
 
 ```py
 # Python 2 back to ascii string
@@ -52,9 +52,50 @@ b'e'
 # Now y is a python 2 str type... bytes/ascii
 ```
 
-
-
 # Bytearray\(\)
 
-Bytearray\(\) is a mutable sequence of integers in range of 0 &lt;= x &lt; 256; available in Python 2.6 and later​. Byte Arrays are useful when you need to modify individual bytes in a sequence.
+Bytearray\(\) is a mutable sequence of integers in range of 0 &lt;= x &lt; 256; available in Python 2.6 and later​. Byte Arrays are useful when you need to modify individual bytes in a sequence. Since bytearray\(\) takes in a byte/ASCII string... there is a difference in how we must implement this function between Python 2 and 3.
+
+**Python 2**
+
+Python 2 strings, as noted above, are already byte/ascii strings. So all we have to do is pass it through as is. But remember, it's good practice to declare bytes; even in Python 2. \(For this example, I will declare it for demonstration\)
+
+```py
+>>> x = "I am a string"
+>>> b = bytearray()​
+>>> b.extend(x) 
+# This was done on purpose to show it is mutable 
+# You can pass the str directly into the bytearray() function to cut 2 lines
+>>> b​
+bytearray(b'I am a string')​
+>>> b[2]​
+97 # decimal for space char​
+>>> b[2] = 85​ # Modifying a byte
+>>> b​
+bytearray(b'I Um a string')​ # notice b did change without reassignment
+```
+
+**Python 3**
+
+Python 3 strings on the other hand need to be converted before you can pass them as an argument into bytearray\(\).
+
+```py
+>>> b = bytearray(b"I am a string")​
+>>> b​
+bytearray(b'I am a string')​
+>>> b[2]​
+97 # decimal for space char​
+>>> b[2] = 85​
+b​
+bytearray(b'I Um a string')​
+```
+
+
+
+# LAB 2F
+
+* Ensure you have the latest pull from the master repo
+* Open planets.py and follow the instructions
+
+
 
