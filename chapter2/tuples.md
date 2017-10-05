@@ -71,11 +71,20 @@ xrange\(\) is Similar to range\(\), returns xrange object \(sequence object\) in
 -9
 ```
 
-
-
 # Buffer \(memoryview\)
 
 Buffer \(memoryview\) is useful if you don’t want to or can’t hold multiple copies of data in memory. Buffer \(or memoryview\) essentially expose \(by reference\) raw byte arrays to other Python objects. That means the argument passed must be in bytes \(ints representing bytes\).
+
+```py
+# Python 2
+>>> x = b'100'
+>>> buffer(x)
+<read-only buffer for 0x10b1acc60, size -1, offset 0 at 0x10b1a9930>
+
+# Python 3
+>>> x = b'100'
+>>> 
+```
 
 
 
