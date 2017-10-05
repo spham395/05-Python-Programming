@@ -15,8 +15,6 @@ Tuples are very similar to lists. The major difference is that tuples are **IMMU
 >>> del someTuple[2]
 ```
 
-
-
 ### Why Use Tuples?
 
 Tuples are still sequence objects. You can still:​
@@ -27,21 +25,15 @@ Tuples are still sequence objects. You can still:​
 
 * Index​
 
-
-
 **Useful for:**​
 
 * Returning multiple results from functions​
 
 * Since they are immutable, they can be used as keys for a dictionary.​
 
-
-
 # xrange\(\)
 
 xrange\(\) is Similar to range\(\), returns xrange object \(sequence object\) instead of list. Intended to be a simple, efficient \(uses less resources due to one-at-time loading method vs loading all increments\) and a fast way to iterate through a range. 
-
-
 
 
 
