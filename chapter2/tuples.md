@@ -33,7 +33,22 @@ Tuples are still sequence objects. You can still:​
 
 # xrange\(\)
 
-xrange\(\) is Similar to range\(\), returns xrange object \(sequence object\) instead of list. Intended to be a simple, efficient \(uses less resources due to one-at-time loading method vs loading all increments\) and a fast way to iterate through a range. 
+xrange\(\) is Similar to range\(\), returns xrange object \(sequence object\) instead of list. Intended to be a simple, efficient \(uses less resources due to one-at-time loading method vs loading all increments\) and a fast way to iterate through a range. In most cases, xrange\(\) will be the way to go. The only time you should use range\(\) is when you are going to be iterating over the list multiple times. This is because xrange\(\) will use more processing power over the length of the repeated iteration vs range... which will return a list and that list will stay and can be referenced whenever.
+
+```py
+>>> for i in xrange(10):
+>>>    print i
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
 
 
 
