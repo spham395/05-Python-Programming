@@ -12,4 +12,5 @@
   * [Numbers](chapter2/numbers.md)
   * [Strings](chapter2/strings.md)
   * [Lists](chapter2/lists.md)
+  * [Bytes and Bytearray](chapter2/bytearray.md)
 

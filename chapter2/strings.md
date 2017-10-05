@@ -42,7 +42,7 @@ Yes, this stuff is old school and not very Pythonic... but it can't be helped.
 
 ### Byte String vs Data String
 
-Byte Strings are simply just a sequence of bytes. In Python 2, str is an alias of ASCII bytes. In other words, they are used interchangeably. In Python 3 on the other hand, str is it's own type... utilizing Unicode \(utf-8\). Whereas the bytes type in Python 3 is still a bytes object in ASCII; an array of integers.
+Byte Strings are simply just a sequence of bytes. In Python 2, bytes is an alias of str. In other words, they are used interchangeably. In Python 3 on the other hand, str is it's own type... utilizing Unicode \(utf-8\). Whereas the bytes type in Python 3 is still a bytes object in ASCII; an array of integers.
 
 ​
 
@@ -245,7 +245,5 @@ What's the outcome? How does replace\(\) work?
 
 # LAB 2D and 2E:
 
-Pull down **2D: stringsexercise.py **and** 2E: count\_words.py** and follow the instructions within. 
-
-
+Pull down **2D: stringsexercise.py **and** 2E: count\_words.py** and follow the instructions within.
 
