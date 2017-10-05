@@ -48,7 +48,34 @@ xrange\(\) is Similar to range\(\), returns xrange object \(sequence object\) in
 7
 8
 9
+
+# Only even numbers
+>>> for i in xrange(2, 10, 2):
+>>>     print i
+2
+3
+6
+8
+
+# Negative numbers
+>>> for i in xrange(-1, -10, -1):
+>>>     print i
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+-8
+-9
 ```
+
+
+
+# Buffer \(memoryview\)
+
+Buffer \(memoryview\) is useful if you don’t want to or can’t hold multiple copies of data in memory. Buffer \(or memoryview\) essentially expose \(by reference\) raw byte arrays to other Python objects. That means the argument passed must be in bytes \(ints representing bytes\).
 
 
 
