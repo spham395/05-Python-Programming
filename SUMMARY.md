@@ -13,5 +13,5 @@
   * [Strings](chapter2/strings.md)
   * [Lists](chapter2/lists.md)
   * [Bytes and Bytearray](chapter2/bytearray.md)
-  * [Tuples](chapter2/tuples.md)
+  * [Tuples, xrange & buffer](chapter2/tuples.md)
 
