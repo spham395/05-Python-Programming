@@ -83,7 +83,8 @@ Buffer \(memoryview\) is useful if you don’t want to or can’t hold multiple 
 
 # Python 3
 >>> x = b'100'
->>> 
+>>> memoryview(x)
+<memory at 0x1040b1948>
 ```
 
 
