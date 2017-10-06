@@ -56,8 +56,6 @@ A set is an unordered collection of unique elements. Sets **are muteable **but c
 {'Chevy', 105, 155, 'Ford', 'Dodge'} # many ways to create set​
 ```
 
-
-
 ### Frozenset
 
 Frozensets are identical to sets aside from the fact that they **are immutable**. Since frozensets are immutable, they are hashable as well. So they can be used as a dict key or element of another set.
@@ -74,11 +72,9 @@ frozenset({1, 2, 3, 4})​
 ​
 ```
 
-
-
 ### Common Set Operations
 
-Some do not apply to Frozenset. 
+Some do not apply to Frozenset.
 
 ```py
 >>> s.issubset(t) # test if elements in s are in t​
