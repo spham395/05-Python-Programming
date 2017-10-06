@@ -95,11 +95,7 @@ Some do not apply to Frozenset.
 >>> s.clear() #remove all elements from set a​
 ```
 
-
-
 # Additional Functionality
-
-
 
 ## Conversion Functions
 
@@ -125,23 +121,17 @@ Below are some functions to convert a variable to another type.
 >>> oct()​
 ```
 
-
-
 ## Import Sys
 
-Sys is a large module from the Standard Library that contains very useful code and functionality. We will get into what modules are and how to import and such later in the course. For now, we are going to focus on one function from the module. 
+Sys is a large module from the Standard Library that contains very useful code and functionality. We will get into what modules are and how to import and such later in the course. For now, we are going to focus on one function from the module.
 
-
-
-sys.getsizeof\(object\)  --gets the size of the object passed in bytes. As you can imagine, this is going to be very helpful in streamlining your code. 
+sys.getsizeof\(object\)  --gets the size of the object passed in bytes. As you can imagine, this is going to be very helpful in streamlining your code.
 
 **Documentation:**
 
 * [https://docs.python.org/2.7/library/sys.html](https://docs.python.org/2.7/library/sys.html)​
 
 * [https://docs.python.org/3.6/library/sys.html](https://docs.python.org/3.6/library/sys.html)
-
-
 
 ### Example:
 
@@ -151,6 +141,14 @@ sys.getsizeof\(object\)  --gets the size of the object passed in bytes. As you c
 >>> sys.getsizeof(x)​
 12​
 ```
+
+
+
+
+
+# Lab 2G
+
+Under Construction
 
 
 
