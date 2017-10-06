@@ -34,10 +34,6 @@ Dictionaries **are mutable **objects and consist of key-value mappings. \(ex: {k
 ​
 ```
 
-
-
-
-
 # Set and Frozenset
 
 A set is an unordered collection of unique elements. Sets **are muteable **but contain no hash value-- so they can't be used as dict keys or as an element of another set.
@@ -52,9 +48,9 @@ A set is an unordered collection of unique elements. Sets **are muteable **but c
 {0, 1, 2, 3, 4, 5}​
 >>> x_set = set("This is a set")​
 >>> x_set​
-{'s', ‘t’, ‘e’, ‘h’, ‘I’, ‘ ‘, ‘T’, ‘a’}​
->>> another_set = set([‘Ford’, ‘Chevy’, ‘Dodge’, 105, 555])​
-{‘Chevy’, 105, 155, ‘Ford’, ‘Dodge’} # many ways to create set​
+{'s', 't', 'e', 'h', 'I', ' ', 'T', 'a'}​
+>>> another_set = set(['Ford', 'Chevy', 'Dodge', 105, 555])​
+{'Chevy', 105, 155, 'Ford', 'Dodge'} # many ways to create set​
 ```
 
 
