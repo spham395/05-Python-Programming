@@ -16,8 +16,6 @@ Dictionaries **are mutable **objects and consist of key-value mappings. \(ex: {k
 {'one': 1, 'two': 2}​
 ```
 
-
-
 ### Common Dict Operations
 
 ```py
@@ -34,6 +32,29 @@ Dictionaries **are mutable **objects and consist of key-value mappings. \(ex: {k
 >>> d.popitem() # remove/return arbitrary (key,value)​
 >>> d.update(E, **F) # update d with (key,values) from E​
 ​
+```
+
+
+
+
+
+# Set and Frozenset
+
+A set is an unordered collection of unique elements. Sets **are muteable **but contain no hash value-- so they can't be used as dict keys or as an element of another set.
+
+```py
+>>> new_set = set() # create an empty set​
+>>> new_set = {0, 1, 1, 1, 2, 3, 4} ​
+>>> new_set​
+{0, 1, 2, 3, 4}​
+>>> new_set.add(5) # Add new key to set​
+>>> new_set​
+{0, 1, 2, 3, 4, 5}​
+>>> x_set = set("This is a set")​
+>>> x_set​
+{'s', ‘t’, ‘e’, ‘h’, ‘I’, ‘ ‘, ‘T’, ‘a’}​
+>>> another_set = set([‘Ford’, ‘Chevy’, ‘Dodge’, 105, 555])​
+{‘Chevy’, 105, 155, ‘Ford’, ‘Dodge’} # many ways to create set​
 ```
 
 
