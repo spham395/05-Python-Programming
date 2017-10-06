@@ -97,3 +97,60 @@ Some do not apply to Frozenset.
 
 
 
+# Additional Functionality
+
+
+
+## Conversion Functions
+
+Below are some functions to convert a variable to another type.
+
+```py
+>>> int()​
+>>> long()​
+>>> float()​
+>>> complex()​
+>>> str()​
+>>> repr()​
+>>> eval()​
+>>> tuple()​
+>>> list()​
+>>> set()​
+>>> dict()​
+>>> frozenset()​
+>>> chr()​
+>>> unichr()​
+>>> ord()​
+>>> hex()​
+>>> oct()​
+```
+
+
+
+## Import Sys
+
+Sys is a large module from the Standard Library that contains very useful code and functionality. We will get into what modules are and how to import and such later in the course. For now, we are going to focus on one function from the module. 
+
+
+
+sys.getsizeof\(object\)  --gets the size of the object passed in bytes. As you can imagine, this is going to be very helpful in streamlining your code. 
+
+**Documentation:**
+
+* [https://docs.python.org/2.7/library/sys.html](https://docs.python.org/2.7/library/sys.html)​
+
+* [https://docs.python.org/3.6/library/sys.html](https://docs.python.org/3.6/library/sys.html)
+
+
+
+### Example:
+
+```py
+>>> import sys​
+>>> x = 40​
+>>> sys.getsizeof(x)​
+12​
+```
+
+
+
