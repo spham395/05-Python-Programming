@@ -43,14 +43,60 @@ A set is an unordered collection of unique elements. Sets **are muteable **but c
 >>> new_set = {0, 1, 1, 1, 2, 3, 4} ​
 >>> new_set​
 {0, 1, 2, 3, 4}​
+
 >>> new_set.add(5) # Add new key to set​
 >>> new_set​
 {0, 1, 2, 3, 4, 5}​
+
 >>> x_set = set("This is a set")​
 >>> x_set​
 {'s', 't', 'e', 'h', 'I', ' ', 'T', 'a'}​
+
 >>> another_set = set(['Ford', 'Chevy', 'Dodge', 105, 555])​
 {'Chevy', 105, 155, 'Ford', 'Dodge'} # many ways to create set​
+```
+
+
+
+### Frozenset
+
+Frozensets are identical to sets aside from the fact that they **are immutable**. Since frozensets are immutable, they are hashable as well. So they can be used as a dict key or element of another set.
+
+```py
+>>> new_set = frozenset([1,2,2,2,3,4])# create an frozenset​
+>>> new_set​
+frozenset({1, 2, 3, 4})​
+>>> new_set.add(5)​
+.......AttributeError: ‘frozenset’ object has no attribute ‘add’​
+# Doesn't work since Frozenset is immutable
+
+# Many… many ways to create frozenset as well. ​
+​
+```
+
+
+
+### Common Set Operations
+
+Some do not apply to Frozenset. 
+
+```py
+>>> s.issubset(t) # test if elements in s are in t​
+>>> s.issuperset(t) # test if elements in t are in s​
+>>> s.union(t) # new set with elements of t and s​
+>>> s.intersection(t) # new set with common elements​
+>>> s.difference(t) # new set with elements in s but not t​
+>>> s.symmetric_difference # xor​
+>>> s.copy() # new shallow copy of s​
+>>> s.update(t) # return set s with elements from t​
+>>> s.intersection_update(t)​
+>>> s.difference_update(t)​
+>>> s.symmetric_difference_update(t)​
+>>> s.add(x) # add x to set s​
+>>> s.remove(x) # remove x from set s​
+>>> s.discard(x) # remove x from set s if present​
+>>> s.pop() # remove arbitrary item​
+>>> s.clear() #remove all elements from set a​
 ```
 
 
