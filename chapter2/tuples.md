@@ -73,7 +73,7 @@ xrange\(\) is Similar to range\(\), returns xrange object \(sequence object\) in
 
 # Buffer \(memoryview\)
 
-Buffer \(memoryview\) is useful if you don’t want to or can’t hold multiple copies of data in memory. Buffer \(or memoryview\) essentially expose \(by reference\) raw byte arrays to other Python objects. That means the argument passed must be in bytes \(ints representing bytes\).
+Buffer \(memoryview\) is useful if you don’t want to or can’t hold multiple copies of data in memory. It can also be lightening fast since it's not copying the data. Buffer \(or memoryview\) essentially expose \(by reference\) raw byte arrays to other Python objects. That means the argument passed must be in bytes \(ints representing bytes\).
 
 ```py
 # Python 2
@@ -85,6 +85,29 @@ Buffer \(memoryview\) is useful if you don’t want to or can’t hold multiple 
 >>> x = b'100'
 >>> memoryview(x)
 <memory at 0x1040b1948>
+```
+
+### Practical Example
+
+Below is a great example displaying how much resources and time buffer\(memoryview\) can save you. Copy, paste and run the code yourself. The first set of prints will be normal... the second will be using memoryview. 
+
+```py
+import time
+for n in (100000, 200000, 300000, 400000):
+    data = 'x'*n
+    start = time.time()
+    b = data
+    while b:
+        b = b[1:]
+    print 'bytes', n, time.time()-start
+
+for n in (100000, 200000, 300000, 400000):
+    data = 'x'*n
+    start = time.time()
+    b = memoryview(data)
+    while b:
+        b = b[1:]
+    print 'memoryview', n, time.time()-start
 ```
 
 
