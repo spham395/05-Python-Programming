@@ -20,9 +20,11 @@ The **Python Standard Library **contains all of the built in functionality of Py
 
 
 
+
+
 ### Styling and PEP8
 
-**PEP8 **is shorthand for **Python Enhancement Protocol 8. **Think of this as the bible for Python; the dos and do-nots of formatting and styling. Below are some of the more important commandments.  
+**PEP8 **is shorthand for **Python Enhancement Protocol 8. **Think of this as the bible for Python; the dos and do-nots of formatting and styling. Below are some of the more important commandments.
 
 * Python is **whitespace sensitive! **Unlike C, C++, Java, etc, Python does not use brackets. Instead, Python utilizes an indentation system. 
 * **Spaces **is preferred over tabs, you cannot mix. **PEP8** commands 4 spaces per indention level \(tab\). **Using editors with different tab settings may break code!**
@@ -30,16 +32,12 @@ The **Python Standard Library **contains all of the built in functionality of Py
 * **Documenting Code:**
 
 ```py
-# This is a comment 
+# This is a comment
 ```
-
-
 
 ```py
 """This is a single line docstring"""
 ```
-
-
 
 ```py
 """This is a 
