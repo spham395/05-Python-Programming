@@ -20,8 +20,6 @@ The **Python Standard Library **contains all of the built in functionality of Py
 
 ### 
 
-### 
-
 ### Styling and PEP8
 
 **PEP8 **is shorthand for **Python Enhancement Protocol 8. **Think of this as the bible for Python; the dos and do-nots of formatting and styling. Below are some of the more important commandments.
