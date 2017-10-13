@@ -17,6 +17,5 @@
   * [Mapping & Other Types](chapter2/dictionaries.md)
 * [Flow Control](chapter3/flow-control.md)
   * [Operators](operators.md)
-
-
+  * [If, Elif, Else](if-elif-else.md)
 
