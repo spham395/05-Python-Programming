@@ -69,7 +69,7 @@ Bools are a subclass of int. This was done around Python 2.2 to allow previous i
 
 ## Operators
 
-There are some differences between Python and many other languages that need to be brought to light. Increment operators **\(x++, y--, etc\) **do not exist in Python. To increment in Python, **you can use shorthand: a += 1, x -= 5, z \*=2, etc**
+There are some differences between Python and many other languages that need to be brought to light. Increment operators **\(x++, y--, etc\) **do not exist in Python. To increment in Python, **you can use shorthand: a += 1, x -= 5, z \*= 2, etc**
 
 | Operator | Description | Example | Result |
 | :--- | :--- | :--- | :--- |
