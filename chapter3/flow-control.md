@@ -5,7 +5,7 @@
 * #### Bitwise/Comparison Operators
 * #### If, elif, else
 * #### While/For Loops
-* #### Mapping Types
+* #### I/O: Advanced Print
 * #### Set Types
 * #### Conversion Functions
 
