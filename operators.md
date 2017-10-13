@@ -20,19 +20,27 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 
 ## Comparison Operators
 
-* **x == y **    \#if x equals y, return True​
+* **x == y **    \#if x equals y, return True​
 
-* **x != y**      \#if x is not y, return True​
+* **x != y**      \#if x is not y, return True​
 
-* **x &lt;&gt; y**     \#same as != \(deprecated\)​
+* **x &lt;&gt; y**     \#same as != \(deprecated\)​
 
-* **x &gt; y**       \#if x is greater than y, return True​
+* **x &gt; y**       \#if x is greater than y, return True​
 
-* **x &lt; y**       \#if x is less than y, return True​
+* **x &lt; y**       \#if x is less than y, return True​
 
-* **x &gt;= y**     \#if x is greater or equal to y, return True​
+* **x &gt;= y**     \#if x is greater or equal to y, return True​
 
-* **x &lt;= y**     \#if x is less or equal to y, return True
+* **x &lt;= y**     \#if x is less or equal to y, return True
+
+
+
+
+
+# Lab 3A: Operators
+
+Need to fix
 
 
 
