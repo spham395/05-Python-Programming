@@ -15,8 +15,5 @@
   * [Bytes and Bytearray](chapter2/bytearray.md)
   * [Tuples, xrange & buffer](chapter2/tuples.md)
   * [Mapping & Other Types](chapter2/dictionaries.md)
-
-* Flow Control
-
-
+* [Flow Control](chapter3/flow-control.md)
 
