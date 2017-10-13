@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-
 * [Python Features](chapter1/chapter1.md)
   * [Introduction to Python](chapter1/introduction-to-python.md)
   * [PyDocs & PEP8](chapter1/pydocs-and-pep8.md)
@@ -16,6 +15,8 @@
   * [Bytes and Bytearray](chapter2/bytearray.md)
   * [Tuples, xrange & buffer](chapter2/tuples.md)
   * [Mapping & Other Types](chapter2/dictionaries.md)
+
+* Flow Control
 
 
 

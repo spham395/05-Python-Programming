@@ -1,7 +1,5 @@
 # Python Features
 
-
-
 #### **Topics:**
 
 * #### The Language
