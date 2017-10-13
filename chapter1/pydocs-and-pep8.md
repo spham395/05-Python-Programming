@@ -10,13 +10,11 @@
 
 ### 
 
-
-
 ![](/assets/596e4c96650e5.jpeg)
 
 ### Standard Libary
 
-The **Python Standard Library **contains all of the built in functionality of Python; and well, theres a lot of content in there. The lectures will not even begin to scratch the surface of the Standard Library. With that said, you are encouraged to dive into the library and use whatever you can... whenever you can. You are not limited to just what I teach you.
+The **Python Standard Library **contains all of the built in functionality of Python; and well, theres a lot of content in there. The lectures will not even begin to scratch the surface of the Standard Library. With that said, you are encouraged to dive into the library and use whatever you can... whenever you can. You are not limited to just what I teach you. **USE THE LIBRARY! **
 
 **2.7: **[**https://docs.python.org/2.7/library/index.html**](https://docs.python.org/2.7/library/index.html)
 
