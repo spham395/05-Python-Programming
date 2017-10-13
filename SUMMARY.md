@@ -16,4 +16,7 @@
   * [Tuples, xrange & buffer](chapter2/tuples.md)
   * [Mapping & Other Types](chapter2/dictionaries.md)
 * [Flow Control](chapter3/flow-control.md)
+  * [Operators](operators.md)
+
+
 
