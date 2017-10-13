@@ -1,10 +1,10 @@
-# Data Types
+# Flow Control
 
 #### **Topics:**
 
-* #### Variables
-* #### Numbers
-* #### Sequence Objects
+* #### Bitwise/Comparison Operators
+* #### If, elif, else
+* #### While/For Loops
 * #### Mapping Types
 * #### Set Types
 * #### Conversion Functions
