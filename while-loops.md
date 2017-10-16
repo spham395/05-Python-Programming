@@ -32,3 +32,18 @@ When using the while loop, a few factors will make a difference in the output...
 
 
 
+### While Else
+
+Python allows for the use of a **While-Else Statement. **The while-else runs like a regular while loop except for the one iteration when the while loop becomes false. This results in the else statement being executed once!
+
+```py
+count = 0
+while count <= 10:
+    print 'count: {}'.format(count)
+    count += 1
+else:
+    print 'while loop executed... count is: {}'.format(count)
+```
+
+
+
