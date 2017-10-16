@@ -1,4 +1,4 @@
-#### For Loops
+# For Loops
 
 #### For Loop in C:
 
@@ -27,8 +27,7 @@ for letter in my_string:
     print letter
 ```
 
-So easy, a caveman can do it! But, how does this happen under the hood?  
+So easy, a caveman can do it! But, how does this happen under the hood?
 
-
-Remember Data Types chapter? Strings are iterable just like in C. The "in" operator simply calculates the count of my\_string and iterates through it as var letter. The value of letter is my\_string\[i\]. 
+Remember Data Types chapter? Strings are iterable just like in C. The "in" operator simply calculates the count of my\_string and iterates through it as var letter. The value of letter is my\_string\[i\].
 
