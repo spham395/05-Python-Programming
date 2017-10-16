@@ -66,7 +66,7 @@ print '%06.2f' % (3.141592653589793,)
 003.14
 
 # Name Placeholders
-things = {'car': 'BMW M3', 'motorcycle': 'Honda CBR600rr'
+things = {'car': 'BMW M3', 'motorcycle': 'Honda CBR600rr'}
 ```
 
 
