@@ -22,10 +22,28 @@ print('Hello' , 'World')
 
 ### % Formatting
 
-% formatting is being phased out. Highly recommend using .format\(\)… but have practice with both!
+% formatting follows C style and is being phased out. It is highly recommend to use .format\(\)… but have practice with both!
 
 ```py
-​
+​# Basic Positional Formatting
+print "%s World!" % "Hello"
+Hello World!
+
+# Basic Positional Formatting
+print "%s %s!" % ("Hello", "World")
+Hello World!
+
+# Padding 10 left
+print '%10s' % ('test',)
+      test
+      
+# Negative Padding 10 right
+print '%-10s--------' % ('test',)
+test          --------
+
+# Truncating Long Strings
+'%.5s' % ('what in the world',)
+
 ```
 
 
