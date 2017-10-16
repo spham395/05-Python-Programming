@@ -16,7 +16,15 @@ else:
 print 'a is equal to 100'
 ```
 
+**Output:**
+
+```
+a is equal to 100
+```
+
 **Another Example:**
+
+What is the output?
 
 ```py
 a = 0
