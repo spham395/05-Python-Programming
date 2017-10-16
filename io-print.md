@@ -8,6 +8,7 @@ Python print/print\(\) is very powerful... taking styling from C string formatin
 print "hello"
 print 1+1
 print 'Hello' + 'world'
+print 'Hello' , 'World')
 ```
 
 **Python 3 Basic:**
@@ -15,6 +16,7 @@ print 'Hello' + 'world'
 ```py
 print("hello")
 print(1+1)
+print('Hello' + 'World')
 print('Hello' , 'World')
 ```
 
