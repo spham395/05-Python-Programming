@@ -45,6 +45,10 @@ print '%-10s' % ('test',)
 print '%.5s' % ('what in the world',)
 'what '
 
+# Truncating and padding
+print '%10.5s' % ('what in the world',)
+'     what'
+
 # Numbers
 print '%d' % (50,)
 50
