@@ -30,8 +30,6 @@ When using the while loop, a few factors will make a difference in the output...
 * With that said, setting the count equal to 0 will start the output at 0, 1 will start at 1... etc
 * It's best practice to change the comparison operator rather than the 'increment to number'. For instance, count is currently set to increment until 10. Since the code increments after the print is executed... the last count printed is 9, even though the count really ends on 10. If you follow the above factors, changing the comparison operator to **&lt;=** will result in an output that prints count: 10 without effecting code that relies on count. 
 
-
-
 ### While Else
 
 Python allows for the use of a **While-Else Statement. **The while-else runs like a regular while loop except for the one iteration when the while loop becomes false. This results in the else statement being executed once!
@@ -45,5 +43,22 @@ else:
     print 'while loop executed... count is: {}'.format(count)
 ```
 
+**Output:**
 
+```
+count: 0
+count: 1
+count: 2
+count: 3
+count: 4
+count: 5
+count: 6
+count: 7
+count: 8
+count: 9
+count: 10
+while loop executed... count is: 11
+```
+
+This gives us a clearer look at how Python increments variables. 
 
