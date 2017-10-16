@@ -42,8 +42,16 @@ print '%-10s' % ('test',)
 'test          '
 
 # Truncating Long Strings
-'%.5s' % ('what in the world',)
+print '%.5s' % ('what in the world',)
 'what '
+
+# Numbers
+print '%d' % (50,)
+50
+
+# Floats
+print '%f' % (3.123513423532432)
+3.123513
 ```
 
 
