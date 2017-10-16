@@ -67,6 +67,7 @@ print '%06.2f' % (3.141592653589793,)
 
 # Name Placeholders
 things = {'car': 'BMW M3', 'motorcycle': 'Honda CBR600rr'}
+print 'My fav car %(car)s and motorcycle %(motorcycle)s' % things
 ```
 
 
