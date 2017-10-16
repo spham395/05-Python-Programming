@@ -20,5 +20,13 @@ print('Hello' + 'World')
 print('Hello' , 'World')
 ```
 
+### % Formatting
+
+% formatting is being phased out. Highly recommend using .format\(\)… but have practice with both!
+
+```py
+​
+```
+
 
 

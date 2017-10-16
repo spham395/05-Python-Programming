@@ -30,8 +30,7 @@ Dictionaries **are mutable **objects and consist of key-value mappings. \(ex: {k
 >>> d.itervalues() # iterator over values of d​
 >>> d.pop(k[,v]) # remove/return specified (key,value)​
 >>> d.popitem() # remove/return arbitrary (key,value)​
->>> d.update(E, **F) # update d with (key,values) from E​
-​
+>>> d.update(E, **F) # update d with (key,values) from E​​
 ```
 
 # Set and Frozenset
@@ -142,13 +141,7 @@ sys.getsizeof\(object\)  --gets the size of the object passed in bytes. As you c
 12​
 ```
 
-
-
-
-
 # Lab 2G
 
 Under Construction
-
-
 
