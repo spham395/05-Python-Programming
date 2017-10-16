@@ -27,23 +27,23 @@ print('Hello' , 'World')
 ```py
 ​# Basic Positional Formatting
 print "%s World!" % "Hello"
-Hello World!
+'Hello World!'
 
 # Basic Positional Formatting
 print "%s %s!" % ("Hello", "World")
-Hello World!
+'Hello World!'
 
 # Padding 10 left
 print '%10s' % ('test',)
-      test
-      
+'      test'
+
 # Negative Padding 10 right
-print '%-10s--------' % ('test',)
-test          --------
+print '%-10s' % ('test',)
+'test          '
 
 # Truncating Long Strings
 '%.5s' % ('what in the world',)
-
+'what '
 ```
 
 
