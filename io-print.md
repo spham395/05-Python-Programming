@@ -140,6 +140,11 @@ print 'My fav car {car} and motorcycle {motorcycle}'.format(**things)
 # EXCLUSIVE
 print '{first} {last}'.format(first='Old', last='Gregg')
 'Old Gregg'
+
+
+# Date and Time
+# EXCLUSIVE
+'{:%Y-%m-%d %H:%M}'.format(datetime(2017, 10, 17, 10, 45))
 ```
 
 
