@@ -107,11 +107,11 @@ print '{:_^10}'.format('test')
 '___test___'
 
 # Truncating Long Strings
-print '%.5s' % ('what in the world',)
+print '{:.5}'.format('what in the world')
 'what '
 
 # Truncating and padding
-print '%10.5s' % ('what in the world',)
+'{:10.5}'.format('what in the world')
 '     what'
 
 # Numbers
