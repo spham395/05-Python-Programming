@@ -115,15 +115,15 @@ print '{:.5}'.format('what in the world')
 '     what'
 
 # Numbers
-print '%d' % (50,)
+print '{:d}'.format(50)
 50
 
 # Floats
-print '%f' % (3.123513423532432)
+print '{:f}'.format(3.123513423532432)
 3.123513
 
 # Padding numbers
-print '%4d' % (50,)
+print '{:4d}'.format(50,)
   50
 
 # Padding Floating Points
