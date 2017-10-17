@@ -138,7 +138,8 @@ print 'My fav car {car} and motorcycle {motorcycle}'.format(**things)
 
 # Keyword Arguments
 # EXCLUSIVE
-print '{first} {last}'.format(first='Old', last='Greg')
+print '{first} {last}'.format(first='Old', last='Gregg')
+'Old Gregg'
 ```
 
 
