@@ -72,7 +72,7 @@ print 'My fav car %(car)s and motorcycle %(motorcycle)s' % things
 
 ### .format\(\)
 
-Format\(\) is the latest formatting functionality. PEP8 high encourages the use of .format\(\) whenever possible. .format\(\) includes most of the previous functionality with a ton of added functionality as well. 
+Format\(\) is the latest formatting functionality. PEP8 high encourages the use of .format\(\) whenever possible. .format\(\) includes most of the previous functionality with a ton of added functionality as well.
 
 ```py
 ​# Basic Positional Formatting
@@ -80,15 +80,19 @@ print '{} {}!'.format('Hello', 'World')
 'Hello World!'
 
 # Basic Positional Formatting
-print "{0!s} {1!s}".format("Hello", "World")
+print "{!s} {!s}".format("Hello", "World")
+'Hello World!'
+
+# Actual Positional Formatting
+print '{1} {0}!'.format('World', 'Hello')
 'Hello World!'
 
 # Padding 10 left
-print '%10s' % ('test',)
+print '{:>10}'.format('test')
 '      test'
 
 # Negative Padding 10 right
-print '%-10s' % ('test',)
+print '{:10}'.format('test')
 'test          '
 
 # Truncating Long Strings
