@@ -104,6 +104,7 @@ print '{:_>10}'.format('test')
 # Center Align
 # EXCLUSIVE
 print '{:_^10}'.format('test')
+'___test___'
 
 # Truncating Long Strings
 print '%.5s' % ('what in the world',)
