@@ -84,6 +84,7 @@ print "{!s} {!s}".format("Hello", "World")
 'Hello World!'
 
 # Actual Positional Formatting
+# EXCLUSIVE
 print '{1} {0}!'.format('World', 'Hello')
 'Hello World!'
 
@@ -92,8 +93,12 @@ print '{:>10}'.format('test')
 '      test'
 
 # Negative Padding 10 right
-print '{:10}'.format('test')
+print '{:<10}'.format('test')
 'test      '
+
+# Changing Padding Character
+print '{:_>10}'.format('test')
+'______test'
 
 # Truncating Long Strings
 print '%.5s' % ('what in the world',)
