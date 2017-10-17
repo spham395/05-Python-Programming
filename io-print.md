@@ -68,6 +68,7 @@ print '%06.2f' % (3.141592653589793,)
 # Name Placeholders
 things = {'car': 'BMW E30', 'motorcycle': 'Harley FXDX'}
 print 'My fav car %(car)s and motorcycle %(motorcycle)s' % things
+'My fav car BMW E30 and motorcycle Harley FXDX'
 ```
 
 ### .format\(\)
@@ -133,6 +134,7 @@ print '{:06.2f}'.format(3.141592653589793)
 # Name Placeholders
 things = {'car': 'BMW E30', 'motorcycle': 'Harley FXDX'}
 print 'My fav car {car} and motorcycle {motorcycle}'.format(**things)
+'My fav car BMW E30 and motorcycle Harley FXDX'
 ```
 
 
