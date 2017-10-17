@@ -93,7 +93,7 @@ print '{:>10}'.format('test')
 
 # Negative Padding 10 right
 print '{:10}'.format('test')
-'test          '
+'test      '
 
 # Truncating Long Strings
 print '%.5s' % ('what in the world',)
