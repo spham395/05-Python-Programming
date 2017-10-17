@@ -151,3 +151,9 @@ print '{:%Y-%m-%d %H:%M}'.format(datetime(2017, 10, 17, 10, 45))
 
 
 
+# Lab 3C: Formatting
+
+
+
+
+
