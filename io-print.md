@@ -123,11 +123,11 @@ print '{:f}'.format(3.123513423532432)
 3.123513
 
 # Padding numbers
-print '{:4d}'.format(50,)
+print '{:4d}'.format(50)
   50
 
 # Padding Floating Points
-print '%06.2f' % (3.141592653589793,)
+print '{:06.2f}'.format(3.141592653589793)
 003.14
 
 # Name Placeholders
