@@ -73,7 +73,7 @@ print 'My fav car %(car)s and motorcycle %(motorcycle)s' % things
 
 ### .format\(\)
 
-Format\(\) is the latest formatting functionality. PEP8 high encourages the use of .format\(\) whenever possible. .format\(\) includes most of the previous functionality with a ton of added functionality as well.
+Format\(\) is the latest formatting functionality. PEP8 high encourages the use of .format\(\) whenever possible. .format\(\) includes most of the previous functionality with a ton of added functionality as well. Below is just SOME of the built in .format\(\) functionality. Keep in mind, you can create custom functionality with .format\(\). Take a look at the docs and below and experiment!
 
 ```py
 ​# Basic Positional Formatting
@@ -144,7 +144,9 @@ print '{first} {last}'.format(first='Old', last='Gregg')
 
 # Date and Time
 # EXCLUSIVE
-'{:%Y-%m-%d %H:%M}'.format(datetime(2017, 10, 17, 10, 45))
+from datetime import datetime
+print '{:%Y-%m-%d %H:%M}'.format(datetime(2017, 10, 17, 10, 45))
+2017-10-17 10:45
 ```
 
 
