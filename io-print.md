@@ -97,8 +97,13 @@ print '{:<10}'.format('test')
 'test      '
 
 # Changing Padding Character
+# EXCLUSIVE
 print '{:_>10}'.format('test')
 '______test'
+
+# Center Align
+# EXCLUSIVE
+print '{:_^10}'.format('test')
 
 # Truncating Long Strings
 print '%.5s' % ('what in the world',)
