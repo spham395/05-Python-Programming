@@ -28,23 +28,25 @@ wb  -- Opens a file for writing only in binary format. Overwrites the file if it
 
 w+ -- Opens a file for writing and reading. Overwrites the existing file if it exists. If it does not exist, it creates a new one.
 
-wb+ -- Opens a file for writing and reading in binary format. Overwrites the existing file if it exists. If not, it creates a new one. 
+wb+ -- Opens a file for writing and reading in binary format. Overwrites the existing file if it exists. If not, it creates a new one.
 
 **append**
 
 a -- Opens a file for appending. File pointer is at end of file if it exists. If the file does not exist, it creates a new one
 
-ab -- Opens a file for appending in binary format. File pointer is at end of file if it exists. If not, it creates a new one. 
+ab -- Opens a file for appending in binary format. File pointer is at end of file if it exists. If not, it creates a new one.
 
-a+ -- Opens a file for both appending and reading. If file exists, file pointer placed at end of file. If not, it creates a new one. 
+a+ -- Opens a file for both appending and reading. If file exists, file pointer placed at end of file. If not, it creates a new one.
 
-ab+ -- Opens a file for both appending and reading in binary format. Follows above file pointer and write rules. 
+ab+ -- Opens a file for both appending and reading in binary format. Follows above file pointer and write rules.
 
 ### Advantages of Using Binary Formatting
 
-The advantages of using binary formatting primarily apply to Windows. Unlike Linux, where "everything is a file"... Windows treats binaries and files differently. Thus, reading binary in text mode in Windows will more than likely result in corrupted data. Passing a 'b' variant will mitigate this issue. 
+The advantages of using binary formatting primarily apply to Windows. Unlike Linux, where "everything is a file"... Windows treats binaries and files differently. Thus, reading binary in text mode in Windows will more than likely result in corrupted data. Passing a 'b' variant will mitigate this issue.
 
-#### File Operations
+
+
+### File Operations
 
 * f.write\(str\)         \# writestrto file​
 
@@ -60,7 +62,17 @@ The advantages of using binary formatting primarily apply to Windows. Unlike Lin
 
 * f.truncate\(sz\)     \# truncate the fileszbytes​
 
-* f.close\(\)              \# close file handle​
+* f.close\(\)              \# close file handle​... **ALWAYS CLOSE THE FILE AS SOON AS YOU'RE FINISHED USING IT!!**
 
-Once the file is open, we can begin reading, adding or modifying the file's contents.
+
+
+```py
+f = open('file_name', 'a')
+data = f.read()
+print data
+
+file.close()
+```
+
+
 
