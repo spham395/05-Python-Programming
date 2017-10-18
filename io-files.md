@@ -46,7 +46,7 @@ The advantages of using binary formatting primarily apply to Windows. Unlike Lin
 
 ### File Operations
 
-Once the file is open, we can begin reading, adding or modifying the file's contents. Below are some of the methods to make that happen. 
+Once the file is open, we can begin reading, adding or modifying the file's contents. Below are some of the methods to make that happen.
 
 * f.write\(str\)         \# writestrto file​
 
@@ -71,6 +71,8 @@ print data
 
 file.close()
 ```
+
+# Lab 3D: Working With Files
 
 
 
