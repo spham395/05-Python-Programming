@@ -44,9 +44,9 @@ ab+ -- Opens a file for both appending and reading in binary format. Follows abo
 
 The advantages of using binary formatting primarily apply to Windows. Unlike Linux, where "everything is a file"... Windows treats binaries and files differently. Thus, reading binary in text mode in Windows will more than likely result in corrupted data. Passing a 'b' variant will mitigate this issue.
 
-
-
 ### File Operations
+
+Once the file is open, we can begin reading, adding or modifying the file's contents. Below are some of the methods to make that happen. 
 
 * f.write\(str\)         \# writestrto file​
 
@@ -63,8 +63,6 @@ The advantages of using binary formatting primarily apply to Windows. Unlike Lin
 * f.truncate\(sz\)     \# truncate the fileszbytes​
 
 * f.close\(\)              \# close file handle​... **ALWAYS CLOSE THE FILE AS SOON AS YOU'RE FINISHED USING IT!!**
-
-
 
 ```py
 f = open('file_name', 'a')
