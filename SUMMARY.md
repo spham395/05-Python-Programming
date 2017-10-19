@@ -23,8 +23,8 @@
   * [Break and Continue](chapter3/break-and-continue.md)
   * [I/O Print](chapter3/io-print.md)
   * [I/O: Files](chapter3/io-files.md)
-* [User Functions](chapter4/user-functions.md)
-* * User Functions
+* [Functions](chapter4/user-functions.md)
+* * [User Functions](user-functions.md)
 
 
 
