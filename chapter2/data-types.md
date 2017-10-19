@@ -1,5 +1,7 @@
 # Data Types
 
+---
+
 #### **Topics:**
 
 * #### Variables
