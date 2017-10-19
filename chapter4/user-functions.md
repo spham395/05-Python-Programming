@@ -13,3 +13,20 @@ def function_name(parameters):​
 
 
 
+### Parameters
+
+Parameters are defined within the parentheses; they are variables that you want to use within the function. This keeps the global scope clean \(we will learn more about this coming up\). 
+
+```py
+def sales_tax(amount):​
+    rate = 0.0625​
+    tax_total = amount * rate​
+    total = tax_total + amount​
+    print total​
+​
+# Call function and pass argument
+sales_tax(200)​
+```
+
+
+
