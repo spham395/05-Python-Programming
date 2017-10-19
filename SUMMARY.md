@@ -24,7 +24,5 @@
   * [I/O Print](chapter3/io-print.md)
   * [I/O: Files](chapter3/io-files.md)
 * [Functions](chapter4/functions.md)
-* * User Functions
-
-
+  * [User Functions](chapter4/user-functions.md)
 
