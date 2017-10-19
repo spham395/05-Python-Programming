@@ -6,7 +6,7 @@
 
 * #### User Functions
 * #### Scope
-* #### Arguments, Return and Pass by Reference
+* #### Arguments/Parameters, Return and Pass by Reference
 * #### Lambda Functions
 * #### List, Set, Dict Comprehension
 * #### Closures

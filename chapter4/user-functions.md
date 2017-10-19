@@ -2,7 +2,7 @@
 
 Python functions are block of reusable code that can be called by reference. Functions are meant to split up the code into functionally organized code that can be reused. In Python, you do not have to return a value.
 
-To define a function use: **def function\_name\(arguments\):**
+To define a function use: **def function\_name\(parameters\):**
 
 ```py
 def function_name(parameters):​
