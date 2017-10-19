@@ -4,7 +4,7 @@
 
 Bitwise Operators directly manipulate bits. There really is no speed advantage to bitwise operators in Python. The main advantage of bitwise operators is for scripting, compression, encryption, communication over sockets \(checksums, stop bits, control algorithms, etc\).
 
-#### Operators:
+### Bitwise Operators:
 
 * **x &lt;&lt; y**     \#returns x left-shifted y places​
 
@@ -34,13 +34,7 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 
 * **x &lt;= y**     \#if x is less or equal to y, return True
 
-
-
-
-
 # Lab 3A: Operators
 
 Need to fix
-
-
 
