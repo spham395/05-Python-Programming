@@ -1,15 +1,42 @@
 # User Functions
 
-Python functions are block of reusable code that can be called by reference. Functions are meant to split up the code into functionally organized code that can be reused. In Python, you do not have to return a value.
+Python functions are block of reusable code that can be called to accomplish some sort of functionality. Functions are meant to split up the code into functionally organized code that can be reused. In Python, you do not have to return a value.
 
 To define a function use: **def function\_name\(parameters\):**
 
 ```py
 def function_name(parameters):​
-    x = 0​
+    x = 0​ # What we want to return
 ​
-    return x
+    return x # What we return
 ```
+
+**With Return Value:**
+
+```
+def name_upper(name):
+
+```
+
+
+
+**No return value:**
+
+```py
+def print_name(name):
+    print name
+```
+
+#### Calling a Function
+
+To call a function, you simply call the function name and pass in any needed arguments. If the function returns a variable, it is wise to call the function and direct the return value into a variable. 
+
+```
+# Using the functions above
+# 
+```
+
+## 
 
 ## Parameters
 
@@ -83,8 +110,6 @@ sales_tax()​
 #### Built-in
 
 * Loaded into scope when interpreter starts up. \(Ex: hash\(\), min\(\), dict\(\), print\(\), etc\)
-
-
 
 
 
