@@ -44,9 +44,24 @@ print_name('SrA. Snuffy')
 'SrA. Snuffy'#
 ```
 
+#### Parameters
+
+Parameters are defined within the parentheses; they are undefined variables that you want to use within the function. This keeps the global scope clean \(we will learn more about this coming up\). You pass arguments \(defined variables\) on the function call. As shown below:
+
+```py
+def sales_tax(amount):​ # function and parameter amount
+    rate = 0.0625​
+    tax_total = amount * rate​
+    total = tax_total + amount​
+    print total​
+​
+# Call function and pass argument
+sales_tax(200)​ # function call and argument 200
+```
+
 #### Practical Example
 
-The following code contains function calls in both the global scope and the Enclosing-Function Global. There is also error handling, which we will cover later.
+The following code contains function calls in the Global and Enclosing-Function Global scopes. There is also error handling, which we will cover later.
 
 ```py
 """
@@ -73,40 +88,25 @@ def launch():
 
     if isInt(num) == False or isInt(amount) == False:
         print "You must enter an integer"
-        launch()
+        launch() ### Enclosing-Function Global
     elif int(amount) < 0:
         print "You must enter a number greater than 1"
-        launch()
+        launch() ### Enclosing-Function Global
     else:
-        divisable_by(int(num), int(amount))
+        divisable_by(int(num), int(amount)) ### Enclosing-Function Global
 
 # Checks if string represents an int
 def isInt(x):
     try:
-        int(x)
+        int(x) ### 
         return True
     except ValueError:
         return False
 
-launch() 
+launch()
 ```
 
-## Parameters
-
-Parameters are defined within the parentheses; they are undefined variables that you want to use within the function. This keeps the global scope clean \(we will learn more about this coming up\). You pass arguments \(defined variables\) on the function call. As shown below:
-
-```py
-def sales_tax(amount):​ # function and parameter amount
-    rate = 0.0625​
-    tax_total = amount * rate​
-    total = tax_total + amount​
-    print total​
-​
-# Call function and pass argument
-sales_tax(200)​ # function call and argument 200
-```
-
-## 
+#### 
 
 
 
