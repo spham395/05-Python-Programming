@@ -59,6 +59,26 @@ print_name('SrA. Snuffy')
 'SrA. Snuffy'#
 ```
 
+## Returning
+
+With functions, you have the choice to return a variable. This is done so that the function becomes it's own local scope... keeping the global scope clean from any interference that the function may cause. If you want to bring a local function variable outside of the local scope... return a variable. With that said, returned values can be reassigned. If you find yourself having to return a ton of variables, either use a sequence or mapping object or split up the functionality into additional functions.
+
+```py
+def create_initials(first_name, last_name):
+    initials = first_name[0].upper() + last_name[0].upper()
+    return initials
+ initials = create_initials("william", "staud")
+print initials
+```
+
+
+
+#### 
+
+#### 
+
+#### 
+
 #### Practical Example
 
 The following code contains function calls in the Global and Enclosing-Function Global scopes. There is also error handling, which we will cover later.
