@@ -25,4 +25,5 @@
   * [I/O: Files](chapter3/io-files.md)
 * [Functions](chapter4/functions.md)
   * [User Functions](chapter4/user-functions.md)
+  * [Scope](chapter4/scope.md)
 
