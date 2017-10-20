@@ -34,17 +34,7 @@ def divisable_by(num, amount):
         i += 1
 ```
 
-## Calling a Function
-
-To call a function, you simply call the function name and pass in any needed arguments. If the function returns a variable, it is wise to call the function and direct the return value into a variable.
-
-```py
-# Lets print a name
-print_name('SrA. Snuffy')
-'SrA. Snuffy'#
-```
-
-#### Parameters
+## Parameters and Arguments
 
 Parameters are defined within the parentheses; they are undefined variables that you want to use within the function. This keeps the global scope clean \(we will learn more about this coming up\). You pass arguments \(defined variables\) on the function call. As shown below:
 
@@ -57,6 +47,16 @@ def sales_tax(amount):​ # function and parameter amount
 ​
 # Call function and pass argument
 sales_tax(200)​ # function call and argument 200
+```
+
+## Calling a Function
+
+To call a function, you simply call the function name and pass in any needed arguments. If the function returns a variable, it is wise to call the function and direct the return value into a variable.
+
+```py
+# Lets print a name
+print_name('SrA. Snuffy')
+'SrA. Snuffy'#
 ```
 
 #### Practical Example
