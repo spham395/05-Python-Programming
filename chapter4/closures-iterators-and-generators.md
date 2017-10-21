@@ -18,7 +18,5 @@ def generate_power_func(n):
 
 ## Iterators
 
-An iterator is just an object with a state that remembers where it is during iteration. Iterable 
-
-
+An iterator is just an object with a state that remembers where it is during iteration. Iterable objects can range from while loops to the actual iterator object. \#\#\#\# Finish 
 
