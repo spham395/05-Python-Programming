@@ -28,5 +28,16 @@ square_list(a_list)
 print a_list
 ```
 
+**Example 4:**
+
+```py
+a_list = [1, 2, 3, 4, 5]
+
+def square_list(a_list):
+    return [x*x for x in a_list]
+
+print square_list(a_list)
+```
+
 
 
