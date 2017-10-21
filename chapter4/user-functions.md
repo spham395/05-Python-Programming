@@ -36,7 +36,17 @@ def divisable_by(num, amount):
 
 ## Parameters and Arguments
 
-Parameters are defined within the parentheses; they are undefined variables that you want to use within the function. This keeps the global scope clean \(we will learn more about this coming up\). You pass arguments \(defined variables\) on the function call. As shown below:
+#### Parameters
+
+Parameters are defined within the parentheses; they are undefined variables that you want to use within the function. This keeps the global scope clean.
+
+#### Arguments
+
+Arguments are defined variables that you pass on the function call.
+
+**Example of Parameters and Arguments:**
+
+* **\*\*kwargs is used to pass a keyworded, variable-length argument list**
 
 ```py
 def sales_tax(amount):​ # function and parameter amount
@@ -47,6 +57,26 @@ def sales_tax(amount):​ # function and parameter amount
 ​
 # Call function and pass argument
 sales_tax(200)​ # function call and argument 200
+```
+
+#### \*args and \*\*kwargs
+
+* \*args is used to pass a non-keyworded, variable-length argument list
+
+* \*\*kwargs is used to pass a keyworded, variable-length argument list
+* Arguments passed in with these methods are placed in a dict
+
+**Example:**
+
+```py
+def my_func1(*args):
+    for arg in args:
+        print 'arg: ', arg
+def my_func2(**kwargs):
+    for key, value in kwargs.iteritems():
+        print key, value
+ my_func1('two', 3, 'four', 5)
+my_func2(a=12, b = 'abc')
 ```
 
 ## Calling a Function
@@ -71,7 +101,24 @@ def create_initials(first_name, last_name):
 print initials
 ```
 
-#### 
+## Pass by Reference
+
+Pass by Object Reference simply means that objects passed to the functions are referenced. This is technically what Python does by default. Since the objects are referenced, it can be easy to change the contents of that object. Remember, everything in Python is an object!
+
+```py
+# Define the function
+def append_one(li)
+    li.append(1)
+
+# Declare and set a variable
+l = [0]
+# Pass that variable by reference to the function append_one()
+append_one(l)
+print l 
+
+# Since the function acted on a mutable variable... the contents of the object were changed.
+[0, 1]
+```
 
 #### 
 
