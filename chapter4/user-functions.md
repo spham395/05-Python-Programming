@@ -1,4 +1,4 @@
-User Functions
+# User Functions
 
 Python functions are block of reusable code that can be called to accomplish some sort of functionality. Functions are meant to split up the code into functionally organized code that can be reused. In Python, you do not have to return a value.
 
@@ -91,8 +91,6 @@ To call a function, you simply call the function name and pass in any needed arg
 print_name('SrA. Snuffy')
 'SrA. Snuffy'#
 ```
-
-
 
 ## Cmdline Arguments
 
