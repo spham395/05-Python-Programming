@@ -65,7 +65,7 @@ sales_tax(200)​ # function call and argument 200
 
 * \*\*kwargs is used to pass a keyworded, variable-length argument list
 
-* Arguments passed in with t meos are placed in a dict
+* kwargs are placed in dictionaries
 
 **Example:**
 
@@ -92,7 +92,36 @@ print_name('SrA. Snuffy')
 'SrA. Snuffy'#
 ```
 
-## 
+
+
+## Cmdline Arguments
+
+Arguments can also be passed through the command line or terminal.
+
+#### Old:
+
+Avoid the older version. The new version works in both Python 2.7 and 3.x
+
+```py
+import sys
+
+args = str(sys.argv)
+print sys.argv[0]
+ for i in range(len(sys.argv)):
+    print 'args[%d]: %s' % (i, sys.argv[i])
+```
+
+#### New:
+
+```py
+import argparse
+
+parser = argparse.ArgumentParser(description='This is a demo')
+parser.add_argument('-i','--input',help='Input arg', required=True)
+args = parser.parse_args()
+
+print args.input
+```
 
 ## Returning
 
