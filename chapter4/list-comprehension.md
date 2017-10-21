@@ -49,5 +49,27 @@ def square_list(a_list):
  print square_list(a_list)
 ```
 
-**Breaking Down Example 5:**![](/assets/Screen Shot 2017-10-20 at 9.29.38 PM.png)
+### **Breaking Down Example 5:**![](/assets/Screen Shot 2017-10-20 at 9.29.38 PM.png)Set and Dict Comprehensions
+
+Just like with lists, we can do more advanced return functionality with sets and dicts
+
+**Example 1:**
+
+```py
+a_list = [1, 2, 3, 4, 5]
+ def square_list(a_list):
+return {x*x for x in a_list if x % 2 == 0}
+ print square_list(a_list)
+```
+
+**Example 2:**
+
+```py
+a_list = [1, 2, 3, 4, 5]
+def square_list(a_list):
+    return {x*x for x in a_list if x % 2 == 0}
+print square_list(a_list)
+```
+
+
 
