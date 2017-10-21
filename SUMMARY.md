@@ -30,7 +30,5 @@
   * [List Comprehension](chapter4/list-comprehension.md)
   * [Closures, Iterators & Generators](chapter4/closures-iterators-and-generators.md)
 * [Object Oriented](chapter5/object-oriented.md)
-* * [Modules](chapter5/modules.md)
-
-
+  * [Modules](chapter5/object-oriented/modules.md)
 
