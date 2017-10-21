@@ -18,5 +18,25 @@ def generate_power_func(n):
 
 ## Iterators
 
-An iterator is just an object with a state that remembers where it is during iteration. Iterable objects can range from while loops to the actual iterator object. \#\#\#\# Finish 
+An iterator is just an object with a state that remembers where it is during iteration. Iterable objects can range from while loops to the actual iterator object. \#\#\#\# Finish
+
+## Generators
+
+Generators are also iterators \(iterators are not generators though\)
+
+```py
+def yrange(n):
+    i = 0
+    while i < n:
+        yield i
+        i += 1
+ my_gen = yrange(10)
+print my_gen
+for i in my_gen:
+    print(i)
+```
+
+**Note: **When functions return all state is lost, a yield preserves local state and returns a generator object.
+
+**Review: **https://wiki.python.org/moin/Generators
 
