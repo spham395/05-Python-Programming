@@ -1,6 +1,6 @@
 # List Comprehension
 
-This section is going to go over a bit more list comprehension. Analyze the following code snippets... do not copy the code and run it. Try to figure out what the code does to the lists.
+This section is going to go over a bit more list comprehension. Analyze the following code snippets... they all do the same exact thing but in different ways. 
 
 **Example 1:**
 
@@ -37,6 +37,16 @@ def square_list(a_list):
     return [x*x for x in a_list]
 
 print square_list(a_list)
+```
+
+**Example 5:**
+
+```py
+a_list = [1, 2, 3, 4, 5]
+
+def square_list(a_list):
+    return [x*x for x in a_list if x % 2 == 0]
+ print square_list(a_list)
 ```
 
 
