@@ -14,7 +14,18 @@ def square_list(a_list):
     return a
 
 print square_list(a_list)
+```
 
+**Example 2:**
+
+```py
+a_list = [1, 2, 3, 4, 5]
+
+def square_list(a_list):
+    for i in range(len(a_list)):
+        a_list[i] *= a_list[i]
+square_list(a_list)
+print a_list
 ```
 
 
