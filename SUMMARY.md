@@ -28,4 +28,5 @@
   * [User Functions](chapter4/user-functions.md)
   * [Lambda Functions](chapter4/lambda-functions.md)
   * [List Comprehension](chapter4/list-comprehension.md)
+  * [Closures, Iterators & Generators](chapter4/closures-iterators-and-generators.md)
 
