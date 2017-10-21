@@ -67,11 +67,9 @@ With functions, you have the choice to return a variable. This is done so that t
 def create_initials(first_name, last_name):
     initials = first_name[0].upper() + last_name[0].upper()
     return initials
- initials = create_initials("william", "staud")
+ initials = create_initials("jack", "black")
 print initials
 ```
-
-
 
 #### 
 
