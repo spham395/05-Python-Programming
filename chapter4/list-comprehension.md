@@ -1,6 +1,6 @@
 # List Comprehension
 
-This section is going to go over a bit more list comprehension. Analyze the following code snippets... they all do the same exact thing but in different ways. 
+This section is going to go over a bit more list comprehension. Analyze the following code snippets... they all do the same exact thing but in different ways.
 
 **Example 1:**
 
@@ -49,5 +49,5 @@ def square_list(a_list):
  print square_list(a_list)
 ```
 
-
+**Breaking Down Example 5:**![](/assets/Screen Shot 2017-10-20 at 9.29.38 PM.png)
 
