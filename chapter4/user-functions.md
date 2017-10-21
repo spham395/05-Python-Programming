@@ -64,7 +64,8 @@ sales_tax(200)​ # function call and argument 200
 * \*args is used to pass a non-keyworded, variable-length argument list
 
 * \*\*kwargs is used to pass a keyworded, variable-length argument list
-* Arguments passed in with these methods are placed in a dict
+
+* Arguments passed in with t meos are placed in a dict
 
 **Example:**
 
