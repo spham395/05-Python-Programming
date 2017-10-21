@@ -203,7 +203,11 @@ def isInt(x):
 launch()
 ```
 
-#### 
+
+
+# Lab 4A: Working with Functions
+
+Create a fully functional calculator using functions.  
 
 
 
