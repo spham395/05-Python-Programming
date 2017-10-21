@@ -34,6 +34,8 @@ def divisable_by(num, amount):
         i += 1
 ```
 
+## 
+
 ## Parameters and Arguments
 
 #### Parameters
@@ -45,8 +47,6 @@ Parameters are defined within the parentheses; they are undefined variables that
 Arguments are defined variables that you pass on the function call.
 
 **Example of Parameters and Arguments:**
-
-* **\*\*kwargs is used to pass a keyworded, variable-length argument list**
 
 ```py
 def sales_tax(amount):​ # function and parameter amount
@@ -80,6 +80,8 @@ def my_func2(**kwargs):
 my_func2(a=12, b = 'abc')
 ```
 
+## 
+
 ## Calling a Function
 
 To call a function, you simply call the function name and pass in any needed arguments. If the function returns a variable, it is wise to call the function and direct the return value into a variable.
@@ -89,6 +91,8 @@ To call a function, you simply call the function name and pass in any needed arg
 print_name('SrA. Snuffy')
 'SrA. Snuffy'#
 ```
+
+## 
 
 ## Returning
 
@@ -101,6 +105,8 @@ def create_initials(first_name, last_name):
  initials = create_initials("jack", "black")
 print initials
 ```
+
+## 
 
 ## Pass by Reference
 
@@ -120,8 +126,6 @@ print l
 # Since the function acted on a mutable variable... the contents of the object were changed.
 [0, 1]
 ```
-
-#### 
 
 #### 
 
