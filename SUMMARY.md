@@ -29,4 +29,5 @@
   * [Lambda Functions](chapter4/lambda-functions.md)
   * [List Comprehension](chapter4/list-comprehension.md)
   * [Closures, Iterators & Generators](chapter4/closures-iterators-and-generators.md)
+* [Object Oriented](object-oriented.md)
 
