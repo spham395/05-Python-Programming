@@ -26,4 +26,5 @@
 * [Object Oriented](chapter5/object-oriented.md)
   * [Modules](chapter5/object-oriented/modules.md)
 * [Functions](functions.md)
+  * [Scope](functions/scope.md)
 
