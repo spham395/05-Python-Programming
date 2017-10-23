@@ -13,7 +13,7 @@ def function_name(parameters):​
 
 **With Return Value:**
 
-```
+```py
 def name_upper(name):
 ```
 
