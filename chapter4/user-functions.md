@@ -150,8 +150,6 @@ print l
 [0, 1]
 ```
 
-#### 
-
 #### Practical Example
 
 The following code contains function calls in the Global and Enclosing-Function Global scopes. There is also error handling, which we will cover later.
