@@ -53,7 +53,7 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 
 Open up the Python Interpreter and experiment with different types and operators. Here are some suggestions:
 
-* Compare string numeric variables vs number variables
+* Compare string numeric values vs number values
 * Create lists, tuples and dicts... experiment with the in/is operators
 * 
 
