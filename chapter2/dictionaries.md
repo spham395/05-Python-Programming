@@ -143,5 +143,5 @@ sys.getsizeof\(object\)  --gets the size of the object passed in bytes. As you c
 
 # Lab 2G
 
-Under Construction
+
 
