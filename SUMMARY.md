@@ -23,12 +23,6 @@
   * [Break and Continue](chapter3/break-and-continue.md)
   * [I/O Print](chapter3/io-print.md)
   * [I/O: Files](chapter3/io-files.md)
-* [Functions](chapter4/functions.md)
-  * [Scope](chapter4/scope.md)
-  * [User Functions](chapter4/user-functions.md)
-  * [Lambda Functions](chapter4/lambda-functions.md)
-  * [List Comprehension](chapter4/list-comprehension.md)
-  * [Closures, Iterators & Generators](chapter4/closures-iterators-and-generators.md)
 * [Object Oriented](chapter5/object-oriented.md)
   * [Modules](chapter5/object-oriented/modules.md)
 
