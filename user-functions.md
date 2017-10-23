@@ -35,5 +35,11 @@ def divisable_by(num, amount):
         i += 1
 ```
 
+## Parameters and Arguments
+
+#### Parameters
+
+Parameters are defined within the parentheses; they are undefined variables that you want to use within the function. This keeps the global scope clean. 
+
 
 
