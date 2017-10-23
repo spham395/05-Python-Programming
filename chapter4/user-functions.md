@@ -34,8 +34,6 @@ def divisable_by(num, amount):
         i += 1
 ```
 
-## 
-
 ## Parameters and Arguments
 
 #### Parameters
@@ -133,8 +131,6 @@ def create_initials(first_name, last_name):
 print initials
 ```
 
-## 
-
 ## Pass by Reference
 
 Pass by Object Reference simply means that objects passed to the functions are referenced. This is technically what Python does by default. Since the objects are referenced, it can be easy to change the contents of that object. Remember, everything in Python is an object!
@@ -203,11 +199,7 @@ def isInt(x):
 launch()
 ```
 
-
-
 # Lab 4A: Working with Functions
 
-Create a fully functional calculator using functions.  
-
-
+Create a fully functional calculator using functions.
 
