@@ -25,4 +25,5 @@
   * [I/O: Files](chapter3/io-files.md)
 * [Object Oriented](chapter5/object-oriented.md)
   * [Modules](chapter5/object-oriented/modules.md)
+* [Functions](functions.md)
 
