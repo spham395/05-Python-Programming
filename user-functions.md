@@ -55,5 +55,17 @@ def divisable_by(num, amount = 5):
         i += 1
 ```
 
+**Safe Way**
+
+```py
+def divisable_by(num, amount=None):
+    i = 1.0
+    while (num / i >= 1 and amount > 0):
+        if num % i == 0:
+            print "{} divided by {} equals: {}".format(num, i, num / i)
+            amount -= 1
+        i += 1
+```
+
 
 
