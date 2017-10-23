@@ -57,7 +57,7 @@ def divisable_by(num, amount = 5):
 
 **Safe Way**
 
-This forces the default arguments to be evaluated each time the function is called. This is especially important with mutable default objects. 
+This forces the default arguments to be evaluated each time the function is called. This is especially important with mutable default objects.
 
 ```py
 def divisable_by(num, amount=None):
@@ -70,6 +70,22 @@ def divisable_by(num, amount=None):
             print "{} divided by {} equals: {}".format(num, i, num / i)
             amount -= 1
         i += 1
+```
+
+#### Arguments
+
+Arguments are defined variables that you pass on the function call.
+
+**Examples of parameters and arguments:**
+
+```py
+def sales_tax(amount): # function and parameter 'amount'
+    rate = 0.0625
+    tax_total = amount * rate
+    total = tax_total + amount
+    print total
+    
+sales_tax(200) # Function call and argument 200
 ```
 
 
