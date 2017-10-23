@@ -32,7 +32,7 @@ def divisable_by(num, amount):
     i = 1.0
     while (num / i >= 1):
         if num % i == 0:
-        print "{} divided by {} equals: {}".format(num, i, num / i)
+            print "{} divided by {} equals: {}".format(num, i, num / i)
         i += 1
 ```
 
