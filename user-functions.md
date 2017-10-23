@@ -39,7 +39,13 @@ def divisable_by(num, amount):
 
 #### Parameters
 
-Parameters are defined within the parentheses; they are undefined variables that you want to use within the function. This keeps the global scope clean. 
+Parameters are defined within the parentheses; they are undefined variables that you want to use within the function. This keeps the global scope clean. We can specify default parameter values as well as specify type. A lot of this can be done within the parentheses... but this can lead to unexpected problems. 
+
+**Common Way \(but risky\)**
+
+```py
+def 
+```
 
 
 
