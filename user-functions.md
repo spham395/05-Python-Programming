@@ -30,7 +30,7 @@ def name_upper(name):
 ```py
 def divisable_by(num, amount):
     i = 1.0
-    while (num / i >= 1):
+    while (num / i >= 1 and amount > 0):
         if num % i == 0:
             print "{} divided by {} equals: {}".format(num, i, num / i)
             amount -= 1
