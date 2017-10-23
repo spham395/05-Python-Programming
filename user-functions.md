@@ -7,7 +7,7 @@ To define a function use: **def function\_name\(parameters\):**
 ```py
 def function_name(parameters):
     x = 0 # What we want to return
-    
+
     return x # What we return
 ```
 
@@ -23,6 +23,16 @@ def name_upper(name):
 ```py
 def name_upper(name):
     print name
+```
+
+**Another example:**
+
+```py
+def divisable_by(num, amount):
+    i = 1
+    while (num / i != 1):
+        print num / i
+        i += 1
 ```
 
 
