@@ -72,9 +72,7 @@ print data
 file.close()
 ```
 
-# Lab 3D: Working With Files
+# Lab 3D: Text Editor
 
-Sync repo from GitLab or download the .zip for lab 3D. Follow the instructions within. 
-
-
+Sync repo from GitLab or download the .zip for lab 3D called 'fileLab'. Follow the instructions within.
 

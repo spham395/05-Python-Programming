@@ -55,6 +55,8 @@ Open up the Python Interpreter and experiment with different types and operators
 
 * Compare string numeric values vs number values
 * Create lists, tuples and dicts... experiment with the in/is operators
-* 
+
+
+
 
 
