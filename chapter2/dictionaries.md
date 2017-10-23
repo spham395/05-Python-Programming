@@ -143,5 +143,5 @@ sys.getsizeof\(object\)  --gets the size of the object passed in bytes. As you c
 
 # Lab 2G
 
-Create a program that takes input of a group of students names and grades... then sorts them based on highest to lowest. Use Dictionaries!
+Create a program that takes input of a group of students names and grades... then sorts them based on highest to lowest. Hint: Use Dictionaries!
 

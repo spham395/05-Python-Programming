@@ -2,7 +2,7 @@
 
 ## EVERYTHING IN PYTHON IS AN OBJECT!
 
-This is the single, most important thing I can harp on. The sooner you have an understanding of Object Oriented Programming, the quicker everything else falls into place.
+This is the single, most important thing I can teach you. The sooner you have an understanding of Object Oriented Programming, the quicker everything else falls into place.
 
 Data types are dynamic based on the variable stored. To check type, use:
 
@@ -46,11 +46,9 @@ print 'a = {} b = {} c = {}'.format(a, b, c)
 
 ![](/assets/Screen Shot 2017-09-27 at 12.54.54 PM.png)
 
-
-
 # LAB 2A: Variable Types
 
-Find the type of the following variables. Feel free to experiement with other variables and such. 
+Find the type of the following variables. Feel free to experiement with other variables and such.
 
 **Type of:​**
 
@@ -72,7 +70,7 @@ Find the type of the following variables. Feel free to experiement with other va
 
 * object​
 
-* b"10101101"  \*\*Try in Py2 and Py3 ​
+* b"10101101"  \*\*Try in Py2 and Py3 ​
 
 * 0b10101101​
 
@@ -85,8 +83,6 @@ Find the type of the following variables. Feel free to experiement with other va
 * {'one':1}​
 
 * 5j​
-
-
 
 
 
