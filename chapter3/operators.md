@@ -18,7 +18,7 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 
 * **~x**          \#returns the ones complement
 
-## Comparison Operators
+### Comparison Operators
 
 * **x == y **    \#if x equals y, return True​
 
@@ -34,7 +34,27 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 
 * **x &lt;= y**     \#if x is less or equal to y, return True
 
+### Membership Operators
+
+* **in            **\#Evaluates to true if it finds a variable in the checked sequence
+* **not in     **\#Evaluates to true if it does not find a variable in the checked sequence
+
+### Identity Operators
+
+* **is             **\#Evaluates to true if variables on either side of the operator point to the same object 
+* **is not      **\#Evaluates to true if the variables on either side of the operator does not point to the same object
+
+### Boolean Operators
+
+* **and         **\#Evaluates true if expressions on both sides of the operator are true. 
+* **or            **\#Evaluates true if expressions on either side of the operator are true.
+
 # Lab 3A: Operators
 
-Need to fix
+Open up the Python Interpreter and experiment with different types and operators. Here are some suggestions:
+
+* Compare string numeric variables vs number variables
+* Create lists, tuples and dicts... experiment with the in/is operators
+* 
+
 

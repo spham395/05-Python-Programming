@@ -2,7 +2,7 @@
 
 ### PyDocs
 
-**PyDocs **is shorthand for **Python Documentation** and will be your go-to resource for everything Python. It is highly encouraged that you attempt to find the answer using PyDocs before asking an instructor a question. Understanding how to use PyDocs is not only testable... but it's an essential piece in becoming proficient in Python.
+**PyDocs **is shorthand for **Python Documentation** and will be your go-to resource for everything Python. It is highly encouraged that you attempt to find the answer using PyDocs before asking an instructor or anyone else a question. Understanding how to use PyDocs is not only testable... but it's an essential piece in becoming proficient in Python.
 
 **2.7: **[**https://docs.python.org/2/index.html**](https://docs.python.org/2/index.html)
 
@@ -44,7 +44,7 @@ The **Python Standard Library **contains all of the built in functionality of Py
 multiline comment"""
 ```
 
-## 
+### PEP8: [https://www.python.org/dev/peps/pep-0008/](https://www.python.org/dev/peps/pep-0008/)
 
 
 
