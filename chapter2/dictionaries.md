@@ -8,18 +8,31 @@ Dictionaries **are mutable **objects and consist of key-value mappings. \(ex: {k
 >>> my_dict = {} # create empty dictionary​
 >>> my_dict['one'] = 1 # add item to the dictionary​
 >>> my_dict = {'one' : 1} #create a dictionary with an item​
->>> my_dict​
+>>> print my_dict​
 {'one': 1}​
 ​
 >>> my_dict['two'] = 2 # add item to the dictionary​
->>> my_dict​
+>>> print my_dict​
 {'one': 1, 'two': 2}​
 
 # Grabbing by key
 >>> new_dict = {'key1':'value1','key2':'value2','key3':'value3'}
->>> new_dict['key2']
+>>> print new_dict['key2']
 'value2'
+```
 
+#### Multi-Dimensional Dictionaries
+
+Just like lists... Dictionaries can be nested as well to create a multi-dimensional dictionary. 
+
+```py
+# Dict -> Dict
+>>> my_dict = {'key1':{'nestedkey1':{'subnestedkey1':'subnestedValue'}}}
+>>> print my_dict
+{'key1':{'nestedkey1':{'subnestedkey1':'subnestedValue'}}}
+>>> print my_dict['key1']
+{'nestedkey1': {'subnestedkey1': 'subnestedValue'}}
+>>> print my_dict['key1']['nestedkey1']
 ```
 
 ### Common Dict Operations
