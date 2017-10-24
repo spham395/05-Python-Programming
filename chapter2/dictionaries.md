@@ -48,6 +48,8 @@ subnestedValue
 
 ```py
 >>> d[i] = y # value of I is replaced by y​
+>>> d.keys() # grabs all keys
+>>> d.values() # grabs all values
 >>> d.clear() # removes all items​
 >>> d.copy() # creates a shallow copy of dict_x​
 >>> d.fromkeys(S[,v]) # new dict from key, values​
