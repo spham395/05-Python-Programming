@@ -201,6 +201,7 @@ def launch():
     else:
         divisable_by(int(num), int(amount))
 
+# Checks num divisable numbers up to amount or itself
 def divisable_by(num, amount):
     i = 1.0
     while (num / i >= 1 and amount > 0):
