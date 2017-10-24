@@ -18,7 +18,7 @@ print generate_power_func(10)
 
 ## Iterators
 
-An iterator is just an object with a state that remembers where it is during iteration. Iterable objects can range from while loops to the actual iter object. 
+An iterator is just an object with a state that remembers where it is during iteration. Iterable objects can range from while loops to the actual iter object.
 
 **Example of iter function:**
 
@@ -44,7 +44,7 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-The one we will be using the most is the xrange\(\) function. Below is an iterator, implemented as a class that works like xrange
+The one we will be using the most is the xrange\(\) function. Below is an iterator, implemented as a class that works like xrange. This is your first major look at classes... don't freak out! Let's break this down.
 
 ```py
 class yrange:
@@ -62,7 +62,21 @@ class yrange:
             return i
         else:
             raise StopIteration()
+            
+# using y range
+yrange(3)
+y.next()
+0
+y.next()
+1
+y.next()
+2
+y.next()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 14, in next
+StopIteration
 ```
 
-
+As we learned in the Data Types lecture... xrange\(\) loads one at a time. The yrange\(\) class here does the same thing. There is lists, tuples, etc loaded up. Instead, we deal with two variables... i and n. 
 
