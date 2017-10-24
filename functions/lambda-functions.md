@@ -51,7 +51,7 @@ new_stuff = lambda x: x**2
 
 ## Lab 4A: Calculator
 
-Create a fully functional calculator using BOTH functions and lambdas. Create a user menu as well as a "screen" where the numbers and operations take place.
+Create a fully functional calculator using BOTH functions and lambdas. Create a user menu as well as a "screen" where the numbers and operations take place. The calculator needs to have the following functionality:
 
 * Addition
 * Subtraction
