@@ -155,14 +155,14 @@ With functions, you have the choice to return a variable. This is done so that t
 def create_initials(first_name, last_name):
     initials = first_name[0].upper() + last_name[0].upper()
     return initials
-    
- initials = create_initials("jack", "black")
+
+initials = create_initials("jack", "black")
 print initials
 ```
 
 ## Pass by Reference
 
-Pass by Object Reference simply means that objects passed to the functions are referenced. This is technically what Python does by default. Since the objects are referenced, it can be easy to change the contents of that object; especially mutable objects. 
+Pass by Object Reference simply means that objects passed to the functions are referenced. This is technically what Python does by default. Since the objects are referenced, it can be easy to change the contents of that object; especially mutable objects.
 
 ```py
 #Define the function
