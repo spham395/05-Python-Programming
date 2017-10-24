@@ -84,8 +84,29 @@ def sales_tax(amount): # function and parameter 'amount'
     tax_total = amount * rate
     total = tax_total + amount
     print total
-    
+
 sales_tax(200) # Function call and argument 200
+```
+
+##### \*args and \*\*kwargs
+
+* \*args are used to pass a non-keyworded, variable-length argument list
+* \*\*kwargs is used to pass a keyworded, variable-length argument list
+* kwargs are placed in dictionaries
+
+**Example:**
+
+```py
+def my_func1(*args):
+    for arg in args:
+        print 'arg: ', arg
+
+def my_func1(**kwargs):
+    for key, value in kwargs.iteritems():
+        print key, value
+
+my_func1('two', 3, 'four', 5)
+my_func2(a=12, b='abc')
 ```
 
 
