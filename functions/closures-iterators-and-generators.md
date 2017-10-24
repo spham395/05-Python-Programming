@@ -111,3 +111,5 @@ for i in my_gen:
 
 Taking a look at the code above... we created a sequence object and iterated over it using a for loop.
 
+**Note: **When functions return all state is lost, a yield preserves local state and returns a generator object. 
+
