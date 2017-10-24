@@ -152,6 +152,19 @@ print args.input
 With functions, you have the choice to return a variable. This is done so that the function becomes it's own local scope... keeping the global scope clean from any interference that the function may cause. If you want to bring a local function variable outside of the local scope... return a variable. With that said, returned values can be reassigned. If you find yourself having to return a ton of variables, either use a sequence or mapping object or split up the functionality into additional functions.
 
 ```py
+def create_initials(first_name, last_name):
+    initials = first_name[0].upper() + last_name[0].upper()
+    return initials
+    
+ initials = create_initials("jack", "black")
+print initials
+```
+
+## Pass by Reference
+
+Pass by Object Reference simply means that objects passed to the functions are referenced. This is technically what Python does by default. Since the objects are referenced, it can be easy to change the contents of that object; especially mutable objects. 
+
+```py
 #Define the function
 def append_one(li)
     li.append(1)
