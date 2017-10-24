@@ -188,7 +188,7 @@ The following code contains function calls in the Global and Enclosing-Function 
 Checks a certain range of numbers to see if they can divide into a user specified num
 """
 def divisable_by(num, amount):
-    i = 1.0
+    i = 1.0 ### Enclosing-Function Global
     # Stop num / i when we reach num / num... regardless of amount
     while (num / i != 1.0 and num / i != -1.0):
         if (i == amount + 1):
@@ -208,7 +208,7 @@ def launch():
 
     if isInt(num) == False or isInt(amount) == False:
         print "You must enter an integer"
-        launch() ### Enclosing-Function Global
+        launch() 
     elif int(amount) < 0:
         print "You must enter a number greater than 1"
         launch() ### Enclosing-Function Global
