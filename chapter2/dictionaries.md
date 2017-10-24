@@ -30,10 +30,16 @@ Just like lists... Dictionaries can be nested as well to create a multi-dimensio
 >>> my_dict = {'key1':{'nestedkey1':{'subnestedkey1':'subnestedValue'}}}
 >>> print my_dict
 {'key1':{'nestedkey1':{'subnestedkey1':'subnestedValue'}}}
+
+# Grab key 1's value
 >>> print my_dict['key1']
 {'nestedkey1': {'subnestedkey1': 'subnestedValue'}}
+
+# Grab nested key 1's value
 >>> print my_dict['key1']['nestedkey1']
 {'subnestedkey1': 'subnestedValue'}
+
+# Grab subnested key 1's value
 >>> print my_dict['key1']['nestedkey1']['subnestedkey1']
 subnestedValue
 ```
