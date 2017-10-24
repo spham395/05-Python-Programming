@@ -26,6 +26,7 @@
 * [Functions](functions.md)
   * [Scope](functions/scope.md)
   * [User Functions](user-functions.md)
+  * [Lambda Functions](functions/lambda-functions.md)
 * [Object Oriented](chapter5/object-oriented.md)
   * [Modules](chapter5/object-oriented/modules.md)
 

@@ -221,21 +221,7 @@ def isInt(x):
 launch()
 ```
 
-## Lab 4A: Calculator
-
-Create a fully functional calculator
-
-* Addition
-* Subtraction
-* Division
-* Multiplication
-* Power
-
-Additional Features:
-
-* More than two numbers
-* Continuous operations \(5 + 5 + 2 - 1 / 2 for example\)
-* Additional operations
+## 
 
 
 
