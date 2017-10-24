@@ -109,5 +109,14 @@ my_func1('two', 3, 'four', 5)
 my_func2(a=12, b = 'abc')
 ```
 
+# Calling a Function
+
+To call a function, you simply call the function name and pass in any needed arguments. If the function returns a variable, it is wise to call the function and direct the return value into a variable. 
+
+```py
+# Lets print a name
+print_name('SrA. Snuffy')
+```
+
 
 
