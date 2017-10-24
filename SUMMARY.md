@@ -23,9 +23,9 @@
   * [Break and Continue](chapter3/break-and-continue.md)
   * [I/O Print](chapter3/io-print.md)
   * [I/O: Files](chapter3/io-files.md)
-* [Object Oriented](chapter5/object-oriented.md)
-  * [Modules](chapter5/object-oriented/modules.md)
 * [Functions](functions.md)
   * [Scope](functions/scope.md)
   * [User Functions](user-functions.md)
+* [Object Oriented](chapter5/object-oriented.md)
+  * [Modules](chapter5/object-oriented/modules.md)
 
