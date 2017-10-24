@@ -13,8 +13,8 @@ print(filter(lambda x: x % 2 == 0, my_list))
 
 ```py
 g = lambda x,y: x>y
-g(1,2)
-g(2,1)
+print g(1,2)
+print g(2,1)
 ```
 
 As you can tell, lambdas appear to be shortened functions; specifically one lined functions. And while this is true to an extent... that is not their purpose. Nor are Lambdas like C/C++ inline statements... used for performance reasons.
