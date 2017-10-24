@@ -64,6 +64,7 @@ Additional Features:
 * More than two numbers
 * Continuous operations \(5 + 5 + 2 - 1 / 2 for example\)
 * Additional operations
+* etc
 
 
 
