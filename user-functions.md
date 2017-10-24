@@ -109,13 +109,30 @@ my_func1('two', 3, 'four', 5)
 my_func2(a=12, b = 'abc')
 ```
 
-# Calling a Function
+## Calling a Function
 
-To call a function, you simply call the function name and pass in any needed arguments. If the function returns a variable, it is wise to call the function and direct the return value into a variable. 
+To call a function, you simply call the function name and pass in any needed arguments. If the function returns a variable, it is wise to call the function and direct the return value into a variable.
 
 ```py
 # Lets print a name
 print_name('SrA. Snuffy')
+```
+
+## Cmdline Arguments
+
+Arguments can also be passed through the command line or terminal.
+
+#### Old:
+
+Avoid the older version. The new version works in both Python 2.7 and 3.x
+
+```py
+import sys
+
+args = str(sys.argv)
+print sys.argv[0]
+for i in range(len(sys.argv)):
+    print 'args[%d]: %s' % (i sys.argv[i])
 ```
 
 
