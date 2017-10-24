@@ -135,5 +135,17 @@ for i in range(len(sys.argv)):
     print 'args[%d]: %s' % (i sys.argv[i])
 ```
 
+#### New:
+
+```py
+import argparse
+
+parser = argparse.ArgumentParser(description='This is a demo')
+parser.add_argument('-i','--input',help='Input arg', required=True)
+args = parser.parse_args()
+
+print args.input
+```
+
 
 
