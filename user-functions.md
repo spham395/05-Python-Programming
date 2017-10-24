@@ -181,47 +181,41 @@ print l
 
 **Practical Example**
 
-The following code contains function calls in the Global and Enclosing-Function Global scopes. There is also error handling, which we will cover later.
+The following code contains a bit of everything we have learned including some things we have not learned. This is a more robust and error/hack proof version of divisible\_by that we looked at above. 
 
 ```py
 """
 Checks a certain range of numbers to see if they can divide into a user specified num
 """
 def divisable_by(num, amount):
-    i = 1.0 ### Enclosing-Function Global
-    # Stop num / i when we reach num / num... regardless of amount
-    while (num / i != 1.0 and num / i != -1.0):
-        if (i == amount + 1):
-            break
-        elif (num % i == 0):
-            print '{} is divsable by {}'.format(int(num), int(i))
-        else:
-            print '{} is NOT divsable by {}'.format(int(num), int(i))
-        i += 1.0
-    else:
-        print '{num} is divisable by {num}'.format(num = num)
+	i = 1.0
+	while (num / i >= 1 and amount > 0):
+		if num % i == 0:
+			print '{} is divsable by {}'.format(int(num), int(i))
+			amount -= 1
+		i += 1
 
 # Program main, runs at start of program
 def launch():
-    num = raw_input('What number would you like to check?')
-    amount = raw_input('How many numbers do you want to check?')
+	num = raw_input('What number would you like to check?')
+	amount = raw_input('How many numbers do you want to check?')
 
-    if isInt(num) == False or isInt(amount) == False:
-        print "You must enter an integer"
-        launch() 
-    elif int(amount) < 0:
-        print "You must enter a number greater than 1"
-        launch() ### Enclosing-Function Global
-    else:
-        divisable_by(int(num), int(amount)) ### Enclosing-Function Global
+	if isInt(num) == False or isInt(amount) == False:
+		print "You must enter an integer"
+		launch() ### Enclosing-Function Global
+	elif int(amount) < 0 or int(num) < 0:
+		print "You must enter a number greater than 0"
+		launch() ### Enclosing-Function Global
+	else:
+		divisable_by(int(num), int(amount)) ### Enclosing-Function Global
 
 # Checks if string represents an int
 def isInt(x):
-    try:
-        int(x) ###
-        return True
-    except ValueError:
-        return False
+	try:
+		int(x) ###
+		return True
+	except ValueError:
+		return False
 
 launch()
 ```
