@@ -60,6 +60,7 @@ def divisable_by(num, amount = 5):
 This forces the default arguments to be evaluated each time the function is called. This is especially important with mutable default objects.
 
 ```py
+# Checks all numbers that can be divided into num... up until amount has been reached or we reach divide by self
 def divisable_by(num, amount=None):
     if amount is None:
         amount = 5
