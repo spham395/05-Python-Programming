@@ -94,12 +94,6 @@ my_gen = yrange(10)
 print my_gen
 for i in my_gen:
     print(i)
-    
-# Using yrange
-y = yrange(3)
-print y
-<generator object yrange at 0x201d31>
-
 ```
 
 
