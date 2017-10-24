@@ -94,7 +94,7 @@ my_gen = yrange(10)
 print my_gen
 for i in my_gen:
     print(i)
-    
+
 # output
 <generator object yrange at 0x007F3328>
 0
@@ -109,5 +109,5 @@ for i in my_gen:
 9
 ```
 
-Taking a look at the code above... we created a sequence object and iterated over it using a for loop. This
+Taking a look at the code above... we created a sequence object and iterated over it using a for loop.
 
