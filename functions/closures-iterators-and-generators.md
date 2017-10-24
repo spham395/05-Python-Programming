@@ -62,7 +62,7 @@ class yrange:
             return i
         else:
             raise StopIteration()
-            
+
 # using y range
 yrange(3)
 y.next()
@@ -78,5 +78,29 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-As we learned in the Data Types lecture... xrange\(\) loads one at a time. The yrange\(\) class here does the same thing. There is lists, tuples, etc loaded up. Instead, we deal with two variables... i and n. 
+As we learned in the Data Types lecture... xrange\(\) loads one at a time. The yrange\(\) class here does the same thing. There is lists, tuples, etc loaded up. Instead, we deal with two variables... i and n.
+
+## Generators
+
+Generators are also iterators \(iterators are not always generators though\). Generators simplify the creation of iterators. A generator is simply a function that produces a sequence of values to iterate through rather than a single value.
+
+```py
+def yrange(n):
+    i = 0
+    while i < n:
+        yield i
+        i += 1
+my_gen = yrange(10)
+print my_gen
+for i in my_gen:
+    print(i)
+    
+# Using yrange
+y = yrange(3)
+print y
+<generator object yrange at 0x201d31>
+
+```
+
+
 
