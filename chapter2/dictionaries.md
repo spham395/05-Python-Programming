@@ -14,6 +14,12 @@ Dictionaries **are mutable **objects and consist of key-value mappings. \(ex: {k
 >>> my_dict['two'] = 2 # add item to the dictionary​
 >>> my_dict​
 {'one': 1, 'two': 2}​
+
+# Grabbing by key
+>>> new_dict = {'key1':'value1','key2':'value2','key3':'value3'}
+>>> new_dict['key2']
+'value2'
+
 ```
 
 ### Common Dict Operations
