@@ -54,7 +54,7 @@ subnestedValue
 >>> d.copy() # creates a shallow copy of dict_x​
 >>> d.fromkeys(S[,v]) # new dict from key, values​
 >>> d.get(k[,v]) # returns dict_x[k] or v​
->>> d.items() # tuple of (key,value) pairs​
+>>> d.items() # list of tuples of (key,value) pairs​
 >>> d.iteritems() # iterator over (key,value) items​
 >>> d.iterkeys() # iterator over keys of d​
 >>> d.itervalues() # iterator over values of d​
