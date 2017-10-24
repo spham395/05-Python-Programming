@@ -34,7 +34,8 @@ Just like lists... Dictionaries can be nested as well to create a multi-dimensio
 {'nestedkey1': {'subnestedkey1': 'subnestedValue'}}
 >>> print my_dict['key1']['nestedkey1']
 {'subnestedkey1': 'subnestedValue'}
->>> print my_dict['key1']['nestedkey1']['subnestedValue']
+>>> print my_dict['key1']['nestedkey1']['subnestedkey1']
+subnestedValue
 ```
 
 ### Common Dict Operations
