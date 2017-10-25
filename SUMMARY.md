@@ -27,8 +27,8 @@
   * [Scope](functions/scope.md)
   * [User Functions](user-functions.md)
   * [Lambda Functions](functions/lambda-functions.md)
-  * [Closures, Iterators & Generators](functions/closures-iterators-and-generators.md)
   * [List Comprehension](functions/list-comprehension.md)
+  * [Closures, Iterators & Generators](functions/closures-iterators-and-generators.md)
 * [Object Oriented](chapter5/object-oriented.md)
   * [Modules](chapter5/object-oriented/modules.md)
 
