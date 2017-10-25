@@ -58,5 +58,3 @@ Open up the Python Interpreter and experiment with different types and operators
 
 
 
-
-
