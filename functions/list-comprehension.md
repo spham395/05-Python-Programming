@@ -2,7 +2,9 @@
 
 Python supports something called "list comprehension". In short, this allows us to write minimal, easy and readable lists in a way like mathematicans do.
 
-**Normal List Comprehension**
+![](/assets/Screen Shot 2017-10-20 at 9.29.38 PM.png)
+
+**Normal List**
 
 ```py
 a_list = [1,2,3,4,5]
