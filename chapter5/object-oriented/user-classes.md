@@ -12,14 +12,7 @@
 **Example Call**
 
 ```py
-from USResident import USResident
 
- # pass init attributes. Must include additional attribute for status
-resident = USResident("Joe Smo", "citizen")
-resident.setAge(23) # Set age to 23
-
- print "{} is a {} and is {} years of age".format(resident.getLastName(), 
-resident.getStatus(), resident.getAge())
 ```
 
 
