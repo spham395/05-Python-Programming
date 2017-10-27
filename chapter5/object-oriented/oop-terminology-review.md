@@ -35,6 +35,9 @@
           self.name = name
 
   dis_class =  NameClass('your_name')
+  print dis_class.name
+  #OUTPUT:
+  'dis_name'
   ```
 * **Inheritance**
 * **Instance**
