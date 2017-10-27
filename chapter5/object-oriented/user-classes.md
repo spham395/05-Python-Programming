@@ -18,8 +18,8 @@
 * Name classes using CapWords convention
 * Variables defined under classes are shared through all instances
 * Variables defined in methods are only for a single instance
-* When creating methods, the first parameter must be self. \(similar to “this” in other languages\)
-* A “private” member can be created by prepending a double underscore \(only prepend\) to the name. It will not be visible outside of the class.  **\_\_example**
+* When creating methods, the first parameter must be self. \(similar to "this" in other languages\)
+* A "private" member can be created by prepending a double underscore \(only prepend\) to the name. It will not be visible outside of the class.  **\_\_example**
 * Inheritance, multiple inheritance and polymorphism are all supported.
 * Create instance of class, do not need to pass “self” even though it is in the \_\_init\_\_definition
 * var.attrib = value is the common way to interact\(dot notation\)
