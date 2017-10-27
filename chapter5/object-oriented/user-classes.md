@@ -12,6 +12,7 @@
 
 * \_\_init\_\_ \(Constructor\)
 * \_\_del\_\_ \(Destructor\)
+* It's best to name the Python file after the class name. 
 * class ClassName\(object\):
    --to define class
 * Name classes using CapWords convention
@@ -35,6 +36,15 @@
 * **Inheritance can complicate things \(especially multiple inheritance\) and make larger projects confusing**
 * **Namespace collisions are a major problem in inheritance**
 * **Time must be given to design to effectively use inheritance, which could be time used to stand up composition quicker.**
+
+### Creating an Instance in a Different File
+
+```py
+from MyClass import MyClass
+
+ x = MyClass(name = "Iron Man")
+print x.getName()
+```
 
 
 
