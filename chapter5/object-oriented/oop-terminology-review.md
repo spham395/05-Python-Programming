@@ -40,11 +40,21 @@
   'dis_name'
   ```
 * **Inheritance**
+* * A term used in OOP meaning that classes can inherit from other classes. 
 * **Instance**
+* * Means to create a instance or copy of a class. 
 * **Instantiation**
+* * Instantiation is the act of creating an object instance from a class.
 * **Method**
+* * A method is similar to a function but is associated with an object. Methods always take a class instance \(almost always 'self'\) as their first parameter. 
 * **Object**
+* * Everything in Python is an object. An object can be assigned to a variable or passed into a function as a argument. 
 * **Operator Overloading**
+* * Operator Overloading is the ability to change the meaning of an operator
+
+  ```py
+
+  ```
 
 
 
