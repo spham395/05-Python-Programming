@@ -21,14 +21,14 @@
 * When creating methods, the first parameter must be self. \(similar to "this" in other languages\)
 * A "private" member can be created by prepending a double underscore \(only prepend\) to the name. It will not be visible outside of the class.  **\_\_example**
 * Inheritance, multiple inheritance and polymorphism are all supported.
-* Create instance of class, do not need to pass “self” even though it is in the \_\_init\_\_definition
+* Create instance of class, do not need to pass "self" even though it is in the \_\_init\_\_definition
 * var.attrib = value is the common way to interact\(dot notation\)
 * getattr, hasattr, setattr, delattr exist for manipulating attributes as well
 * built in: \_\_dict\_\_, \_\_doc\_\_, \_\_name\_\_, \_\_module\_\_, \_\_bases\_\_
 * overloadable: \_\_init\_\_, \_\_del\_\_, \_\_repr\_\_, \_\_str\_\_, \_\_cmp\_\_
 * **Dir\(\), type\(\), isinstance\(\) built in functions**
 
-**Once again, Python doesn’t really have public, protected or private. A single “\_” prefix indicates internal usage. “\_\_” double hides attribute name**
+**Once again, Python doesn’t really have public, protected or private. A single "\_" prefix indicates internal usage. "\_\_" double hides attribute name**
 
 ### Composition vs Inheritance
 
