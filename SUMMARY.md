@@ -33,4 +33,5 @@
   * [Modules](chapter5/object-oriented/modules.md)
   * [Packages](chapter5/object-oriented/packages.md)
   * [OOP Terminology Review](chapter5/object-oriented/oop-terminology-review.md)
+  * [User Classes](chapter5/object-oriented/user-classes.md)
 
