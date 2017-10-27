@@ -33,8 +33,8 @@
   class NameClass:
       def __init__(self, name):
           self.name = name
-        
-  print NameClass('your_name')
+
+  dis_class =  NameClass('your_name')
   ```
 * **Inheritance**
 * **Instance**
