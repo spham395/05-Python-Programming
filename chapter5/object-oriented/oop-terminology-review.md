@@ -12,8 +12,8 @@
 
   print TestClass.i
   ```
-
 * **Function/Method Overloading**
+
 * * Function Overloading is the ability to create multiple functions with the same name. This allows us to pass different parameters. In Python, this is not needed. Instead... we can set default and optional parameters. 
 
   ```py
@@ -22,7 +22,7 @@
           # Set a default for x or don't use it
       else:
           # Set and use all three
-        
+
   someFunc(1,2)
   someFunc(1,2,3)
   ```
@@ -30,7 +30,7 @@
 * * Similar to Class Variables... except they are only accessible to that one instance. These generally start with the 'self' keyword. 
 
   ```py
-  class TestClass:
+  class NameClass:
       def __init__(self, name):
           self.name = name
   ```
