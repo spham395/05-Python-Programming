@@ -46,5 +46,13 @@ from MyClass import MyClass
 print x.getName()
 ```
 
+### Inheriting From a Parent Class
+
+![](/assets/Screen Shot 2017-10-27 at 1.28.06 AM.png)
+
+
+
+
+
 
 
