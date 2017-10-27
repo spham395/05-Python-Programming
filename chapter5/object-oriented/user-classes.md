@@ -48,11 +48,9 @@ print x.getName()
 
 ### Inheriting From a Parent Class
 
-![](/assets/Screen Shot 2017-10-27 at 1.28.06 AM.png)
+**Parent Class**![](/assets/Screen Shot 2017-10-27 at 1.28.06 AM.png)
 
+**Child Class**
 
-
-
-
-
+![](/assets/Screen Shot 2017-10-27 at 1.29.34 AM.png)
 
