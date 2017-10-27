@@ -40,7 +40,10 @@
 ### Creating an Instance in a Different File
 
 ```py
+from MyClass import MyClass
 
+ x = MyClass(name = "Iron Man")
+print x.getName()
 ```
 
 ### Inheriting From a Parent Class
