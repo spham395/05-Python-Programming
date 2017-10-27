@@ -31,4 +31,5 @@
   * [Closures, Iterators & Generators](functions/closures-iterators-and-generators.md)
 * [Object Oriented](chapter5/object-oriented.md)
   * [Modules](chapter5/object-oriented/modules.md)
+  * [Packages](chapter5/object-oriented/packages.md)
 

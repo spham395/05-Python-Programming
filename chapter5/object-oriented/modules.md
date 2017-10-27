@@ -1,6 +1,6 @@
 ### Modules
 
-Modules are reusable code for use across other scripts. Modules are single files in either .py, .pyc or .pyo format.
+Modules are reusable code for use across other scripts. Modules are single files in either .py, .pyc or .pyo format. When a module is imported, code that is not wrapped in a function is executed and the functions themselves are added to the name space... allowing them to be called upon. 
 
 ### Module Structure
 
@@ -9,7 +9,7 @@ divisor_count_to_find = 500
 
 def triangle_number(n):
     return n*(n+1)/2
-    
+
 def divisors(tn):
     counter = 0
     n_sqrt = int(pow(tn, 0.5))
@@ -19,7 +19,7 @@ def divisors(tn):
     if n_sqrt * n_sqrt == tn:
         counter -= 1
     return counter
-    
+
 def start():
     start_number = 1
     div_numbers = 0
@@ -29,7 +29,7 @@ def start():
         start_number += 1
     print(div_numbers)
     print(tn)
-    
+
 if __name__ == '__main__':
     start()
 ```
@@ -45,6 +45,21 @@ triangle.divisor_count_to_find = 100
 
 triangle.start()
 # 576 76576500.0 112 73920.0
+```
+
+### Importing Modules
+
+```py
+# Most common, clean way to do it. Prevents collisions. 
+import triangle
+triangle.method # Call method
+
+# Same as above except we gave triangle an alias
+import triangle as tri
+tri.method
+
+# A far more dangerous method... can create collisions.
+from triangle import *
 ```
 
 
