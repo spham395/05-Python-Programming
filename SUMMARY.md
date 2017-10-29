@@ -35,4 +35,6 @@
   * [OOP Terminology Review](chapter5/object-oriented/oop-terminology-review.md)
   * [User Classes](chapter5/object-oriented/user-classes.md)
   * [Exceptions](chapter5/object-oriented/exceptions.md)
+* [Advanced](advanced.md)
+  * [CTypes](ctypes.md)
 
