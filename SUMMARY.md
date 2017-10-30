@@ -38,4 +38,5 @@
 * [Advanced](advanced.md)
   * [CTypes](ctypes.md)
   * [Regular Expressions](regular-expressions.md)
+  * [Additional Libraries and Modules](additional-libraries-and-modules.md)
 
