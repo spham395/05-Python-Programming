@@ -55,59 +55,54 @@ data = struct.unpack('hh1', data)
 print data
 ```
 
-### Multithreading
+### JSON
 
-![](/assets/e0d5117bef35ea6a2f1a7baa7c1d029abb76060387f51ba05aa8f7b632782b40.jpg)
-
-**Multithreading is similar to running multiple programs concurrently... but better. **
-
-* Threads within a process share the same data space with the main thread.
-* Requires less memory overhead and is cheaper than running multiple processes
-
-**A thread has a beginning, execution sequence and conclusion. An instruction pointer keeps track of where within it is currently running. **
-
-* Threads can be put to sleep, even while other threads are running. 
-* Threads can also be pre-empted \(interrupted\)
-
-**Multithreading Example:**
+JSON is a lightweight data interchange format inspired by JavaScript object literal syntax. JSON is used in a whole lot of applications and scenarios.
 
 ```py
-import time
-from threading import Thread 
+import json
 
-# Work to be done
-def sleeper(i):
-	print "thread {:d} sleeps for 5 seconds\n".format(i)
-	time.sleep(5)
-	print "thread {:d} woke up\n".format(i)
+# JSON to Python
+json_string = '{"make": "Ford", "model": "Mustang"}'
+parsed_json = json.loads(json_string)
+print parsed_json['make']
 
-# Creating the workers, and passing individual arguments to each of them
-for i in range(10):
-	t = Thread(target=sleeper, args=(i,))
-	t.start()
+
+# Python to JSON
+json_d = {
+	'make': 'Ford',
+	'model': 'Mustang',
+	'type': 'Pony',
+	'colors': ['red', 'blue', 'white', 'yellow']
+}
+
+parsed_d = json.dumps(json_d)
+print parsed_d
 ```
 
+### Paramiko, PIP and the HitchHiker's Guide
+
+#### Paramiko
+
+Paramiko is a Python \(2.7, 3.4+\) implementation of SSHv2 protocol. Paramiko utilizes a Pyhton C extension for low level crytography; though Paramiko itself utilizes a Python interface around SSH network concepts. 
+
+[http://www.paramiko.org/](http://www.paramiko.org/)
+
+#### PIP
+
+pip is a tool for installing Python packages. There is all sorts of packages you can install from virtualenv \(Python virtual environments\), Requests \(http library\) to Scrapy \(webscraping\). Since you have Python already installed, you have pip. Below is an example on how to install virtualenv.
+
 ```
-thread 0 woke up
-thread 1 woke up
-thread 3 woke up
-thread 2 woke up
-
-
-
-
-thread 6 woke up
-thread 7 woke up
-thread 5 woke up
-thread 4 woke up
-thread 8 woke up
-
-
-
-
-
-thread 9 woke up
+pip install virtualenv
 ```
 
-Your output may not look like mine... that is okay. The time in which the workers start is almost always random due to how concurrent their launch sequences are.
+Easy. Here is a great list of some of the most popular Python packages.
+
+[https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/](https://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/)
+
+#### The HitchHiker's Guide
+
+The HitchHiker's guide is an excellent guide on Python that is constantly being updated. 
+
+[http://docs.python-guide.org/en/latest/](http://docs.python-guide.org/en/latest/)
 
