@@ -84,7 +84,7 @@ addition(1,2)
 
 ### Structures
 
-Below is an example of how to create a C struct using Python ctypes
+Creating C Structs in Python can be useful. For instance, let's assume a function within a DLL requires a pointer to a function. A real world example of this would be a DLL file that communicates with hardware. Below is an example of how to create a C struct using Python ctypes
 
 ```py
 import ctypes
@@ -93,19 +93,21 @@ import ctypes
 class P_Struct(ctypes.Structure):
     _fields_ = [("field_1", ctypes.c_int),
                 ("field_2", ctypes.char_p)]
-                
+
 # Pass struct values                 
 my_struct = P_Struct(1, "Hello World")
 # Create a pointer to my_struct
 pointer_my_struct = ctypes.pointer(my_struct)
 
-# Print structure location
-print "Struct location in memory: {}".format(my_struct)
 print my_struct.field_1, my_struct.field_2
 
-# Print pointer to structure location
-print "Pointer to struct location in memory: {}".format(pointer_my_struct.contents)
-print pointer_my_struct.contents.field_1, pointer_my_struct.contents.field_2
+# Import the DLL and pass pointer_my_struct to the C function requiring a pointer to a struct. 
+```
+
+**Output:**
+
+```
+1 Hello World
 ```
 
 
