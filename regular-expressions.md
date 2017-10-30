@@ -1,6 +1,6 @@
 # Regular Expressions
 
-Regular expressions, often referred to as REs or regexes, are bits of small and highly specialized programming language embedded inside Python. The PyDocs actually contains an entire page on how to use regex. We will be touching on some of it's functionality... it'll be up to you to utilize the PyDocs and take your knowledge to the next level. 
+Regular expressions, often referred to as REs or regexes, are bits of small and highly specialized programming language embedded inside Python. The PyDocs actually contains an entire page on how to use regex. We will be touching on some of it's functionality... it'll be up to you to utilize the PyDocs and take your knowledge to the next level.
 
 **PyDocs HOWTO**
 
@@ -28,6 +28,23 @@ re_search = re.compile("string")
 matched_obj = re_search.search(search_str)
 
 print matched_obj
+```
+
+**Practical Example**
+
+```py
+import re
+
+patterns = ['Enterprise', 'Death Star']
+pharse = "The Enterprise is the flagship of the Federation."
+
+for pattern in patterns:
+	print 'Looking for "{}" in "{}": '.format(pattern, pharse)
+
+	if re.search(pattern, pharse):
+		print "found a match!"
+	else:
+		print "no match!"
 ```
 
 
