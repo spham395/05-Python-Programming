@@ -18,6 +18,8 @@ Regular expressions, often referred to as REs or regexes, are bits of small and 
 
 **re.search: **scan through string, return match or None
 
+**re.findall: **find all matches and return them as a list
+
 **Python re search and compile example:**
 
 ```py
@@ -77,6 +79,41 @@ print 'Found "{}" in "{}" from {} to {} ("{}")'.format(match.re.pattern, match.s
 ```
 Found "Dave" in "I'm sorry Dave, I'm afarid I can't do that." from 10 to 14 ("Dave")
 ```
+
+**Python re match example:**
+
+Python's re.match is similar to re.search. The main difference being that match searches only at the start of the string whereas search will apply the pattern to the entire string.
+
+```py
+import re
+
+text = "I turned myself into a pickle. I'm Pickle Riiiiick"
+
+match = re.match("I turned myself", text)
+match2 = re.match("Picke", text)
+
+if match == None:
+    print 'Could not find "{}" in "{}"'.format(match.re.pattern, match.string)
+else:
+    print 'Found "{}" in "{}"'.format(match.re.pattern, match.string)
+
+if match2 == None:
+    print 'Cound not find "{}" in "{}"'.format(match.re.pattern, match.string)
+else:
+    print 'Found "{}" in "{}"'.format(match.re.pattern, match.string)
+```
+
+```
+Found "I turned myself" in "I turned myself into a pickle. I'm Pickle Riiiiick"
+Cound not find "I turned myself" in "I turned myself into a pickle. I'm Pickle Riiiiick"
+```
+
+# Lab 6B
+
+Refactor your text editor or create a new Python program that allows the user to search for substrings within a file. This refactor/program should include the functionality to:
+
+* Return a number of how many matches were found
+* Return the sentence/line in which the match was found
 
 
 
