@@ -37,4 +37,5 @@
   * [Exceptions](chapter5/object-oriented/exceptions.md)
 * [Advanced](advanced.md)
   * [CTypes](ctypes.md)
+  * [Regular Expressions](regular-expressions.md)
 
