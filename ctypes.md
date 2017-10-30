@@ -92,7 +92,7 @@ import ctypes
 # Create the struct
 class P_Struct(ctypes.Structure):
     _fields_ = [("field_1", ctypes.c_int),
-                ("field_2", ctypes.char_p)]
+                ("field_2", ctypes.c_char_p)]
 
 # Pass struct values                 
 my_struct = P_Struct(1, "Hello World")
@@ -101,7 +101,7 @@ pointer_my_struct = ctypes.pointer(my_struct)
 
 print my_struct.field_1, my_struct.field_2
 
-# Import the DLL and pass pointer_my_struct to the C function requiring a pointer to a struct. 
+# Import the DLL and pass pointer_my_struct to the C function requiring a pointer to a struct.
 ```
 
 **Output:**
