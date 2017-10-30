@@ -9,8 +9,6 @@
 * pip
 * Hitchhikers Guide
 
-
-
 #### Sys, OS and Subprocess
 
 * **sys module**
@@ -25,7 +23,7 @@
 
 #### Hashlib
 
-Hashlib implements a common interface to many different secure hash and message digest algorithms. 
+Hashlib implements a common interface to many different secure hash and message digest algorithms.
 
 ```py
 import hashlib
@@ -34,6 +32,13 @@ m = hashlib.md5()
 m.update("password")
 print m.digest()
 print m.hexdigest()
+
+x = hashlib.md5()
+x.update("password")
+print m.digest()
+
+if m.digest() == x.digest():
+    print 'access granted'
 ```
 
 
