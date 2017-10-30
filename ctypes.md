@@ -110,5 +110,22 @@ print my_struct.field_1, my_struct.field_2
 1 Hello World
 ```
 
+# Lab 6A
+
+* Create a C Program
+  * Contains a function that takes a struct by value
+  * Formats and prints the contents of the struct in a logical order
+  * Compile the C program as a library \(.so or .dll\)
+
+* Create a Python wrapper
+  * Import the C library
+  * Create a struct containing the following:
+    * A persons first name
+    * A persons last name
+    * Their age
+    * Their occupation
+    * Their city of origin 
+  * Ask the user for input to fill in the above fields
+
 
 
