@@ -1,6 +1,6 @@
 # CTypes
 
-CTypes are a foreign function library for Python. It provides C compatible data types and allows calling functions in DLLs or shared libraries. 
+CTypes are a foreign function library for Python. It provides C compatible data types and allows calling functions in DLLs or shared libraries.
 
 **PyDocs:**
 
@@ -24,8 +24,16 @@ void myprint()
 }
 ```
 
+**Windows/Linux:**
+
 ```
-gcc -shared -Wl, -soname,testlib -o testlib.so -fPIC testlib.c
+gcc -shared -Wl,-soname,hellworld -o helloworld.so -fPIC helloworld.c
+```
+
+**OS X**
+
+```
+gcc -shared -Wl,-install_name,helloworld.so -o helloworld.so -fPIC helloworld.c
 ```
 
 #### testlibwrapper.py
