@@ -84,7 +84,7 @@ addition(1,2)
 
 ### Structures
 
-Creating C Structs in Python can be useful. For instance, let's assume a function within a DLL requires a pointer to a function. A real world example of this would be a DLL file that communicates with hardware. Below is an example of how to create a C struct using Python ctypes
+Creating C Structs in Python can be useful. For instance, let's assume a function within a DLL requires a pointer to a struct to be passed. A real world example of this would be a DLL file that communicates with hardware. Below is an example of how to create a C struct using Python ctypes
 
 ```py
 import ctypes
