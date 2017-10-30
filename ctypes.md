@@ -65,7 +65,7 @@ hello world
 
 ### Defining Argument Types and Return Types
 
-If a C library requires arguments to be passed, it is a good practice to pass them like so:
+If a C library requires arguments to be passed and/or has a return value, it is a good practice to declare them like so:
 
 ```py
 import ctypes
@@ -74,9 +74,38 @@ import ctypes
 
 calc = ctypes.CDLL("MyCalc.dll")
 addition = calc.addition()
+# Declare return type
 addition.restype = ctypes.c_int
+# Declare argument types
 addition.argtypes = [ctypes.c_int, ctypes.c_int]
+# Pass arguments
 addition(1,2)
+```
+
+### Structures
+
+Below is an example of how to create a C struct using Python ctypes
+
+```py
+import ctypes
+
+# Create the struct
+class P_Struct(ctypes.Structure):
+    _fields_ = [("field_1", ctypes.c_int),
+                ("field_2", ctypes.char_p)]
+                
+# Pass struct values                 
+my_struct = P_Struct(1, "Hello World")
+# Create a pointer to my_struct
+pointer_my_struct = ctypes.pointer(my_struct)
+
+# Print structure location
+print "Struct location in memory: {}".format(my_struct)
+print my_struct.field_1, my_struct.field_2
+
+# Print pointer to structure location
+print "Pointer to struct location in memory: {}".format(pointer_my_struct.contents)
+print pointer_my_struct.contents.field_1, pointer_my_struct.contents.field_2
 ```
 
 
