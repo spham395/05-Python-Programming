@@ -1,7 +1,5 @@
 # Running Python
 
-
-
 ## Python Interpreter
 
 There are a couple of ways to execute Python code. One way is through the **Python Interpreter,** which allows for on the fly code testing and sandboxing. The Python Interpreter uses **REPL:**
@@ -39,15 +37,13 @@ Typing simply a variable or expression will yield a printed output
 
 ![](/assets/Screen Shot 2017-09-27 at 12.16.42 PM.png)
 
-
-
 ## Python Source Files
 
 The other way to run Python code is using source files with the extension of .py. Python does not require compilation on the user's end. Executing .py source code is similar to starting the Interpreter.
 
 **Be sure to:**
 
-* Use appropiate bash commands for source codes Python version
+* Use appropiate bash commands for the source code's Python version
 * Include filename and extension after bash command
 * Include any arguments after filename and extension.
 
