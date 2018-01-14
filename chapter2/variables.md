@@ -33,11 +33,11 @@ print 'a = {} b = {} c = {}'.format(a, b, c)
 
 * **Numbers**
 * **Strings**
-* **List**
+* **Lists**
   * Think array
-* **Tuple**
+* **Tuples**
   * Think constant array
-* **Dictionary**
+* **Dictionarys**
   * Think associative array
 
 ### Data Types: Immutable
