@@ -37,7 +37,7 @@ print 'a = {} b = {} c = {}'.format(a, b, c)
   * Think array
 * **Tuples**
   * Think constant array
-* **Dictionarys**
+* **Dictionaries**
   * Think associative array
 
 ### Data Types: Immutable
