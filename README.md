@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Python
 
 ![](/assets/python-logo-master-v3-TM.png)
@@ -15,3 +16,6 @@
 
 
 
+=======
+# Python
+>>>>>>> fbacdcb562c7e050248fba4a77b693d60675bcbf
