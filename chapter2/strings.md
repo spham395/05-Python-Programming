@@ -227,7 +227,7 @@ What's the outcome? How does replace\(\) work?
 
 ### Additional Standard Library Functionality
 
-* startswith,endswith​
+* startswith, endswith​
 
 * find, rfind​
 
