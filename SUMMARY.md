@@ -9,7 +9,7 @@
   * [Running Python](chapter1/running-python.md)
 * [Data Types](chapter2/data-types.md)
   * [Variables \[Lab 2A\]](chapter2/variables.md)
-  * [Numbers](chapter2/numbers.md)
+  * [Numbers \[Lab 2B\|2C\]](chapter2/numbers.md)
   * [Strings](chapter2/strings.md)
   * [Lists](chapter2/lists.md)
   * [Bytes and Bytearray](chapter2/bytearray.md)

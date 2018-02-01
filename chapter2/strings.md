@@ -44,11 +44,11 @@ Yes, this stuff is old school and not very Pythonic... but it can't be helped.
 
 ### Difference between ASCII and Unicode \(utf-8\)
 
-**ASCII **defines 128 characters, mapped 0-127. **Unicode** on the other hand defines less than 2^21 characters, mapped 0-2^21. It is worth noting that not all Unicode numbers are assigned yet. Unicode numbers 0-128 have the same meaning as ASCII values; but do not fit into one 8-bit block of memory like ASCII values do. Thus Unicode in Python 3 utilizes **utf-8** which allows for the use of multiple 8-bit blocks of memory.  
+**ASCII **defines 128 characters, mapped 0-127. **Unicode** on the other hand defines less than 2^21 characters, mapped 0-2^21. It is worth noting that not all Unicode numbers are assigned yet. Unicode numbers 0-128 have the same meaning as ASCII values; but do not fit into one 8-bit block of memory like ASCII values do. Thus Unicode in Python 3 utilizes **utf-8** which allows for the use of multiple 8-bit blocks of memory.
 
 ### Byte String vs Data String
 
-Byte Strings are simply just a sequence of bytes. In Python 2, bytes is an alias of str. In other words, they are used interchangeably. In Python 3 on the other hand, str is it's own type... utilizing Unicode \(utf-8\). Whereas the bytes type in Python 3 is still a bytes object in ASCII; an array of integers. 
+Byte Strings are simply just a sequence of bytes. In Python 2, bytes is an alias of str. In other words, they are used interchangeably. In Python 3 on the other hand, str is it's own type... utilizing Unicode \(utf-8\). Whereas the bytes type in Python 3 is still a bytes object in ASCII; an array of integers.
 
 ​
 
@@ -229,7 +229,7 @@ What's the outcome? How does replace\(\) work?
 
 * startswith,endswith​
 
-* find,rfind​
+* find, rfind​
 
 * count​
 
@@ -247,7 +247,7 @@ What's the outcome? How does replace\(\) work?
 
 * center​
 
-* ljust,rjust​
+* ljust, rjust​
 
 # LAB 2D and 2E:
 
