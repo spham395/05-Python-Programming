@@ -37,7 +37,7 @@
   * [Exceptions](chapter5/object-oriented/exceptions.md)
 * [Advanced](advanced.md)
   * [CTypes \[Lab 6A\]](ctypes.md)
-  * [Regular Expressions \[Lab 6B\]](regular-expressions.md)
+  * [Regular Expressions \[Lab 6B\]\*](regular-expressions.md)
   * [Additional Libraries and Modules](additional-libraries-and-modules.md)
   * [Multithreading](multithreading.md)
   * [UnitTesting](unittesting.md)
