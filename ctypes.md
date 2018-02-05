@@ -118,8 +118,6 @@ print my_struct.field_1, my_struct.field_2
   * Formats and prints the contents of the struct in a logical order
   * Compile the C program as a library \(.so or .dll\)
 
-
-
 * Create a Python wrapper
 
   * Import the C library
