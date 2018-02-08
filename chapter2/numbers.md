@@ -118,7 +118,24 @@ _There are some differences between Python 2 and Python 3 numbers. The biggest d
 Download the following files and follow the instructions within.
 
 * 2A: numbers.py
-* 2B: tax\_calc.py
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+### Lab 2C: Tax Calculator
+
+Recommended Version: Python 2.7
+
+
+
+**Instructions:**
+
+Write a program that calculates the total of an item, with taxes.
+
+
+
+**Bonus:**  Add additional functionality
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 
 
