@@ -74,5 +74,41 @@ file.close()
 
 # Lab 3D: Text Editor
 
-Sync repo from GitLab or download the .zip for lab 3D called 'fileLab'. Follow the instructions within.
+**Instrucitons:**
+
+Using Python and it's library... create a text editor!
+
+
+
+**Requirments:**
+
+-Must have a UI
+
+-Must be able to create a file, write text and save the file
+
+-Must be able to open a file, write text to that file and save the file
+
+-Ask user for overwrite, open or cancel if filename already exists
+
+-At the very least, place cursor at the end of the file
+
+-IMPORTANT: Add snapshot/preview functionality for all files in a given dictionairy.
+
+Use a dictionary for this step. \(ex: {'file1.txt': 'this is a file', 'file2.txt': 'this is another file'}
+
+-Must be able to do all the above in any directory... from any directory. 
+
+
+
+**Opitional:**
+
+-Any additional functionality
+
+-Allow for cursor movement in file
+
+-shortcuts/commands/etc that can do additional functionality such as ascii text color, tab, enter, etc
+
+-Ability to delete files
+
+-Import glob 
 
