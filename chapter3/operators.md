@@ -14,7 +14,7 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 
 * **x \| y **       \#bitwise or​
 
-* **x ^ y **      \#bitwisexor​
+* **x ^ y **      \#bitwise xor​
 
 * **~x**          \#returns the ones complement
 
