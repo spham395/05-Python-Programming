@@ -2,6 +2,8 @@
 
 Scope refers to the visibility of variables. To be more clear, what parts of your program see what variables. In Python, we use **LEGB Rule:**
 
+![](/assets/scope_resolution_1.png)
+
 #### Local:
 
 * Defined in the local scope of functions
@@ -12,7 +14,7 @@ def sales_tax(amount):
     tax_total = amount * rate
     total = tax_total + amount
     print total
-    
+
 # Call function and pass parameter
 sales_tax(200)
 print tax_total #???
@@ -46,7 +48,7 @@ def sales_tax():
     tax_total = amount * rate
     total = tax_total + amount
     print total
-    
+
 # Did not pass parameters
 sales_tax()
 ```
