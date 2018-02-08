@@ -67,13 +67,9 @@ for i in xrange(1, 100):​
 
 Notice how the second print is skipped entirely for even numbers!
 
-
-
-
-
 # Lab 3B FizzBuzz:
 
-Iterate through a loop 100 times… printing “Fizz” for any number dividable by 3 and “Buzz” for any number dividable by 5. If the number is dividable by both… print “FizzBuzz”. All other numbers… print the number. 
+Iterate through a loop 100 times… printing “Fizz” for any number dividable by 3 and “Buzz” for any number dividable by 5. If the number is dividable by both… print “FizzBuzz”. All other numbers… print the number.
 
 ```
 ​1​
