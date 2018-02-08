@@ -1,4 +1,4 @@
-Sequence Objects: Lists
+# Sequence Objects: Lists
 
 Lists are very similar to C arrays. Lists **are mutable and nestable**. They are not ordered! There is no variable length per say, aside from what the system itself can handle. In other words, lists are dynamically adjusted to fit their contents. Lists can be multidimensional and can contain elements of different types. You can create a list using \[\].
 
@@ -10,8 +10,6 @@ Lists are very similar to C arrays. Lists **are mutable and nestable**. They are
 ```
 
 ### 
-
-
 
 ### Slicing Lists
 
@@ -45,10 +43,6 @@ Much like strings, you can slice lists. There are some differences though. Slici
 >>> nested_list[0:2][1] # ???​
 ```
 
-
-
-
-
 ### Indexing Lists
 
 index\(\) will output the index of an element that matches index\(\)s argument. index\(\) looks for strict matches. Overall, this is useful for finding the index of a specific item. For example:
@@ -76,10 +70,6 @@ False​
 True
 ```
 
-
-
-
-
 ### Modifying Lists
 
 Remember, lists are **MUTABLE!** This simply means we can modify it in place via appending, removing, combining, etc.
@@ -89,7 +79,6 @@ Remember, lists are **MUTABLE!** This simply means we can modify it in place via
 * append\(\)
 
 * * Adds onto the end of the list​
-
 * change index \(ex: list\[i\]\)​
 
 * * Changes the specified index​
@@ -145,8 +134,6 @@ Remember, lists are **MUTABLE!** This simply means we can modify it in place via
 ['Subaru', 'Ford', 'Mini', 'Audi', 'Peugeot', 'MG Metro']​
 ​
 ```
-
-
 
 #### Removing List Elements:
 

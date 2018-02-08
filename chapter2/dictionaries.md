@@ -148,6 +148,7 @@ Below are some functions to convert a variable to another type.
 >>> ord()​
 >>> hex()​
 >>> oct()​
+>>> bin()
 ```
 
 ## Import Sys

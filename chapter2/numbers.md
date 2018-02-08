@@ -127,15 +127,17 @@ Recommended Version: Python 2.7
 
 print "==================================="
 
+\(Converting int to binary\)
+
 x = None \#TODO:Set x equal to 545 in binary
 
 y = None \#TODO: Set y equal to 24 in binary
 
-print "Values before modification: {} and y: {}".format\(x, y\)
+print "Values before modification: x: {} and y: {}".format\(x, y\)
 
-x = None \#TODO: flip on the third bit in x
+x = None \#TODO: manually flip on the third bit in x
 
-y += None \#TODO: flip on the 1st bit in y
+y += None \#TODO: manually flip on the 1st bit in y
 
 print "Values after modificaiton: x: {} and y: {}".format\(x, y\)
 
