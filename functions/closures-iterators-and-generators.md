@@ -2,7 +2,7 @@
 
 ## Closures
 
-No. We aren't talking about the programming language Clojure. A Closure is a function object that remembers values in enclosing scopes regardless of whether those scopes are still present in memory. If you have written a function that returned another function, you probably have used closures without even knowing.
+A Closure is a function object that remembers values in enclosing scopes regardless of whether those scopes are still present in memory. If you have written a function that returned another function, you probably have used closures without even knowing.
 
 **Example:**
 
@@ -111,5 +111,5 @@ for i in my_gen:
 
 Taking a look at the code above... we created a sequence object and iterated over it using a for loop.
 
-**Note: **When functions return all state is lost, a yield preserves local state and returns a generator object. 
+**Note: **When functions return all state is lost, a yield preserves local state and returns a generator object.
 
