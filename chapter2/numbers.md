@@ -117,15 +117,13 @@ _There are some differences between Python 2 and Python 3 numbers. The biggest d
 
 ---
 
-### Lab 2A: Numbers
+### Lab 2B: Numbers
 
 Recommended Version: Python 2.7
 
 **Instructions:** Follow comments below. They will guide you.
 
 **BONUS:** shorten the code!
-
-
 
 print "==================================="
 

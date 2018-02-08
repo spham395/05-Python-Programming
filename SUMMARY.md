@@ -10,7 +10,7 @@
 * [Data Types](chapter2/data-types.md)
   * [Variables \[Lab 2A\]](chapter2/variables.md)
   * [Numbers \[Lab 2B\|2C\]](chapter2/numbers.md)
-  * [Strings \[Lab 2D\|2E\]\*](chapter2/strings.md)
+  * [Strings \[Lab 2D\|2E\]](chapter2/strings.md)
   * [Lists](chapter2/lists.md)
   * [Bytes and Bytearray \[Lab 2F\]\*](chapter2/bytearray.md)
   * [Tuples, xrange & buffer](chapter2/tuples.md)

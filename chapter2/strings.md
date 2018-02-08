@@ -249,13 +249,13 @@ What's the outcome? How does replace\(\) work?
 
 * ljust, rjust​
 
------------------
+---
 
 # LAB 2D and 2E:
 
 ---
 
-### Lab 2C: Strings
+### Lab 2D: Strings
 
 Recommended Version: Python 2.7
 
@@ -267,7 +267,7 @@ Write a program that reverses a user inputted string then outputs the new string
 
 ---
 
-### Lab 2D: Count Words
+### Lab 2E: Count Words
 
 Recommended Version: Python 2.7
 
