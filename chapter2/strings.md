@@ -249,43 +249,37 @@ What's the outcome? How does replace\(\) work?
 
 * ljust, rjust​
 
-# -----------------
+-----------------
 
 # LAB 2D and 2E:
 
-------------------------
+---
 
 ### Lab 2C: Strings
 
 Recommended Version: Python 2.7
 
-
-
 **Instructions:**
 
-Write a program that reverses a user inputted string then outputs the new string, in all uppercase letters. 
-
-
+Write a program that reverses a user inputted string then outputs the new string, in all uppercase letters.
 
 **Bonus: **Add additional functionality
 
----------------------------------
+---
 
 ### Lab 2D: Count Words
 
 Recommended Version: Python 2.7
 
-
-
 **Instructions:**
 
 Write a program that takes a string as user input then counts the number of words in that sentence.
-
-
 
 **Bonus: **Add additional functionality
 
 ex: Output number of characters, number of uppercase letters, etc
 
-------------------------
+---
+
+
 
