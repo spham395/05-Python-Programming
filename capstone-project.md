@@ -1,6 +1,6 @@
 # Capstone Project
 
-For this capstone project, you and your team will be utilizing Python and Network Programming principles. You and your team can choose to build whatever you'd like; but it must be within scope of possibility. Take into consideration time, each other's skill level and the restrictions listed below. Good luck!
+For this capstone project, you and your team can choose to build whatever you'd like utilizing Python Programming principles. Take into consideration time, each other's skill level and the restrictions listed below. Good luck!
 
 ### Restrictions:
 
