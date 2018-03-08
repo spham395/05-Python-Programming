@@ -84,7 +84,7 @@ Remember, lists are **MUTABLE!** This simply means we can modify it in place via
 * * Changes the specified index​
 * insert\(i,x\)​
 
-* * inserts object x into the list at offset indexi\)​
+* * inserts object x into the list at offset index i\)​
 * sort, sorted\(\)​
 
 * * Sorts list alphabetically​
