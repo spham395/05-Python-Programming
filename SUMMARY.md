@@ -41,5 +41,4 @@
   * [Additional Libraries and Modules](additional-libraries-and-modules.md)
   * [Multithreading](multithreading.md)
   * [UnitTesting](unittesting.md)
-* [Capstone Project\*](capstone-project.md)
 
