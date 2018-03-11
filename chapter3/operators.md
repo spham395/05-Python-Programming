@@ -48,8 +48,11 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 
 * **and         **\#Evaluates true if expressions on both sides of the operator are true. 
 * **or            **\#Evaluates true if expressions on either side of the operator are true.
+  ---
 
 # Lab 3A: Operators
+
+---
 
 Open up the Python Interpreter and experiment with different types and operators. Here are some suggestions:
 

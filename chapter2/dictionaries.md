@@ -172,9 +172,13 @@ sys.getsizeof\(object\)  --gets the size of the object passed in bytes. As you c
 12​
 ```
 
+---
+
 # Lab 2G
+
+---
 
 Create a program that takes input of a group of students' names and grades... then sorts them based on highest to lowest. Hint: Use Dictionaries!
 
-**BONUS: **Calculate the average for the class. 
+**BONUS: **Calculate the average for the class.
 
