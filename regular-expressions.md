@@ -108,7 +108,11 @@ Found "I turned myself" in "I turned myself into a pickle. I'm Pickle Riiiiick"
 Cound not find "I turned myself" in "I turned myself into a pickle. I'm Pickle Riiiiick"
 ```
 
+---
+
 # Lab 6B
+
+---
 
 Refactor your text editor or create a new Python program that allows the user to search for substrings within a file. You will need to use the PyDocs to look up additional functionality of regex. For example, **re.finditer** may help you. This refactor/program should include the functionality to:
 
