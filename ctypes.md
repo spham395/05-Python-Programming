@@ -110,7 +110,11 @@ print my_struct.field_1, my_struct.field_2
 1 Hello World
 ```
 
+---
+
 # Lab 6A
+
+---
 
 * Create a C Program
 
