@@ -46,7 +46,11 @@ print 'a = {} b = {} c = {}'.format(a, b, c)
 
 ![](/assets/Screen Shot 2017-09-27 at 12.54.54 PM.png)
 
+---
+
 # LAB 2A: Variable Types
+
+---
 
 Find the type of the following variables. Feel free to experiement with other variables and such.
 
