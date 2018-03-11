@@ -90,6 +90,8 @@ b​
 bytearray(b'I Um a string')​
 ```
 
+---
+
 # LAB 2F
 
 ---
@@ -99,8 +101,6 @@ bytearray(b'I Um a string')​
 Lab 2E: Planets Exercise
 
 Recommended Version: Python 2.7
-
-
 
 Instructions:
 
@@ -114,23 +114,19 @@ planet\_list = \[\]
 
 \#TODO: Convert planets\_string to a list, save it to planet\_list.
 
-
-
 def log\_planets\(\):
 
-    print "Here is a list of the planets:"
+```
+print "Here is a list of the planets:"
 
-    for planet in planet\_list:
+for planet in planet\_list:
 
-        print planet
+    print planet
 
-    print "----------------"
-
-
+print "----------------"
+```
 
 log\_planets\(\)
-
-
 
 print 'Adding "The Sun" to the beginning of the planets list.'
 
@@ -138,15 +134,11 @@ print 'Adding "The Sun" to the beginning of the planets list.'
 
 log\_planets\(\)
 
-
-
 print 'Adding "Pluto" to the end of the planets list.'
 
 \#TODO: Perform action above
 
 log\_planets\(\)
-
-
 
 print 'Removing "The Sun" from the beginning of the planets list.'
 
@@ -154,15 +146,11 @@ print 'Removing "The Sun" from the beginning of the planets list.'
 
 log\_planets\(\)
 
-
-
 print 'Removing "Pluto" from the end of the planets list.'
 
 \#TODO: Perform action above
 
 log\_planets\(\)
-
-
 
 print 'Finding and logging the index of "Earth" in the planets list.'
 
@@ -170,15 +158,11 @@ print 'Finding and logging the index of "Earth" in the planets list.'
 
 log\_planets\(\)
 
-
-
 print 'Removing the planet after "Earth".'
 
-\#TODO: Perform action above.  
+\#TODO: Perform action above.
 
 log\_planets\(\)
-
-
 
 print 'Addding back in the planet removed after "Earth".'
 
@@ -186,21 +170,15 @@ print 'Addding back in the planet removed after "Earth".'
 
 log\_planets\(\)
 
-
-
 print 'Reversing the order of the planets list.'
 
 \#TODO Perform action above
 
 log\_planets\(\)
 
-
-
 print 'Sorting the planets list'
 
 \#TODO Perform action above
 
 log\_planets\(\)
-
-
 
