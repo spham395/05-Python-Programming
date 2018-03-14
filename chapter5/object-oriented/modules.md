@@ -1,6 +1,6 @@
 ### Modules
 
-Modules are reusable code for use across other scripts. Modules are single files in either .py, .pyc or .pyo format. When a module is imported, code that is not wrapped in a function is executed and the functions themselves are added to the name space... allowing them to be called upon. 
+Modules are reusable code for use across other scripts. Modules are single files in either .py, .pyc or .pyo format. When a module is imported, code that is not wrapped in a function is executed and the functions themselves are added to the name space... allowing them to be called upon.
 
 ### Module Structure
 
@@ -61,6 +61,10 @@ tri.method
 # A far more dangerous method... can create collisions.
 from triangle import *
 ```
+
+###### Reference:
+
+###### [https://docs.python.org/2.7/tutorial/modules.html](https://docs.python.org/2.7/tutorial/modules.html)
 
 
 
