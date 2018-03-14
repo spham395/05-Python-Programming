@@ -1,5 +1,7 @@
 # List Comprehension
 
+---
+
 Python supports something called "list comprehension". In short, this allows us to write minimal, easy and readable lists in a way like mathematicans do.
 
 ![](/assets/Screen Shot 2017-10-20 at 9.29.38 PM.png)
