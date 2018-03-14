@@ -1,5 +1,7 @@
 # While Loops
 
+---
+
 While loops, just like C and C++, loop through each iteration until either the condition is met or a break statement is called. Being that this is a loop... it is possible and rather easy to get stuck in an infinite loop. Keep in mind, you cannot use the x++ incrementer in Python.
 
 ```py
@@ -60,5 +62,5 @@ count: 10
 while loop executed... count is: 11
 ```
 
-This gives us a clearer look at how Python increments variables. 
+This gives us a clearer look at how Python increments variables.
 

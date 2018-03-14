@@ -1,5 +1,7 @@
 # If/Elif/Else Statements
 
+---
+
 Just like most other programming languages, Python includes the standard** if**, else-if, and** else** statements. The only difference is that Python's else-if statement is shortened to **elif**. The **if **statement checks for truth within a given condition. If the condition is false, the code within the if statement will not run. To counter this, you can use **elif** statements to check for further conditions. Finally we have the **else** statement which is a catch all if none of the previous statements evaluate to True.
 
 Note: If even one statement is evaluated as true, all the remaining conditions will not be checked. Some situations call for multiple if statements, some work better with if/elif/else statements. Just keep in mind the order of the statements.

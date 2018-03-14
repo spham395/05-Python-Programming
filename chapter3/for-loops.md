@@ -1,5 +1,7 @@
 # For Loops
 
+---
+
 #### For Loop in C:
 
 ```c
