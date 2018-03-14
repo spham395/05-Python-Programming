@@ -1,6 +1,6 @@
 # Bitwise and Comparison Operators
 
-## The Ancient Bitwise Operators \(Yet really useful\)
+---
 
 Bitwise Operators directly manipulate bits. There really is no speed advantage to bitwise operators in Python. The main advantage of bitwise operators is for scripting, compression, encryption, communication over sockets \(checksums, stop bits, control algorithms, etc\).
 
@@ -47,8 +47,7 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 ### Boolean Operators
 
 * **and         **\#Evaluates true if expressions on both sides of the operator are true. 
-* **or            **\#Evaluates true if expressions on either side of the operator are true.
-  ---
+* ## **or            **\#Evaluates true if expressions on either side of the operator are true.
 
 # Lab 3A: Operators
 
