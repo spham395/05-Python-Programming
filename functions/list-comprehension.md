@@ -23,7 +23,7 @@ def square_list(a_list):
 
 **Normal List with Refactoring**
 
-In this example... we actually overwrote the global a\_list variable by accident. It is important you pay attention to this and try to avoid this mistake in the future.
+###### \(In this example the a\_list global variable was overwritten. This can be avoided by reassigning the results to a new variable.\)
 
 ```py
 a_list = [1,2,3,4,5]
