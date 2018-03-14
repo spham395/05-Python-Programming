@@ -1,5 +1,7 @@
 # Closures, Iterators and Generators
 
+---
+
 ## Closures
 
 A Closure is a function object that remembers values in enclosing scopes regardless of whether those scopes are still present in memory. If you have written a function that returned another function, you probably have used closures without even knowing.
