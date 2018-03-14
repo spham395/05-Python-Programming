@@ -48,9 +48,9 @@ The advantages of using binary formatting primarily apply to Windows. Unlike Lin
 
 Once the file is open, we can begin reading, adding or modifying the file's contents. Below are some of the methods to make that happen.
 
-* f.write\(str\)         \# writestrto file​
+* f.write\(str\)         \# writest r to file​
 
-* f.writelines\(str\) \# writestrto file​
+* f.writelines\(str\) \# writest r to file​
 
 * f.read\(sz\)           \# read size amount​
 
@@ -60,7 +60,7 @@ Once the file is open, we can begin reading, adding or modifying the file's cont
 
 * f.tell\(\)                  \# current file position​
 
-* f.truncate\(sz\)     \# truncate the fileszbytes​
+* f.truncate\(sz\)     \# truncate the files z bytes​
 
 * f.close\(\)              \# close file handle​... **ALWAYS CLOSE THE FILE AS SOON AS YOU'RE FINISHED USING IT!!**
 
@@ -78,8 +78,6 @@ file.close()
 
 Using Python and it's library... create a text editor!
 
-
-
 **Requirments:**
 
 -Must have a UI
@@ -96,9 +94,7 @@ Using Python and it's library... create a text editor!
 
 Use a dictionary for this step. \(ex: {'file1.txt': 'this is a file', 'file2.txt': 'this is another file'}
 
--Must be able to do all the above in any directory... from any directory. 
-
-
+-Must be able to do all the above in any directory... from any directory.
 
 **Opitional:**
 
@@ -110,5 +106,5 @@ Use a dictionary for this step. \(ex: {'file1.txt': 'this is a file', 'file2.txt
 
 -Ability to delete files
 
--Import glob 
+-Import glob
 
