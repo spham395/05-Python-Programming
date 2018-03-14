@@ -84,7 +84,7 @@ file.close()
 
 ---
 
-# Lab 3D: Text Editor
+### Lab 3D: Text Editor
 
 **Instrucitons:**
 
