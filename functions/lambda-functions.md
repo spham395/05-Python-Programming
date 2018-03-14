@@ -1,5 +1,7 @@
 # Lambda Functions
 
+---
+
 It's best to start off with some examples:
 
 **Example 1:**
