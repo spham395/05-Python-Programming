@@ -62,6 +62,10 @@ Once the file is open, we can begin reading, adding or modifying the file's cont
 
 * f.truncate\(sz\)     \# truncate the files z bytes​
 
+* f.mode\(\)              \# returns the access mode used to open a file
+
+* f.name\(\)              \# returns the name of a file
+
 * f.close\(\)              \# close file handle​... **ALWAYS CLOSE THE FILE AS SOON AS YOU'RE FINISHED USING IT!!**
 
 ```py
