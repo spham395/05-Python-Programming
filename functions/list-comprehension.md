@@ -25,8 +25,6 @@ def square_list(a_list):
 
 **Normal List with Refactoring**
 
-###### \(In this example the a\_list global variable was overwritten. This can be avoided by reassigning the results to a new variable.\)
-
 ```py
 a_list = [1,2,3,4,5]
 
@@ -82,6 +80,8 @@ print square_list(a_list)
 # Output
 set([16, 4])
 ```
+
+###### \(In this example the a\_list global variable was overwritten. This can be avoided by reassigning the results to a new variable.\)
 
 
 
