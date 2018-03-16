@@ -84,39 +84,43 @@ file.close()
 
 ---
 
-### Lab 3D: Text Editor
+### Lab 3D: File handling
 
-**Instrucitons:**
+**Instructions: **Download the text file \_\_\_\_\_ and follow the instructions below.
 
-Using Python and it's library... create a text editor!
 
-**Requirments:**
 
--Must have a UI
+**1.** Write a Python program to read an entire text file.
 
--Must be able to create a file, write text and save the file
+**2.** Write a Python program to read first n lines of a file.
 
--Must be able to open a file, write text to that file and save the file
+**3.** Write a Python program to append text to a file and display the text. 
 
--Ask user for overwrite, open or cancel if filename already exists
+**4.** Write a Python program to read last n lines of a file. 
 
--At the very least, place cursor at the end of the file
+**5.** Write a Python program to read a file line by line and store it into a list. 
 
--IMPORTANT: Add snapshot/preview functionality for all files in a given dictionairy.
+**6.** Write a Python program to read a file line by line store it into a variable. 
 
-Use a dictionary for this step. \(ex: {'file1.txt': 'this is a file', 'file2.txt': 'this is another file'}
+**7.** Write a Python program to read a file line by line store it into an array. 
 
--Must be able to do all the above in any directory... from any directory.
+**8.** Write a python program to find the longest words. 
 
-**Opitional:**
+**9.** Write a Python program to count the number of lines in a text file. 
 
--Any additional functionality
+**10.** Write a Python program to count the frequency of words in a file. 
 
--Allow for cursor movement in file
+**11.** Write a Python program to get the file size of a plain file.
 
--shortcuts/commands/etc that can do additional functionality such as ascii text color, tab, enter, etc
+**12.** Write a Python program to write a list to a file. 
 
--Ability to delete files
+**13.** Write a Python program to copy the contents of a file to another file . 
 
--Import glob
+**14.** Write a Python program to combine each line from first file with the corresponding line in second file. 
+
+**15.** Write a Python program to read a random line from a file. 
+
+**16.** Write a Python program to assess if a file is closed or not. 
+
+**17.** Write a Python program to remove newline characters from a file.
 
