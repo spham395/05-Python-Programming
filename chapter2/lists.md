@@ -219,7 +219,7 @@ print(less_than_zero)
 # Output: [-5, -4, -3, -2, -1]
 ```
 
- The filter resembles a for loop but it is a builtin function and faster.
+The filter resembles a for loop but it is a builtin function and faster.
 
 **Reduce **-  performs some computation on a list and return the result.  It applies a rolling computation to sequential pairs of values in a list.
 
