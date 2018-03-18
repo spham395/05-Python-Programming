@@ -51,6 +51,8 @@ def reg_function(x): return x**2
 new_stuff = lambda x: x**2
 ```
 
+ 
+
 ---
 
 ### Lab 4A: Calculator
