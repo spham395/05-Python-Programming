@@ -151,6 +151,22 @@ print '{:%Y-%m-%d %H:%M}'.format(datetime(2017, 10, 17, 10, 45))
 2017-10-17 10:45
 ```
 
+ 
+
+| Format Symbol | Conversion |
+| :---: | :---: |
+| %c | character |
+| %s | string conversion via str\(\) prior to formatting |
+| %i | signed decimal integer |
+| %d | signed decimal integer |
+| %u | unsigned decimal integer |
+| %o | octal integer |
+| %x | hexadecimal integer \(lowercase letters\) |
+| %e | exponent notation |
+| %f | floating point real number |
+
+ 
+
 ---
 
 ### Lab 3C: Formatting
