@@ -166,5 +166,13 @@ Remember, lists are **MUTABLE!** This simply means we can modify it in place via
 [1, 4, 5]​
 ```
 
+#### Map, Filter, Reduce:
+
+**Map **applies a function to all the items in an input\_list.
+
+```
+map(function_to_apply, list_of_inputs)
+```
+
 
 

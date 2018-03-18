@@ -41,6 +41,8 @@ if m.digest() == x.digest():
     print 'access granted'
 ```
 
+#### 
+
 #### Struct
 
 Struct performs conversions between Python values and C structs represented as Python strings. This is mostly used in handling binary data in files and network connections. This will be used during Network Programming.
@@ -70,10 +72,10 @@ print parsed_json['make']
 
 # Python to JSON
 json_d = {
-	'make': 'Ford',
-	'model': 'Mustang',
-	'type': 'Pony',
-	'colors': ['red', 'blue', 'white', 'yellow']
+    'make': 'Ford',
+    'model': 'Mustang',
+    'type': 'Pony',
+    'colors': ['red', 'blue', 'white', 'yellow']
 }
 
 parsed_d = json.dumps(json_d)
@@ -84,7 +86,7 @@ print parsed_d
 
 #### Paramiko
 
-Paramiko is a Python \(2.7, 3.4+\) implementation of SSHv2 protocol. Paramiko utilizes a Pyhton C extension for low level crytography; though Paramiko itself utilizes a Python interface around SSH network concepts. 
+Paramiko is a Python \(2.7, 3.4+\) implementation of SSHv2 protocol. Paramiko utilizes a Python C extension for low level crytography; though Paramiko itself utilizes a Python interface around SSH network concepts.
 
 [http://www.paramiko.org/](http://www.paramiko.org/)
 
@@ -102,7 +104,7 @@ Easy. Here is a great list of some of the most popular Python packages.
 
 #### The HitchHiker's Guide
 
-The HitchHiker's guide is an excellent guide on Python that is constantly being updated. 
+The HitchHiker's guide is an excellent guide on Python that is constantly being updated.
 
 [http://docs.python-guide.org/en/latest/](http://docs.python-guide.org/en/latest/)
 
