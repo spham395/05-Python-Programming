@@ -227,7 +227,7 @@ What's the outcome? How does replace\(\) work?
 
 ### Join
 
-**join\(\)** combines sequential string elements by a specified _str _separator. If no separator is specified join will insert white space by default.
+**join\(\)** combines sequential string elements by a specified \_str \_separator. If no separator is specified join will insert white space by default.
 
 Syntax:
 
@@ -247,7 +247,7 @@ print s.join( seq )
 
 ### Split
 
-**split\(\) **will breakup a string and add the data to a string array using a defined separator. 
+**split\(\) **will breakup a string and add the data to a string array using a defined separator.
 
 Syntax:
 
@@ -263,18 +263,18 @@ Example:
 ```
 x = ‘blue,red,green’
 x.split(“,”)
- 
+
 [‘blue’, ‘red’, ‘green’]
 >>>
- 
+
 >>> a,b,c = x.split(“,”)
- 
+
 >>> a
 ‘blue’
- 
+
 >>> b 
 ‘red’
- 
+
 >>> c
 ‘green’
 ```
@@ -313,7 +313,7 @@ Recommended Version: Python 2.7
 
 Write a program that reverses a user inputted string then outputs the new string, in all uppercase letters.
 
-**Bonus: **Add additional functionality
+**Bonus: **Add additional functionality, experiment with other string methods.
 
 ---
 
@@ -325,9 +325,9 @@ Recommended Version: Python 2.7
 
 Write a program that takes a string as user input then counts the number of words in that sentence.
 
-**Bonus: **Add additional functionality
+**Bonus: **Add additional functionality, experiment with other string methods.
 
-ex: Output number of characters, number of uppercase letters, etc
+ex: Output number of characters, number of uppercase letters, etc...
 
 ---
 
