@@ -94,8 +94,6 @@ bytearray(b'I Um a string')​
 
 # LAB 2F
 
----
-
 """
 
 Lab 2E: Planets Exercise

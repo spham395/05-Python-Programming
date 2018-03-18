@@ -251,10 +251,6 @@ What's the outcome? How does replace\(\) work?
 
 ---
 
-# LAB 2D and 2E:
-
----
-
 ### Lab 2D: Strings
 
 Recommended Version: Python 2.7
