@@ -174,5 +174,40 @@ Remember, lists are **MUTABLE!** This simply means we can modify it in place via
 map(function_to_apply, list_of_inputs)
 ```
 
+**Example:**
+
+```
+items = [1, 2, 3, 4, 5]
+squared = []
+for i in items:
+    squared.append(i**2)
+```
+
+**Map **allows us to implement this in a much simpler way.
+
+```
+items = [1, 2, 3, 4, 5]
+squared = list(map(lambda x: x**2, items))
+```
+
+```
+def multiply(x):
+    return (x*x)
+def add(x):
+    return (x+x)
+
+funcs = [multiply, add]
+for i in range(5):
+    value = list(map(lambda x: x(i), funcs))
+    print(value)
+
+# Output:
+# [0, 0]
+# [1, 2]
+# [4, 4]
+# [9, 6]
+# [16, 8]
+```
+
 
 
