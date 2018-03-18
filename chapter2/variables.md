@@ -20,7 +20,7 @@ Multiple assignment is allowed and types can be the same or different:
 
 ```py
 a = b = c = 100
-c = 200 # will only reassign variable c
+  # will only reassign variable c
 print 'a = {} b = {} c = {}'.format(a, b, c)
 #output: a = 100 b = 100 c = 200
 

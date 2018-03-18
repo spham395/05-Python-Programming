@@ -129,7 +129,7 @@ print "==================================="
 
 \(Converting int to binary\)
 
-x = None \#TODO:Set x equal to 545 in binary
+x = None \#TODO: Set x equal to 545 in binary
 
 y = None \#TODO: Set y equal to 24 in binary
 
