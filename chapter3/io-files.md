@@ -86,31 +86,23 @@ file.close()
 
 ### Lab 3D: File handling
 
-**Instructions: **Download the text file \_\_\_\_\_ and follow the instructions below.
+**Instructions: **Download the text file Lab3D\_GG.txt and follow the instructions below.
 
-**1.** Write a Python program to read an entire text file.
+**Create a Python program to:**
 
-**2.** Write a Python program to read first n lines of a file.
+**1.** Read an entire text file.
 
-**3.** Write a Python program to append text to a file and read last n lines of a file.
+**2.** Read the first n lines of a file.
 
-4**.** Write a Python program to read a file line by line and store it into a list.
+**3.** Append text to a file and read last n lines of a file.
 
-5**.** Write a python program to find the longest words.
+4**.** Read a file line by line and store it into a list.
 
-**9.** Write a Python program to count the number of lines in a text file.
+5**.** Sort words from longest to shortest.
 
-\*\***\*10.** Write a Python program to count the frequency of words in a file.
+**9.** Count the number of lines in a text file.
 
+**10.** Count how many times survive is used in the text.
 
-
-**13.** Write a Python program to copy the contents of a file to another file .
-
-
-
-
-
-
-
-
+**13.** Copy the contents of the file to another file .
 
