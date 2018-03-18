@@ -44,7 +44,7 @@ Just like lists... Dictionaries can be nested as well to create a multi-dimensio
 subnestedValue
 ```
 
-### Common Dict Operations
+### Common Dictionary Operations
 
 ```py
 >>> d[i] = y # value of I is replaced by y​
