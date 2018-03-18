@@ -156,7 +156,17 @@ World!​
 
 What did you get? Try different operations to manipulate strings!
 
-​
+**​String Special Operators**
+
+| Operator | Description |
+| :---: | :---: |
+| + | Concatenation |
+| \* | Repetition |
+| \[\] | Slice |
+| \[:\] | Range Slice |
+| in | Membership - returns true if a character exists |
+| not in | Membership - returns true if a character does not exist |
+| % | Format |
 
 ### User Input
 
