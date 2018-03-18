@@ -1,6 +1,6 @@
 # User Classes
 
-Classes are used to create objects that bundle data and functionality together. With this, classes are highly reusable, cleaner and more efficient. We won't hash the fundamental too hard since Python and C++ OOP are very similar. But here are some considerations:
+Classes are used to create objects that bundle data and functionality together. With this, classes are highly reusable, cleaner and more efficient. Here are some considerations:
 
 * Python is typically 5-10x shorter than C++
 * There isn't a protected, public or private keyword per-say. 
@@ -45,7 +45,7 @@ __init__, __del__, __repr__, __str__, __cmp__
 ```
 
 * dir\(\), type\(\), isinstance\(\) are built in functions
-* Once again, Python doesn't really have public, protected or private. A single _ prefix indicates internal usage. _\_ hides attributes names. 
+* Once again, Python doesn't really have public, protected or private. A single _"\_" prefix indicates internal usage. "\__\_" hides attributes name. 
 
 ## Composition vs Inheritance
 
