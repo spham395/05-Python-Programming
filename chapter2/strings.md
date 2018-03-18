@@ -1,6 +1,6 @@
 # What is a sequence object?
 
-A sequence object is a container of items accessed via index. Text strings are technically sequence objects. Remember C strings?
+A sequence object is a container of items accessed via index. Text strings are technically sequence objects.
 
 #### Sequence Object Types:
 
