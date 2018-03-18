@@ -225,6 +225,60 @@ As you more than likely guessed, the user input is assigned to the variable _nam
 
 What's the outcome? How does replace\(\) work?
 
+### Join
+
+**join\(\)** combines sequential string elements by a specified _str _separator. If no separator is specified join will insert white space by default.
+
+Syntax:
+
+```
+str.join(sequence)
+```
+
+Example:
+
+```
+s = "-";
+seq = ("a", "b", "c"); # This is sequence of strings.
+print s.join( seq )
+
+#Output: a-b-c
+```
+
+### Split
+
+**split\(\) **will breakup a string and add the data to a string array using a defined separator. 
+
+Syntax:
+
+```
+str.split(str="", num=string.count(str))
+
+#str - any delimeter, by default it is space.
+#num - number of lines minus one.
+```
+
+Example:
+
+```
+x = ‘blue,red,green’
+x.split(“,”)
+ 
+[‘blue’, ‘red’, ‘green’]
+>>>
+ 
+>>> a,b,c = x.split(“,”)
+ 
+>>> a
+‘blue’
+ 
+>>> b 
+‘red’
+ 
+>>> c
+‘green’
+```
+
 ### Additional Standard Library Functionality
 
 * startswith, endswith​
