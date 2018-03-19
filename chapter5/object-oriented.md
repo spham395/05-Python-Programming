@@ -8,7 +8,7 @@
 * #### Packages
 * #### Python Classes
 * #### Exception Handling
-* #### Metaclasses
+* #### OOP Principles
 
 ### By the end of this lesson you should know:
 

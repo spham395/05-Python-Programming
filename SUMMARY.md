@@ -35,6 +35,7 @@
   * [OOP Terminology Review](chapter5/object-oriented/oop-terminology-review.md)
   * [User Classes](chapter5/object-oriented/user-classes.md)
   * [Exceptions](chapter5/object-oriented/exceptions.md)
+  * [OOP Principles](chapter5/object-oriented/oop-principles.md)
 * [Advanced](advanced.md)
   * [CTypes \[Lab 6A\]\*](ctypes.md)
   * [Regular Expressions \[Lab 6B\]\*](regular-expressions.md)
