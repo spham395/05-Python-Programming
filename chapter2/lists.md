@@ -243,5 +243,9 @@ product = reduce((lambda x, y: x * y), [1, 2, 3, 4])
 # Output: 24
 ```
 
+---
 
+# Lab 2F: Man A Rag
+
+Write a program that will be able to check if two words \(strings\) are anagrams.
 
