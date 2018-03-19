@@ -47,16 +47,7 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 ### Boolean Operators
 
 * **and         **\#Evaluates true if expressions on both sides of the operator are true. 
-* ## **or            **\#Evaluates true if expressions on either side of the operator are true.
-
----
-
-### Lab 3A: Operators
-
-Open up the Python Interpreter and experiment with different types and operators. Here are some suggestions:
-
-* Compare string numeric values vs number values
-* Create lists, tuples and dicts... experiment with the in/is operators
+* **or            **\#Evaluates true if expressions on either side of the operator are true.
 
 
 
