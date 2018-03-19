@@ -10,7 +10,7 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 
 * **x &gt;&gt; y **    \#shifts x to the right y number of places​
 
-* **x & y**       \#bitwise AND​ 
+* **x & y**       \#bitwise AND​
 
 * **x \| y **       \#bitwise OR
 
@@ -42,8 +42,6 @@ print('a & b is',a & b)
 
 * **x != y**      \#if x is not y, return True​
 
-* **x &lt;&gt; y**     \#same as != \(deprecated\)​
-
 * **x &gt; y**       \#if x is greater than y, return True​
 
 * **x &lt; y**       \#if x is less than y, return True​
@@ -51,6 +49,34 @@ print('a & b is',a & b)
 * **x &gt;= y**     \#if x is greater or equal to y, return True​
 
 * **x &lt;= y**     \#if x is less or equal to y, return True
+
+**Example:**
+
+```
+a=7
+b=4
+
+print('a > b is',a>b)
+
+print('a < b is',a<b)
+
+print('a == b is',a==b)
+
+print('a != b is',a!=b)
+
+print('a >= b is',a>=b)
+
+print('a <= b is',a<=b)
+
+
+#Output
+a > b is True
+a < b is False
+a == b is False
+a != b is True
+a >= b is True
+a <= b is False
+```
 
 ### Membership Operators
 
@@ -66,6 +92,45 @@ print('a & b is',a & b)
 
 * **and         **\#Evaluates true if expressions on both sides of the operator are true. 
 * **or            **\#Evaluates true if expressions on either side of the operator are true.
+
+**Example:**
+
+```
+a=7
+b=4
+
+# Result: a and b is 4
+print('a and b is',a and b)
+
+# Result: a or b is 7
+print('a or b is',a or b)
+
+# Result: not a is False
+print('not a is',not a)
+
+
+#Output
+a and b is 4
+a or b is 7
+not a is False
+```
+
+### Assignment Operators
+
+| Operator | Example | Similar |
+| :---: | :---: | :---: |
+| = | x = 8 | x = 8 |
+| += | x += 8 | x = x + 8 |
+| -= | x -= 8 | x = x - 8 |
+| \*= | x \*= 8 | x = x \* 8 |
+| /= | x /= 8 | x = x/8 |
+| %= | x %= 8 |  x = x%8 |
+| \*\*= | x \*\*= 8 | x = x\*\*8 |
+| &= | x &= 8 | x = x & 8 |
+| \|= | x \|= 8 | x = x\|8 |
+| ^= | x ^= 8 | x = x ^ 8 |
+| &lt;&lt;= | x &lt;&lt;= 8 | x = x &lt;&lt; 8 |
+| &gt;&gt;= | x &gt;&gt;= 8 | x = x &gt;&gt; 8 |
 
 
 
