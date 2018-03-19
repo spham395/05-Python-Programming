@@ -6,17 +6,35 @@ Bitwise Operators directly manipulate bits. There really is no speed advantage t
 
 ### Bitwise Operators:
 
-* **x &lt;&lt; y**     \#returns x left-shifted y places​
+* **x &lt;&lt; y**     \#shifts x to the left y number of places​
 
-* **x &gt;&gt; y **    \#returns x right-shifted y places​
+* **x &gt;&gt; y **    \#shifts x to the right y number of places​
 
-* **x & y**       \#bitwise and​
+* **x & y**       \#bitwise AND​ 
 
-* **x \| y **       \#bitwise or​
+* **x \| y **       \#bitwise OR
 
-* **x ^ y **      \#bitwise xor​
+* **x ^ y **      \#bitwise XOR
 
-* **~x**          \#returns the ones complement
+* **~x**          \# bitwise NOT - inverts all of the bits in a single operand \(ones complement\)
+
+**Example:**
+
+```
+a=4
+b=6
+
+#Bitwise AND: The result of 'a & b' is 4
+print('a & b is',a & b)
+
+#Output: a & b is 4
+
+
+ 0 0 0 0 0 1 0 0 &
+ 0 0 0 0 0 1 1 0
+ ------------------
+ 0 0 0 0 0 1 0 0 (the binary representation of the number 4)
+```
 
 ### Comparison Operators
 

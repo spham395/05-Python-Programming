@@ -16,7 +16,7 @@
   * [Tuples, xrange & buffer](chapter2/tuples.md)
   * [Mapping & Other Types \[Lab 2H\]](chapter2/dictionaries.md)
 * [Flow Control](chapter3/flow-control.md)
-  * [Operators \[Lab 3A\]\*](chapter3/operators.md)
+  * [Operators ](chapter3/operators.md)
   * [I/O Print \[Lab 3C\]](chapter3/io-print.md)
   * [I/O: Files \[Lab 3D\]](chapter3/io-files.md)
   * [If, Elif, Else](chapter3/if-elif-else.md)
