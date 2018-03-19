@@ -85,7 +85,7 @@ Byte Strings are simply just a sequence of bytes. In Python 2, bytes is an alias
 **Python 2**
 
 ```py
->>> x = u"I am a unicode string”"
+>>> x = u"I am a unicode string"
 >>> type(x)​
 <type 'unicode'>​
 >>> y = unicode("Look at me! I’m a unicode string.")​
@@ -97,7 +97,7 @@ Byte Strings are simply just a sequence of bytes. In Python 2, bytes is an alias
 **Python 3**
 
 ```py
->>> x = 'I am a unicode string”'
+>>> x = 'I am a unicode string'
 >>> type(x)​
 <class 'str'>​
 ​
@@ -120,7 +120,7 @@ o
 **Grab a range of elements**
 
 ```py
->>> x = "hello world”"
+>>> x = "hello world"
 >>> print x[4:9] # grabs 5th element to between 9th element​
 o wor
 ```
@@ -128,7 +128,7 @@ o wor
 **Grabbing backwards from the last element**
 
 ```py
->>> x = "hello world”"
+>>> x = "hello world"
 >>> print x[-3] # grabs 8th element (3 elements from end)​
 r
 ```
@@ -140,7 +140,7 @@ r
 ### More String Manipulation
 
 ```py
->>> my_string = "Hello World!”"
+>>> my_string = "Hello World!"
 >>> print my_string[0]​
 H​
 >>> print my_string[0:5]​
