@@ -48,9 +48,7 @@ while a <= 50:
 
 ### Lab 3C: The "Fun" House
 
-
-
-Create a text-based game where the user is navigating through a "Fun" House.  Prompt the user to make a decision and using **if/elif/else** statements, give them different outcomes based on their answers.  Begin with an introduction to your fun house and prompt the user to choose between at least three different options.
+Create a text-based game where the user is navigating through a "Fun" House.  Prompt the user to make a decision and using **if/elif/else** statements, give them different outcomes based on their answers.  Begin with an introduction to your fun house and prompt the user to choose between at least three different options.  You can use nested if/elif/else statements to make the game more complex.
 
 **Example:**
 
@@ -67,10 +65,10 @@ elif input == "2":
 
 elif input == "3":
     <code>
-    
+
 else:
     print "Go home you're drunk."
 ```
 
-  
+
 
