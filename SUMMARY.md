@@ -20,7 +20,7 @@
   * [I/O Print \[Lab 3A\]](chapter3/io-print.md)
   * [I/O: Files \[Lab 3B\]](chapter3/io-files.md)
   * [If, Elif, Else \[Lab 3C\]](chapter3/if-elif-else.md)
-  * [While Loops](chapter3/while-loops.md)
+  * [While Loops \[Lab 3D\]](chapter3/while-loops.md)
   * [For Loops](chapter3/for-loops.md)
   * [Break and Continue \[Lab 3B\]](chapter3/break-and-continue.md)
 * [Functions](functions.md)
