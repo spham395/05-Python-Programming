@@ -1,5 +1,7 @@
 # What is a sequence object?
 
+###### Reference: [Strings](https://docs.python.org/2.7/tutorial/introduction.html#strings)
+
 A sequence object is a container of items accessed via index. Text strings are technically sequence objects.
 
 #### Sequence Object Types:
