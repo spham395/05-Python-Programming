@@ -1,5 +1,7 @@
 # Numbers
 
+---
+
 ### Prefixes
 
 Prefixes convert types like **binary, hex and octal **into int.

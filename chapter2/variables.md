@@ -1,5 +1,7 @@
 # Variables
 
+---
+
 ## EVERYTHING IN PYTHON IS AN OBJECT!
 
 This is the single, most important thing I can teach you. The sooner you have an understanding of Object Oriented Programming, the quicker everything else falls into place.
