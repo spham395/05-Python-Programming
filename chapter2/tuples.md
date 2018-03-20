@@ -91,7 +91,7 @@ Buffer \(memoryview\) is useful if you don’t want to or can’t hold multiple 
 
 ### Practical Example
 
-Below is a great example displaying how much resources and time buffer\(memoryview\) can save you. Copy, paste and run the code yourself. The first set of prints will be normal... the second will be using memoryview. Notice the amount of time it takes to complete each set of operation in bytes vs memoryview. While that may seem small... when more data is being manipulated, the time increases exponentially. A quick example can be found by running the same code below, but moving the prints into the while loops.
+Below is a great example displaying how much resources and time buffer\(memoryview\) can save you. Copy, paste and run the code yourself. The first set of prints will be normal... the second will be using memoryview. Notice the amount of time it takes to complete each set of operations in bytes vs memoryview. While that may seem small... when more data is being manipulated, the time increases exponentially. A quick example can be found by running the same code below, but moving the prints into the while loops.
 
 ```py
 import time
