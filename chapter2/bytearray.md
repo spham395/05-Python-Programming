@@ -71,7 +71,7 @@ Python 2 strings, as noted above, are already byte/ascii strings. So all we have
 >>> b​
 bytearray(b'I am a string')​
 >>> b[2]​
-97 # decimal for space char​
+97 # decimal for 'a' char​
 >>> b[2] = 85​ # Modifying a byte
 >>> b​
 bytearray(b'I Um a string')​ # notice b did change without reassignment
@@ -86,7 +86,7 @@ Python 3 strings on the other hand need to be converted before you can pass them
 >>> b​
 bytearray(b'I am a string')​
 >>> b[2]​
-97 # decimal for space char​
+97 # decimal for 'a' char​
 >>> b[2] = 85​
 b​
 bytearray(b'I Um a string')​
