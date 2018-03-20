@@ -84,7 +84,7 @@ file.close()
 
 ---
 
-### Lab 3D: File handling
+### Lab 3B: File handling
 
 **Instructions: **Download the text file Lab3D\_GG.txt and follow the instructions below.
 

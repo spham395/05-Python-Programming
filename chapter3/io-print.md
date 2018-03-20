@@ -151,8 +151,6 @@ print '{:%Y-%m-%d %H:%M}'.format(datetime(2017, 10, 17, 10, 45))
 2017-10-17 10:45
 ```
 
- 
-
 | Format Symbol | Conversion |
 | :---: | :---: |
 | %c | character |
@@ -165,11 +163,9 @@ print '{:%Y-%m-%d %H:%M}'.format(datetime(2017, 10, 17, 10, 45))
 | %e | exponent notation |
 | %f | floating point real number |
 
- 
-
 ---
 
-### Lab 3C: Formatting
+### Lab 3A: Formatting
 
 Create your own mad libs game asking the user for input to fill in the blanks. Print out using .format\(\).
 
