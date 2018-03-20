@@ -83,9 +83,7 @@ Remember, lists are **MUTABLE!** This simply means we can modify it in place via
 * append\(\)
 
 * * Adds onto the end of the list​
-* change index \(ex: list\[i\]\)​
 
-* * Changes the specified index​
 * insert\(i,x\)​
 
 * * inserts object x into the list at offset index i\)​
