@@ -1,5 +1,7 @@
 # Bytes\(\)
 
+---
+
 It's worth re-mentioning that Python 2 and Python 3 have differences when it comes to bytes and strings. Python 2 strings are bytes naturally whereas Python 3 is unicode and needs to be defined as bytes. Here are a couple ways to turn Python 3 strings and such.. into bytes. This functionality is backwards compatible with Python 2. It's highly recommended you define Python 2 strings the same way if you are going to be modifying the bytes. Even though it doesn't do anything in Python 2... it will make the job of refactoring code easier, if you had to up Python version to 3.x.
 
 ```py

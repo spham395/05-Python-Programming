@@ -1,5 +1,7 @@
 # Mapping Types
 
+---
+
 ## Dictionary
 
 Dictionaries **are mutable **objects and consist of key-value mappings. \(ex: {key: ‘value’, key: ‘value’}  \). They are initiialized using the curly-brackets {}. Dictionaries are not ordered and support all value types.
