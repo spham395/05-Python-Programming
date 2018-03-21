@@ -108,21 +108,5 @@ Found "I turned myself" in "I turned myself into a pickle. I'm Pickle Riiiiick"
 Cound not find "I turned myself" in "I turned myself into a pickle. I'm Pickle Riiiiick"
 ```
 
----
-
-### Lab 6B
-
-Refactor your text editor or create a new Python program that allows the user to search for substrings within a file. You will need to use the PyDocs to look up additional functionality of regex. For example, **re.finditer** may help you. This refactor/program should include the functionality to:
-
-* Return a number of how many matches were found
-* Return the sentence/line in which the match was found
-* Allow the user to iterate through each found instance 
-
-**If you finish early:**
-
-* Allow the user to replace the found instance
-* Allow the user to search by line for specific line matches or lines starting with inputted substring
-* Highlight/apply color to found instances
-
 
 
