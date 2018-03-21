@@ -93,9 +93,10 @@ a <= b is False
 * **and         **\#Evaluates true if expressions on both sides of the operator are true. 
 * **or            **\#Evaluates true if expressions on either side of the operator are true.
 
-**Example:**
+**Examples:**
 
 ```
+# Example using bitwise operators
 a=7
 b=4
 
@@ -108,11 +109,30 @@ print('a or b is',a or b)
 # Result: not a is False
 print('not a is',not a)
 
-
 #Output
 a and b is 4
 a or b is 7
 not a is False
+
+
+
+# Example using 'in' operator
+list1=[1,2,3,4,5]
+list2=[6,7,8,9]
+for item in list1:
+    if item in list2:
+        print("overlapping")      
+else:
+    print("not overlapping")
+    
+    
+
+# Example of 'is' identity operator
+x = 5
+if (type(x) is int):
+    print ("true")
+else:
+    print ("false")
 ```
 
 ### Assignment Operators
