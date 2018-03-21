@@ -53,19 +53,21 @@ Create a text-based game where the user is navigating through a "Fun" House.  Pr
 **Example:**
 
 ```
-print "Welcome to Fun House! Choose door 1, 2, or 3...
+print "Welcome to Fun House! Choose door 1, 2, or 3..."
 
 input = raw_input("> ")
 
 if input == "1":
-    <code>
+    #<code>
+    print"1"
 
 elif input == "2":
-    <code>
+    #<code>
+    print "2"
 
 elif input == "3":
-    <code>
-
+    #<code>
+    print "3"
 else:
     print "Go home you're drunk."
 ```
