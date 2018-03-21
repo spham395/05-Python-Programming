@@ -37,7 +37,7 @@
   * [Exceptions](chapter5/object-oriented/exceptions.md)
   * [OOP Principles](chapter5/object-oriented/oop-principles.md)
 * [Advanced](advanced.md)
-  * [CTypes \[Lab 6A\]\*](ctypes.md)
+  * [CTypes ](ctypes.md)
   * [Regular Expressions ](regular-expressions.md)
   * [Additional Libraries and Modules](additional-libraries-and-modules.md)
   * [Multithreading](multithreading.md)
