@@ -37,6 +37,16 @@ Tuples are still sequence objects. You can still:​
 
 xrange\(\) is Similar to range\(\), returns xrange object \(sequence object\) instead of list. Intended to be a simple, efficient \(uses less resources due to one-at-time loading method vs loading all increments\) and a fast way to iterate through a range. In most cases, xrange\(\) will be the way to go. The only time you should use range\(\) is when you are going to be iterating over the list multiple times. This is because xrange\(\) will use more processing power over the length of the repeated iteration vs range... which will return a list and that list will stay and can be referenced whenever.
 
+#### Syntax
+
+**xrange**_\(stop\) _** xrange**_\(start, stop\[, step\]\)_
+
+_**start: **_ Required when full syntax is used. An integer specifying start value for the range.
+
+_**stop: **_ Required. The boundary value for the range.
+
+_**step: **_ Optional. Step value.
+
 ```py
 >>> for i in xrange(10):
 >>>    print i
