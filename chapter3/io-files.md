@@ -90,17 +90,17 @@ file.close()
 
 **Create a Python program to:**
 
-**1.** Read an entire text file.
+**1.** Read the entire text file.
 
-**2.** Read the first n lines of a file.
+**2.** Read the first n lines of the file.
 
-**3.** Append text to a file and read last n lines of a file.
+**3.** Append text to the file and read the last n lines of the file.
 
-**4.** Read a file line by line and store it into a list.
+**4.** Read the file line by line and store it into a list.
 
 **5.** Sort words from longest to shortest.
 
-**6.** Count the number of lines in a text file.
+**6.** Count the number of lines in the text file.
 
 **7.** Count how many times survive is used in the text.
 
