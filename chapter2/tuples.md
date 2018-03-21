@@ -55,7 +55,7 @@ xrange\(\) is Similar to range\(\), returns xrange object \(sequence object\) in
 >>> for i in xrange(2, 10, 2):
 >>>     print i
 2
-3
+4
 6
 8
 
