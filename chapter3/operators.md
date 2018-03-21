@@ -124,8 +124,9 @@ for item in list1:
         print("overlapping")      
 else:
     print("not overlapping")
-    
-    
+
+# Output: not overlapping
+
 
 # Example of 'is' identity operator
 x = 5
@@ -133,6 +134,8 @@ if (type(x) is int):
     print ("true")
 else:
     print ("false")
+    
+# Output: true
 ```
 
 ### Assignment Operators
