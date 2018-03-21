@@ -39,7 +39,7 @@ print "%s %s!" % ("Hello", "World")
 print '%10s' % ('test',)
 '      test'
 
-# Negative Padding 10 right
+# Negative Padding (10 right)
 print '%-10s' % ('test',)
 'test          '
 
