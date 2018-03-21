@@ -96,13 +96,13 @@ file.close()
 
 **3.** Append text to a file and read last n lines of a file.
 
-4**.** Read a file line by line and store it into a list.
+**4.** Read a file line by line and store it into a list.
 
-5**.** Sort words from longest to shortest.
+**5.** Sort words from longest to shortest.
 
-**9.** Count the number of lines in a text file.
+**6.** Count the number of lines in a text file.
 
-**10.** Count how many times survive is used in the text.
+**7.** Count how many times survive is used in the text.
 
-**13.** Copy the contents of the file to another file .
+**8.** Copy the contents of the file to another file .
 
