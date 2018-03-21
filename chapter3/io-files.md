@@ -86,7 +86,7 @@ file.close()
 
 ### Lab 3B: File handling
 
-**Instructions: **Download the text file Lab3D\_GG.txt and follow the instructions below.
+**Instructions: **Download the text file **Lab3D\_GG.txt** and follow the instructions below.
 
 **Create a Python program to:**
 
