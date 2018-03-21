@@ -138,17 +138,29 @@ things = {'car': 'BMW E30', 'motorcycle': 'Harley FXDX'}
 print 'My fav car {car} and motorcycle {motorcycle}'.format(**things)
 'My fav car BMW E30 and motorcycle Harley FXDX'
 
-# Keyword Arguments
-# EXCLUSIVE
-print '{first} {last}'.format(first='Old', last='Gregg')
-'Old Gregg'
-
 
 # Date and Time
 # EXCLUSIVE
 from datetime import datetime
 print '{:%Y-%m-%d %H:%M}'.format(datetime(2017, 10, 17, 10, 45))
 2017-10-17 10:45
+
+
+#Variables
+nBalloons = 8
+print("Sammy has {} balloons today!".format(nBalloons))
+
+Output
+Sammy has 8 balloons today!
+
+
+sammy = "Sammy has {} balloons today!"
+nBalloons = 8
+print(sammy.format(nBalloons))
+
+Output
+Sammy has 8 balloons today!
+
 ```
 
 | Format Symbol | Conversion |
