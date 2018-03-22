@@ -22,7 +22,7 @@
   * [If, Elif, Else \[Lab 3C\]](chapter3/if-elif-else.md)
   * [While Loops \[Lab 3D\]](chapter3/while-loops.md)
   * [For Loops \[Lab 3E\]](chapter3/for-loops.md)
-  * [Break and Continue \[Lab 3D\]](chapter3/break-and-continue.md)
+  * [Break and Continue \[Lab 3F\]](chapter3/break-and-continue.md)
 * [Functions](functions.md)
   * [Scope](functions/scope.md)
   * [User Functions](user-functions.md)
