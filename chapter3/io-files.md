@@ -2,6 +2,8 @@
 
 ---
 
+###### Reference: [File Objects](https://docs.python.org/2.7/library/stdtypes.html#bltin-file-objects)
+
 Python offers a robust and insanely easy to use toolset to interact with files.
 
 First, a file must be opened before it can be modified... this includes creating new files. We use the **open\(\) **function to achieve this. The first argument passed is the file name; rather it exists or not. The second argument is the operation in which we would like to perform. ex read, write, overwrite, etc.
