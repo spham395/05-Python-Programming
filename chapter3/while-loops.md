@@ -66,7 +66,7 @@ This gives us a clearer look at how Python increments variables.
 
 ---
 
-### Lab 3D: 
+### Lab 3D:
 
-
+Write a program that prompts a user to input an integer and calculates the factorial of that number using a while loop.
 
