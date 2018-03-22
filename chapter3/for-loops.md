@@ -53,3 +53,5 @@ for stu_id, name in x.iteritems():
 
 Write one function that prints out the first 100 numbers in the Fibonacci sequence iteratively and one recursively.
 
+
+
