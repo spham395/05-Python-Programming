@@ -80,10 +80,6 @@ print data
 file.close()
 ```
 
-###### Reference:
-
-###### [https://docs.python.org/2.7/library/stdtypes.html\#bltin-file-objects](https://docs.python.org/2.7/library/stdtypes.html#bltin-file-objects)
-
 ---
 
 ### Lab 3B: File handling
