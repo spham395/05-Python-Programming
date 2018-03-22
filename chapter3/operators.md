@@ -134,7 +134,7 @@ if (type(x) is int):
     print ("true")
 else:
     print ("false")
-    
+
 # Output: true
 ```
 
