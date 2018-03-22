@@ -55,3 +55,5 @@ Write one function that prints out the first 100 numbers in the Fibonacci sequen
 
 ![](/assets/13import.png)
 
+![](/assets/14import.png)
+
