@@ -47,5 +47,9 @@ for stu_id, name in x.iteritems():
     print "{}'s name is {}".format(stu_id, name)
 ```
 
+---
 
+### Lab 3E: Fibonacci \(Iterative vs Recursive\)
+
+Write one function that prints out the first 100 numbers in the Fibonacci sequence iteratively and one recursively.
 
