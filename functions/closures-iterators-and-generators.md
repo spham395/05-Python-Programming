@@ -115,3 +115,7 @@ Taking a look at the code above... we created a sequence object and iterated ove
 
 **Note: **When functions return all state is lost, a yield preserves local state and returns a generator object.
 
+### Lab 4B: _Janken Pon!_
+
+Create a game of Rock, Paper, Scissors.
+
