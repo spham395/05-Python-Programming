@@ -66,9 +66,7 @@ This gives us a clearer look at how Python increments variables.
 
 ---
 
-### Lab 3D: Fibonacci
+### Lab 3D: 
 
-Use a while loop to calculate the first 100 values in the Fibonacci sequence.
 
-**Bonus: **Let the user decide the starting number and decide how many values to print \(or the ending number\).
 
