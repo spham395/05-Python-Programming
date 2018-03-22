@@ -52,9 +52,9 @@ The advantages of using binary formatting primarily apply to Windows. Unlike Lin
 
 Once the file is open, we can begin reading, adding or modifying the file's contents. Below are some of the methods to make that happen.
 
-* f.write\(str\)         \# writest r to file​
+* f.write\(str\)         \# write str to file​
 
-* f.writelines\(str\) \# writest r to file​
+* f.writelines\(str\) \# write str to file​
 
 * f.read\(sz\)           \# read size amount​
 
