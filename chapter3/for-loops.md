@@ -49,7 +49,7 @@ for stu_id, name in x.iteritems():
 
 ---
 
-### Lab 3E: Fibonacci \(Iterative vs Recursive\)
+### Performance Lab 3E: Fibonacci \(Iterative vs Recursive\)
 
 Write one function that prints out the first 100 numbers in the Fibonacci sequence iteratively and one recursively.
 
