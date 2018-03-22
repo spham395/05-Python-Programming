@@ -26,7 +26,7 @@
 * [Functions](functions.md)
   * [Scope](functions/scope.md)
   * [User Functions](user-functions.md)
-  * [Lambda Functions \[Lab 4A\]\*](functions/lambda-functions.md)
+  * [Lambda Functions \[Lab 4A\]](functions/lambda-functions.md)
   * [List Comprehension](functions/list-comprehension.md)
   * [Closures, Iterators & Generators](functions/closures-iterators-and-generators.md)
 * [Object Oriented](chapter5/object-oriented.md)
