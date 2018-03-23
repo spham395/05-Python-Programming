@@ -51,7 +51,17 @@ for stu_id, name in x.iteritems():
 
 ### Loops: Iterative vs Recursive
 
-### 
+Iteration and recursion each involve a termination test: Iteration terminates when the loop-continuation condition fails; recursion terminates when a base case is recognized. 
+
+Recursion repeatedly invokes the mechanism, and consequently the overhead, of method calls. This can be expensive in both processor time and memory space. In almost all cases it is better to use iterative loops.
+
+**Iteration**
+
+When a loop repeatedly executes until the controlling condition becomes false.
+
+**Recursion**
+
+When a statement in a function calls itself repeatedly.
 
 ---
 
