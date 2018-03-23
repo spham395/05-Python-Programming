@@ -31,7 +31,7 @@ for letter in my_string:
 
 So easy, a caveman can do it! But, how does this happen under the hood?
 
-Remember Data Types chapter? Strings are iterable just like in C. The "in" operator simply calculates the count of my\_string and iterates through it as var letter. The value of letter is my\_string\[i\].
+Remember Data Types chapter? Strings are iterable just like in C. The "in" operator simply calculates the count of my\_string and iterates through it as var letter. The value of letter is my\_string\[i\]. 
 
 ## For Looping Dictionaries
 
@@ -46,6 +46,12 @@ x = {'stu1':'James', 'stu2':'Bob', 'stu3':'Rengar'}
 for stu_id, name in x.iteritems():
     print "{}'s name is {}".format(stu_id, name)
 ```
+
+ 
+
+ 
+
+ 
 
 ---
 
