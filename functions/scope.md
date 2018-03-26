@@ -56,7 +56,8 @@ sales_tax()
 #### Built-In
 
 * Loaded into scope when interpreter starts up. \(Ex: hash\(\), min\(\), dict\(\), print\(\), etc\)
-  ---
+
+---
 
 **Example:**
 
