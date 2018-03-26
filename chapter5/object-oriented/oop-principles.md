@@ -17,8 +17,6 @@ Capturing the essential internal state and methods that cause state change is th
 
 The goal is to create classes that have the proper behavior and also adhere to the design principles.
 
-
-
 ### Function Style {#ch45lev1sec2}
 
 All the other rules I’ve taught you about how to make a function nice apply here, but add these things:
@@ -66,4 +64,10 @@ All the other rules I’ve taught you about how to make a function nice apply he
 • When you write doc comments for your functions, make the comments documentation for someone who will have to use your code. You do not have to go crazy, but a nice little sentence about what someone can do with that function helps a lot.
 
 • Finally, while comments are good, too many are bad, and you have to maintain them. Keep your comments relatively short and to the point, and if you change a function, review the comment to make sure it’s still correct.
+
+
+
+### Lab 5A: _Janken Pon!_
+
+Create a game of Rock, Paper, Scissors.
 
