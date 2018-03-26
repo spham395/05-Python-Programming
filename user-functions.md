@@ -40,7 +40,7 @@ def divisable_by(num, amount):
             print "{} divided by {} equals: {}".format(num, i, num / i)
             amount -= 1
         i += 1
-print(divisable_by(900, 10))
+divisable_by(900, 10)
 ```
 
 ## Parameters and Arguments
@@ -59,7 +59,7 @@ def divisable_by(num, amount = 5):
             print "{} divided by {} equals: {}".format(num, i, num / i)
             amount -= 1
         i += 1
-print(divisable_by(900, 10))???
+divisable_by(900, 10)???
 ```
 
 **Safe Way**
@@ -78,7 +78,7 @@ def divisable_by(num, amount=None):
             print "{} divided by {} equals: {}".format(num, i, num / i)
             amount -= 1
         i += 1
-print(divisable_by(900))???
+divisable_by(900)???
 ```
 
 #### Arguments
@@ -99,9 +99,10 @@ sales_tax(200) # Function call and argument 200
 
 ##### \*args and \*\*kwargs
 
-* \*args are used to pass a non-keyworded, variable-length argument list
-* \*\*kwargs is used to pass a keyworded, variable-length argument list
-* kwargs are placed in dictionaries
+* \*args are used to pass a non-keyworded, variable-length argument list.
+* \*\*kwargs is used to pass a keyworded, variable-length argument list.
+*  A keyword argument is where you provide a name to the variable as you pass it into the function.
+* kwargs are placed in dictionaries.
 
 **Example:**
 
