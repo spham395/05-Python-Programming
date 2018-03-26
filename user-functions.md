@@ -17,13 +17,16 @@ def function_name(parameters):
 
 ```py
 def name_upper(name):
+    name = name*2
     return name
+print(name_upper('Frank'))
 ```
 
 **With no return value:**
 
 ```py
 def name_upper(name):
+    <code>
     print name
 ```
 
