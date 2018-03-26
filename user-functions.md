@@ -177,7 +177,7 @@ Pass by Object Reference simply means that objects passed to the functions are r
 
 ```py
 #Define the function
-def append_one(li)
+def append_one(li):
     li.append(1)
 
 # Declare and set a variable
