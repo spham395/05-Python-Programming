@@ -158,8 +158,6 @@ print args.input
 
 ###### Reference: [Argparse Tutorial](https://docs.python.org/2/howto/argparse.html)
 
-
-
 ## Returning
 
 With functions, you have the choice to return a variable. This is done so that the function becomes it's own local scope... keeping the global scope clean from any interference that the function may cause. If you want to bring a local function variable outside of the local scope... return a variable. With that said, returned values can be reassigned. If you find yourself having to return a ton of variables, either use a sequence or mapping object or split up the functionality into additional functions.
