@@ -37,6 +37,12 @@ Lambdas, in short, are anonymous functions. Functions without a name. They are g
 
 Due to the fact that they have their own local namespace... Lambdas cannot access variables other than those in their parameters list and globals.
 
+#### **Example:**
+
+```
+def factorial(n):return reduce(lambda x,y:x*y,[1]+range(1,n+1))
+```
+
 #### **Breakdown of a Lambda**
 
 ```py
@@ -50,8 +56,6 @@ def reg_function(x): return x**2
 # Turn it into a lambda
 new_stuff = lambda x: x**2
 ```
-
- 
 
 ---
 

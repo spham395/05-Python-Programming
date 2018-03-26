@@ -101,7 +101,7 @@ sales_tax(200) # Function call and argument 200
 
 * \*args are used to pass a non-keyworded, variable-length argument list.
 * \*\*kwargs is used to pass a keyworded, variable-length argument list.
-*  A keyword argument is where you provide a name to the variable as you pass it into the function.
+* A keyword argument is where you provide a name to the variable as you pass it into the function.
 * kwargs are placed in dictionaries.
 
 **Example:**
@@ -154,6 +154,12 @@ parser.add_argument('-i','--input',help='Input arg', required=True)
 args = parser.parse_args()
 
 print args.input
+```
+
+#### **Example:**
+
+```
+
 ```
 
 ## Returning
