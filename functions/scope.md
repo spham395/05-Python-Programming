@@ -1,6 +1,6 @@
 # Scope
 
-Scope refers to the visibility of variables. To be more clear, what parts of your program see what variables. In Python, we use **LEGB Rule:**
+Scope refers to the visibility of variables. To be more clear, what parts of your program see which variables. In Python, we use the ** LEGB Rule:**
 
 ![](/assets/scope_resolution_1.png)
 
