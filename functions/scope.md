@@ -17,7 +17,6 @@ def sales_tax(amount):
 
 # Call function and pass parameter
 sales_tax(200)
-print tax_total #???
 ```
 
 #### Enclosing-Function Global
