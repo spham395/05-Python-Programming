@@ -114,7 +114,7 @@ def my_func2(**kwargs):
     for key, value in kwargs.iteritems():
         print key, value
 my_func1('two', 3, 'four', 5)
-my_func2(a=12, b = 'abc')
+my_func2(a = 12, b = 'abc')
 ```
 
 ## Calling a Function

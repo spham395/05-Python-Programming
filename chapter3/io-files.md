@@ -86,7 +86,7 @@ file.close()
 
 **Instructions: **Download the text file **Lab3D\_GG.txt** and follow the instructions below.
 
-**Create a Python program to:**
+**Create a Python program to **\(you can write one program to run all functions or each individually\)**:**
 
 **1.** Read the entire text file.
 
