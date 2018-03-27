@@ -65,7 +65,7 @@ All the other rules I’ve taught you about how to make a function nice apply he
 
 • Finally, while comments are good, too many are bad, and you have to maintain them. Keep your comments relatively short and to the point, and if you change a function, review the comment to make sure it’s still correct.
 
-### Bonus Lab: _Janken Pon!_
+### 
 
-Create a game of Rock, Paper, Scissors.
+
 
