@@ -1,5 +1,7 @@
 # Regular Expressions
 
+---
+
 Regular expressions, often referred to as REs or regexes, are bits of small and highly specialized programming language embedded inside Python. The PyDocs actually contains an entire page on how to use regex. We will be touching on some of it's functionality... it'll be up to you to utilize the PyDocs and take your knowledge to the next level.
 
 **PyDocs HOWTO**
