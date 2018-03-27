@@ -1,6 +1,8 @@
 # UnitTesting
 
-Unit testing is a development process where parts of small code \(called units\) are individually and independently tested for proper operation. This can of course be done manually... but it more often automated. This is an extremely important habit to build. 
+---
+
+Unit testing is a development process where parts of small code \(called units\) are individually and independently tested for proper operation. This can of course be done manually... but it more often automated. This is an extremely important habit to build.
 
 Python offers a powerful built in unit testing module called unittest.
 
@@ -11,8 +13,6 @@ Python offers a powerful built in unit testing module called unittest.
 **PyDocs**
 
 [https://docs.python.org/2/library/unittest.html](https://docs.python.org/2/library/unittest.html)
-
-
 
 **Example:**
 
@@ -45,7 +45,7 @@ Ran 1 test in 0.001s
 OK
 ```
 
-In our case, this is exactly what we want to see. But what happens if the test case fails? Let's pass in the argument 4 to addx and see. 
+In our case, this is exactly what we want to see. But what happens if the test case fails? Let's pass in the argument 4 to addx and see.
 
 ```
 F
@@ -72,23 +72,23 @@ FAILED (failures=1)
 
 ### Doctest
 
-The doctest module searches for sections of text that look like interactive Python sessions in docstrings, and then executes them to verify that they work. 
+The doctest module searches for sections of text that look like interactive Python sessions in docstrings, and then executes them to verify that they work.
 
 ```py
 def addition(x, y):
-	""" Return x plus y
+    """ Return x plus y
 
-	>>> addition(3, 3)
-	6
-	>>> addition(5, 2)
-	1
-	"""
+    >>> addition(3, 3)
+    6
+    >>> addition(5, 2)
+    1
+    """
 
-	return x + y
+    return x + y
 
 if __name__ == '__main__':
-	import doctest
-	doctest.testmod()
+    import doctest
+    doctest.testmod()
 ```
 
 ```
@@ -107,13 +107,7 @@ Got:
 PS C:\Users\xconstaud\Documents\Python\re>
 ```
 
-
-
 # Conclusion
 
-As you have guessed, this can be insanly useful. In most cases, spending the extra time unit testing will save you a lot more time over debugging. 
-
-
-
-
+As you have guessed, this can be insanly useful. In most cases, spending the extra time unit testing will save you a lot more time over debugging.
 
