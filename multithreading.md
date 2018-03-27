@@ -1,5 +1,7 @@
 # Multithreading
 
+---
+
 ![](/assets/e0d5117bef35ea6a2f1a7baa7c1d029abb76060387f51ba05aa8f7b632782b40.jpg)
 
 **Multithreading is similar to running multiple programs concurrently... but better. **
@@ -53,6 +55,4 @@ thread 9 woke up
 ```
 
 Your output may not look like mine... that is okay. The time in which the workers start is almost always random due to how concurrent their launch sequences are.
-
-
 
