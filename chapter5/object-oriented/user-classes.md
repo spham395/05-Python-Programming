@@ -1,5 +1,7 @@
 # User Classes
 
+---
+
 Classes are used to create objects that bundle data and functionality together. With this, classes are highly reusable, cleaner and more efficient. Here are some considerations:
 
 * Python is typically 5-10x shorter than C++
