@@ -80,7 +80,7 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-As we learned in the Data Types lecture... xrange\(\) loads one at a time. The yrange\(\) class here does the same thing. There is lists, tuples, etc loaded up. Instead, we deal with two variables... i and n.
+As we learned in the Data Types lecture... xrange\(\) loads one at a time. The yrange\(\) class here does the same thing. There are lists, tuples, etc... loaded up. Instead, we deal with two variables: i and n.
 
 ## Generators
 
@@ -114,8 +114,4 @@ for i in my_gen:
 Taking a look at the code above... we created a sequence object and iterated over it using a for loop.
 
 **Note: **When functions return all state is lost, a yield preserves local state and returns a generator object.
-
-
-
-
 
