@@ -1,5 +1,7 @@
 # Packages
 
+---
+
 Packages are a way to structure Python's module namespace. Essentially a package is just a collection of modules. A module named \_**\_**_\*\*init.py\_\_ \*\*\_is required to treat the directory as a package. This file can contain initialization code... but it's often best to leave it blank.
 
 ### Package Structure
