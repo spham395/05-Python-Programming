@@ -17,7 +17,7 @@ def square_list(a_list):
         a.append(item*item)
     return a
 
-    print square_list(a_list)
+print square_list(a_list)
 
 # Output
 [1, 4, 9, 16, 25]
