@@ -1,6 +1,10 @@
 # Welcome to Python
 
+---
+
 ![](/assets/python-logo-master-v3-TM.png)
+
+---
 
 #### Chapters:
 
