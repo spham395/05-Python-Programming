@@ -4,9 +4,36 @@
 
 Classes are used to create objects that bundle data and functionality together. With this, classes are highly reusable, cleaner and more efficient. Here are some considerations:
 
-* Python is typically 5-10x shorter than C++
-* There isn't a protected, public or private keyword per-say. 
-* Python is better as a "glue" program or for fast implementations. Thus why we use Python in socket programming for example.
+**Keywords** 
+
+Reserved words of the language, and cannot be used as ordinary identifiers. They must be spelled exactly as written here:
+
+```
+and       del       from      not       while    
+as        elif      global    or        with     
+assert    else      if        pass      yield    
+break     except    import    print     
+class     exec      in        raise              
+continue  finally   is        return             
+def       for       lambda    try
+```
+
+###### 
+
+To verify that a string is a keyword you can use [`keyword.iskeyword`](https://docs.python.org/3/library/keyword.html#keyword.iskeyword); to get the list of reserved keywords you can use [`keyword.kwlist`](https://docs.python.org/3/library/keyword.html#keyword.kwlist):
+
+```
+>>> import keyword
+>>> keyword.iskeyword('break')
+True
+>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 
+ 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 
+ 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 
+ 'while', 'with', 'yield']
+```
+
+
 
 ### Creating an Instance in a Different File
 

@@ -14,7 +14,7 @@ math_stuff/ #top directory
     Calculator.py #calculator class module
 more_math_stuff/ #additional package 
     __init__.py 
-        other_modules.py
+    other_modules.py
 ```
 
 #### How to Import From a Package
@@ -25,11 +25,11 @@ So let's take the package below and walk through an import.
 math_stuff/
     __init__.py
     fib.py
-    triangle.py # run this file
+    triangle.py 
     Calculator.py
-    more_math_stuff/
-        __init__.py 
-        other_modules.py # import this module
+more_math_stuff/ 
+    __init__.py 
+    other_modules.py  # import and run this file (module)
 ```
 
 ```py

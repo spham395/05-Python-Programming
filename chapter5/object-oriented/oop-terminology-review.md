@@ -12,7 +12,7 @@ a.x means fetch the x attribute from the 'a' object.
 
 **Argument**
 
-*  A value passed to a function \(or method\) when calling the function. There are two types of arguments:
+* A value passed to a function \(or method\) when calling the function. There are two types of arguments:
 
 * _keyword argument_: an argument preceded by an identifier \(e.g. `name=`\) in a function call or passed as a value in a dictionary preceded by `**`. For example, `3` and `5` are both keyword arguments in the following calls to `complex()`:
 
@@ -144,7 +144,7 @@ def function_name(parameters, named_default_parameter=value):
 
 **Namespace**
 
-* The place where a variable is stored in a Python program's memory. Namespaces are implemented as a dictionary. There are the local, global and builtins namespaces and the nested namespaces in objects \(in methods\).
+* A mapping from names to objects. The namespace is a place where a variable is stored in a Python program's memory. Namespaces are implemented as a dictionary. There are the local, global and builtins namespaces and the nested namespaces in objects \(in methods\).
 
 **Nested Scope**
 
@@ -176,7 +176,7 @@ def function_name(parameters, named_default_parameter=value):
 
 **Type**
 
-*  The type of a Python object determines what kind of object it is; every object has a type. An object’s type is accessible as its [`__class__`](https://docs.python.org/2/library/stdtypes.html#instance.__class__) attribute or can be retrieved with `type(obj)`.
+* The type of a Python object determines what kind of object it is; every object has a type. An object’s type is accessible as its [`__class__`](https://docs.python.org/2/library/stdtypes.html#instance.__class__) attribute or can be retrieved with `type(obj)`.
 
 **Variable**
 
