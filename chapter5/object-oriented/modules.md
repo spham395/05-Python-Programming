@@ -7,6 +7,8 @@ Modules are reusable code for use across other scripts. Modules are single files
 ### Module Structure
 
 ```py
+#/usr/lib/python/site-packages/triangle/__init__.py
+
 divisor_count_to_find = 500
 
 def triangle_number(n):
