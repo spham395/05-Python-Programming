@@ -73,7 +73,7 @@ resident.setAge(23)
 print "{} is a {} and is {} years of age.".format(resident.getLastName(), resident.getStatus(), resident.getAge())
 ```
 
-### Bonus Lab: _Janken Pon!_
+### 
 
-Create a game of Rock, Paper, Scissors using classes.
+
 

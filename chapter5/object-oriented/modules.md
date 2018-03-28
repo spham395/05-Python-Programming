@@ -38,7 +38,9 @@ if __name__ == '__main__':
     start()
 ```
 
- In other words, a module is a file containing Python definitions and statements. The file name is the module name with the suffix `.py` appended \(every .py file is a module\). Within a module, the module’s name \(as a string\) is available as the value of the global variable `__name__`.
+###### Reference: [if \_\_name\_\_ == '\_\_main\_\_':](http://codenhance.com/2015/10/20/wtf-is-if-name-equals-main.html)
+
+In other words, a module is a file containing Python definitions and statements. The file name is the module name with the suffix `.py` appended \(every .py file is a module\). Within a module, the module’s name \(as a string\) is available as the value of the global variable `__name__`.
 
 ### Using Modules
 
