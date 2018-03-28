@@ -1,5 +1,7 @@
 # **Intro to Python**
 
+---
+
 Python is a high level programming language used for generic-purpose programming, created by Gudio van Rossum and released in 1991. Python's design philosophy focuses code readability and syntax that allows programers to express concepts in fewer lines of code. It's dynamic type system, auto memory management and standard library rest at it's core. Python is open source.
 
 ## Why Python?
@@ -17,8 +19,6 @@ Python is a high level programming language used for generic-purpose programming
 * **General Language:** can be used to do just about anything.​
 
 * **Object Oriented Programming:** allows code to be reused, encapsulated, maintained easier and organized cleaner.​
-
-
 
 ## Python Usage
 
