@@ -70,8 +70,9 @@
 
 **Operator Overloading**
 
-* Operator Overloading is the ability to change the meaning of an operator. This is often done by assigning more than one function to a particular operator. 
-  ---
+* ## Operator Overloading is the ability to change the meaning of an operator. This is often done by assigning more than one function to a particular operator.
+
+---
 
 ### Bonus Lab: _Janken Pon!_
 
