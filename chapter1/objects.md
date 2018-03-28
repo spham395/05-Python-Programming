@@ -1,5 +1,7 @@
 # Objects
 
+---
+
 Python has no unboxed or primitive types, no machine values. Instead, **everything in Python is an Object! **Objects involve an abstract way of thinking about programming. Down to the core, an object is just a struct; an encapsulation of variables and functions into a single entity. But on the surface, objects provide inheritance and other powerful uses.
 
 * **Inheritance **simply means an object can be assigned to a variable or passed into a function for example. 
