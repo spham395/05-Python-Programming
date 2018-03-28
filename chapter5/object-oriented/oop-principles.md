@@ -2,6 +2,10 @@
 
 ---
 
+**Object Oriented: ** Programming typified by a data-centered \(as opposed to a function-centered\) approach to program design.
+
+
+
 Capturing the essential internal state and methods that cause state change is the first step in good class design. We can summarize some helpful design principles using the acronym **S.O.L.I.D**.:
 
 * **Single Responsibility Principle**

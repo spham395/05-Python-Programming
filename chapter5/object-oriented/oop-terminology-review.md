@@ -4,7 +4,7 @@
 
 **Attribute**
 
-*  Values associated with an individual object. Attributes are accessed using the 'dot syntax':
+* Values associated with an individual object. Attributes are accessed using the 'dot syntax':
 
 ```
 a.x means fetch the x attribute from the 'a' object.
@@ -18,8 +18,9 @@ a.x means fetch the x attribute from the 'a' object.
 
 **Class**
 
-* "Classes provide a means of bundling data and functionality together. Creating a new class creates a new
-  type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods \(defined by its class\) for modifying its state."
+* A template for creating user-defined objects. Class definitions normally contain method definitions that operate on instances of the class.
+
+* Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods \(defined by its class\) for modifying its state.
 
 **Class Variable**
 
@@ -32,17 +33,23 @@ a.x means fetch the x attribute from the 'a' object.
   print TestClass.i
   ```
 
-Constructor
+**Constructors**
+
+* Fuctions that are automatically called when you create a new instance of a class.
 
 **Conditional Statement**
 
 * Statement that contains an "if" or "if/else".
 
-Deconstructor
+**Deconstructor**
 
 **def**
 
 * Defines a function or method
+
+**Debugging**
+
+* The process of finding and removing programming errors.
 
 **Function**
 
@@ -70,11 +77,17 @@ def function_name(parameters, named_default_parameter=value):
   someFunc(1,2,3)
   ```
 
+**Immutable**
+
+* An object with fixed value. Immutable objects include numbers, strings and tuples.
+
 **Inheritance**
 
 * A term used in OOP meaning that classes can inherit from other classes. In other words, it's the transfer of characteristics from one class to another class/classes that are derived from it. 
 
-Initialization 
+Initialization
+
+
 
 **Instance**
 
@@ -99,15 +112,23 @@ Initialization
 
 * Instantiation is the act of creating an object instance from a class.
 
+**Lambda**
+
+* A shorthand to create anonymous functions.
+
 Library
 
 Magic Method
 
 **Method**
 
-* A method is similar to a function but is associated with an object. Methods always take a class instance \(almost always 'self'\) as their first parameter. 
+* Methods are functions that are called using the attribute notation. There are two flavors: built-in methods \(such as append\(\) on lists\) and class instance methods. A method is similar to a function but is associated with an object.
 
 Module
+
+**Namespace**
+
+* The place where a variable is stored in a Python program's memory. Namespaces are implemented as a dictionary. There are the local, global and builtins namespaces and the nested namespaces in objects \(in methods\).
 
 **Object**
 
@@ -121,11 +142,19 @@ Package
 
 Parameter
 
-Type
+**Self**
 
-Value
+* Represents the instance of the class. By using the "_self_" keyword we can access the _attributes_ and _methods_ of the class in python.
+
+
+
+**Value**
+
+* Placeholder for texts and numbers. The equal sign \(=\) is used to assign values to variables.
 
 Variable
+
+
 
 ---
 
