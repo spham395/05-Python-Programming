@@ -4,7 +4,7 @@
 
 Classes are used to create objects that bundle data and functionality together. With this, classes are highly reusable, cleaner and more efficient. Here are some considerations:
 
-**Keywords**
+#### **Keywords**
 
 Reserved words of the language, and cannot be used as ordinary identifiers. They must be spelled exactly as written here:
 
@@ -31,7 +31,7 @@ True
  'while', 'with', 'yield']
 ```
 
-### Creating an Instance in a Different File
+#### Creating an Instance in a Different File
 
 ```py
 from MyClass import MyClass
@@ -40,7 +40,7 @@ x = MyClass(name = "Iron Man")
 print x.getName()
 ```
 
-## Python Specific
+#### Python Specific
 
 ```
 __init__ (Constructor)
@@ -48,7 +48,7 @@ __del__ (Deconstructor)
 ```
 
 * It's best to name the Python file after the class name/vise-versa.
-* class ClassName\(object\): -- to define class
+* `class ClassName(object):` -- to define class
 * Name classes using CapWords convention \(camel-case\)
 * Variables defined under classes are shared though all instances
 * Variables defined in methods are only for a single instance
@@ -70,7 +70,6 @@ __init__, __del__, __repr__, __str__, __cmp__
 ```
 
 * dir\(\), type\(\), isinstance\(\) are built in functions
-* Once again, Python doesn't really have public, protected or private. A single _"\_" prefix indicates internal usage. "\__\_" hides attributes name. 
 
 ## Composition vs Inheritance
 
@@ -89,7 +88,7 @@ __init__, __del__, __repr__, __str__, __cmp__
 
 ```py
 from USResident import USResident
-# pass init arguments. Must include additional argument for status
+
 resident = USResident("Joe Smo", "citizen")
 resident.setAge(23)
 

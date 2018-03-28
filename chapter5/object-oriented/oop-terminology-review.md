@@ -166,6 +166,10 @@ def function_name(parameters, named_default_parameter=value):
 
 * A named entity in a function \(or method\) definition that specifies an argument \(or in some cases, arguments\) that the function can accept.
 
+**Polymorphism**
+
+* The ability to leverage the same interface for different underlying forms such as data typesclasses or functions. This permits  to use entities of different types at different times.
+
 **Self**
 
 * Represents the instance of the class. By using the "_self_" keyword we can access the _attributes_ and _methods_ of the class in python.
