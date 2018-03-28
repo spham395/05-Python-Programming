@@ -12,7 +12,7 @@
 * #### Python Interpetor
 * #### Running Python
 
-#### 
+---
 
 ### By the end of this lesson you should know:
 
