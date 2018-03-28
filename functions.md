@@ -10,6 +10,8 @@
 * #### List Comprehension
 * #### Closures, iterators and Generators
 
+---
+
 ### By the end of this lesson you should know:
 
 * How to define and utilize user functions
@@ -22,8 +24,6 @@
 * What closures are and how to use them
 * What an iterator is
 * How to use generators
-
-
 
 
 
