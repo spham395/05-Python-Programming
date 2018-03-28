@@ -1,5 +1,7 @@
 # Running Python
 
+---
+
 ## Python Interpreter
 
 There are a couple of ways to execute Python code. One way is through the **Python Interpreter,** which allows for on the fly code testing and sandboxing. The Python Interpreter uses **REPL:**
