@@ -4,7 +4,7 @@
 
 Classes are used to create objects that bundle data and functionality together. With this, classes are highly reusable, cleaner and more efficient. Here are some considerations:
 
-**Keywords** 
+**Keywords**
 
 Reserved words of the language, and cannot be used as ordinary identifiers. They must be spelled exactly as written here:
 
@@ -18,8 +18,6 @@ continue  finally   is        return
 def       for       lambda    try
 ```
 
-###### 
-
 To verify that a string is a keyword you can use [`keyword.iskeyword`](https://docs.python.org/3/library/keyword.html#keyword.iskeyword); to get the list of reserved keywords you can use [`keyword.kwlist`](https://docs.python.org/3/library/keyword.html#keyword.kwlist):
 
 ```
@@ -32,8 +30,6 @@ True
  'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 
  'while', 'with', 'yield']
 ```
-
-
 
 ### Creating an Instance in a Different File
 
