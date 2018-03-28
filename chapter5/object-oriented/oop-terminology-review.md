@@ -12,9 +12,21 @@ a.x means fetch the x attribute from the 'a' object.
 
 **Argument**
 
-* ```
-  Extra information which the computer uses to perform commands.
-  ```
+*  A value passed to a function \(or method\) when calling the function. There are two types of arguments:
+
+* _keyword argument_: an argument preceded by an identifier \(e.g. `name=`\) in a function call or passed as a value in a dictionary preceded by `**`. For example, `3` and `5` are both keyword arguments in the following calls to `complex()`:
+
+```
+complex(real=3, imag=5)
+complex(**{'real': 3, 'imag': 5})
+```
+
+* _positional argument_: an argument that is not a keyword argument. Positional arguments can appear at the beginning of an argument list and/or be passed as elements of an iterable preceded by `*`. For example, `3` and `5` are both positional arguments in the following calls:
+
+```
+complex(3, 5)
+complex(*(3, 5))
+```
 
 **Class**
 
@@ -42,6 +54,8 @@ a.x means fetch the x attribute from the 'a' object.
 * Statement that contains an "if" or "if/else".
 
 **Deconstructor**
+
+* Called when an object gets destroyed. It’s the polar opposite of the constructor, which gets called on creation. These methods are only called on creation and destruction of the object. They are not called manually but completely automatic.
 
 **def**
 
@@ -77,6 +91,10 @@ def function_name(parameters, named_default_parameter=value):
   someFunc(1,2,3)
   ```
 
+**Generator**
+
+* A function which returns an iterator. It looks like a normal function except that it contains [`yield`](https://docs.python.org/2/reference/simple_stmts.html#yield) statements for producing a series of values usable in a for-loop or that can be retrieved one at a time with the [`next()`](https://docs.python.org/2/library/functions.html#next) function.
+
 **Immutable**
 
 * An object with fixed value. Immutable objects include numbers, strings and tuples.
@@ -84,10 +102,6 @@ def function_name(parameters, named_default_parameter=value):
 **Inheritance**
 
 * A term used in OOP meaning that classes can inherit from other classes. In other words, it's the transfer of characteristics from one class to another class/classes that are derived from it. 
-
-Initialization
-
-
 
 **Instance**
 
@@ -116,19 +130,25 @@ Initialization
 
 * A shorthand to create anonymous functions.
 
-Library
+**Library**
 
-Magic Method
+* A library is used loosely to describe a collection of the core modules.The term ‘standard library‘ in Python language refers to the collection of exact syntax, token and semantics of the Python language which comes bundled with the core Python distribution.
 
 **Method**
 
 * Methods are functions that are called using the attribute notation. There are two flavors: built-in methods \(such as append\(\) on lists\) and class instance methods. A method is similar to a function but is associated with an object.
 
-Module
+**Module**
+
+* The basic unit of code reusability in Python. A block of code imported by some other code.
 
 **Namespace**
 
 * The place where a variable is stored in a Python program's memory. Namespaces are implemented as a dictionary. There are the local, global and builtins namespaces and the nested namespaces in objects \(in methods\).
+
+**Nested Scope**
+
+* The ability to refer to a variable in an enclosing definition. For instance, a function defined inside another function can refer to variables in the outer function.
 
 **Object**
 
@@ -138,23 +158,31 @@ Module
 
 * Operator Overloading is the ability to change the meaning of an operator. This is often done by assigning more than one function to a particular operator.
 
-Package
+**Package**
 
-Parameter
+* A directory of Python module\(s\). \(Technically, a package is a Python module with an `__path__` attribute.\)
+
+**Parameter**
+
+* A named entity in a function \(or method\) definition that specifies an argument \(or in some cases, arguments\) that the function can accept.
 
 **Self**
 
 * Represents the instance of the class. By using the "_self_" keyword we can access the _attributes_ and _methods_ of the class in python.
 
+**Special Method**
 
+* A method that is called implicitly by Python to execute a certain operation on a type, such as addition. Such methods have names starting and ending with double underscores. Special methods are documented in [Special method names](https://docs.python.org/2/reference/datamodel.html#specialnames).
 
-**Value**
+**Type**
+
+*  The type of a Python object determines what kind of object it is; every object has a type. An object’s type is accessible as its [`__class__`](https://docs.python.org/2/library/stdtypes.html#instance.__class__) attribute or can be retrieved with `type(obj)`.
+
+**Variable**
 
 * Placeholder for texts and numbers. The equal sign \(=\) is used to assign values to variables.
 
-Variable
-
-
+###### Reference: [Python Glossary](https://docs.python.org/2/glossary.html)
 
 ---
 
