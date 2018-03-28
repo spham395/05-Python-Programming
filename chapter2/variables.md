@@ -51,9 +51,7 @@ print 'a = {} b = {} c = {}'.format(a, b, c)
 
 ---
 
-# LAB 2A: Variable Types
-
----
+### LAB 2A: Variable Types
 
 Find the type of the following variables. Feel free to experiement with other variables and such.
 

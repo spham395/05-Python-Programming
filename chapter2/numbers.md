@@ -115,10 +115,6 @@ _There are some differences between Python 2 and Python 3 numbers. The biggest d
 
 ---
 
-# Lab 2B and 2C
-
----
-
 ### Lab 2B: Numbers
 
 Recommended Version: Python 2.7
