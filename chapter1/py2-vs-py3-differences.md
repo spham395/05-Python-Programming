@@ -1,5 +1,7 @@
 # Python 2 and 3 Differences
 
+---
+
 Python 2 and 3 are similar but **NOT COMPATIBLE! **Python 3 does break compatibility. We will be focusing on Python 2.7.13 but will cover 3.6.X along side the entire course.
 
 ## Print
