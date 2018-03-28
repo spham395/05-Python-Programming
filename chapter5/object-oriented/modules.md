@@ -70,9 +70,9 @@ tri.method
 from triangle import *
 ```
 
-###### Reference:
+###### Reference: [Modules](https://docs.python.org/2.7/tutorial/modules.html)
 
-###### [https://docs.python.org/2.7/tutorial/modules.html](https://docs.python.org/2.7/tutorial/modules.html)
+###### 
 
 
 
