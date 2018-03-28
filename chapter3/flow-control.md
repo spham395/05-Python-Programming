@@ -12,6 +12,8 @@
 * #### I/O: Print
 * #### I/O: Files
 
+---
+
 ### By the end of this lesson you should know:
 
 * How to use bitwise and comparison operators
