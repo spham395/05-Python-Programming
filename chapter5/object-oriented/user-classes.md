@@ -31,13 +31,42 @@ True
  'while', 'with', 'yield']
 ```
 
-#### Creating an Instance in a Different File
+#### Public
 
-```py
-from MyClass import MyClass
+ All member variables and methods are public by default in Python.
 
-x = MyClass(name = "Iron Man")
-print x.getName()
+#### Protected 
+
+A protected member \(in C++ and Java\) is accessible **only** from within the class and it’s subclasses. By prefixing the name of your member with **a single underscore**, you’re telling others “don’t touch this, unless you’re a subclass”.
+
+```
+class Cup:
+    def __init__(self):
+        self.color = None
+        self._content = None # protected variable
+
+    def fill(self, beverage):
+        self._content = beverage
+
+    def empty(self):
+        self._content = None
+```
+
+#### Private
+
+By declaring your data member private you mean, that nobody should be able to access it from outside the class.   ython supports a technique called _name mangling_. This feature turns every member name **prefixed with at least two underscores and suffixed with at most one underscore** into `_<className><memberName>`
+
+```
+class Cup:
+    def __init__(self, color):
+        self._color = color    # protected variable
+        self.__content = None  # private variable
+
+    def fill(self, beverage):
+        self.__content = beverage
+
+    def empty(self):
+        self.__content = None
 ```
 
 #### Python Specific
@@ -70,6 +99,15 @@ __init__, __del__, __repr__, __str__, __cmp__
 ```
 
 * dir\(\), type\(\), isinstance\(\) are built in functions
+
+#### Creating an Instance in a Different File
+
+```py
+from MyClass import MyClass
+
+x = MyClass(name = "Iron Man")
+print x.getName()
+```
 
 ## Composition vs Inheritance
 
