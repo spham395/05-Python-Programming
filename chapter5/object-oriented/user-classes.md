@@ -26,7 +26,7 @@ __del__ (Deconstructor)
 
 * It's best to name the Python file after the class name/vise-versa.
 * class ClassName\(object\): -- to define class
-* Name classes using CapWords convention
+* Name classes using CapWords convention \(camel-case\)
 * Variables defined under classes are shared though all instances
 * Variables defined in methods are only for a single instance
 * When creating methods, the first parameter must be self. \(similar to "this" in other languages\)
@@ -73,7 +73,28 @@ resident.setAge(23)
 print "{} is a {} and is {} years of age.".format(resident.getLastName(), resident.getStatus(), resident.getAge())
 ```
 
-### 
+### Function vs Method
+
+A **function **is a piece of code that is called by name. It can be passed data to operate on \(i.e., the parameters\) and can optionally return data \(the return value\). All data that is passed to a function is explicitly passed.
+
+```
+def sum(num1, num2):
+    return num1 + num2
+```
+
+A **method **is a piece of code that is called by name that is associated with an object. In most respects it is identical to a function except for two key differences.
+
+1. It is implicitly passed for the object for which it was called.
+2. It is able to operate on data that is contained within the class \(remembering that an object is an instance of a class - the class is the definition, the object is an instance of that data\).
+
+```
+class Dog:
+    def my_method(self):
+        print "I am a Dog"
+
+dog = Dog()
+dog.my_method()  # Prints "I am a Dog"
+```
 
 
 
