@@ -1,22 +1,20 @@
-# CTypes
+ypes
 
 ---
 
-CTypes provide C compatible data types and allow function calls from DLLs or shared libraries without having to write custom C extensions for every operation. So we can access the functionality of a C library from the safety and comfort of the Python Standard Library. 
+CTypes provide C compatible data types and allow function calls from DLLs or shared libraries without having to write custom C extensions for every operation. So we can access the functionality of a C library from the safety and comfort of the Python Standard Library.
 
 **CTypes are a Foreign Function Interface \(FFI\) library and provide an API for creating C-compatible datatypes.**
 
 ###### Reference: [CTypes](https://docs.python.org/2.7/library/ctypes.html)
 
-
-
 ### Data Types
 
 ### Loading Libraries:
 
- There are four types of dynamic library loaders available in `ctypes` and two conventions to use them. The classes that represent dynamic and shared libraries are `ctypes.CDLL`, `ctypes.PyDLL`, `ctypes.OleDLL`, and `ctypes.WinDLL`. The last two are only available on Windows.
+There are four types of dynamic library loaders available in `ctypes` and two conventions to use them. The classes that represent dynamic and shared libraries are `ctypes.CDLL`, `ctypes.PyDLL`, `ctypes.OleDLL`, and `ctypes.WinDLL`. The last two are only available on Windows.
 
- Differences between `CDLL` and `PyDLL:`
+Differences between `CDLL` and `PyDLL:`
 
 * `ctypes.CDLL`: This class represents loaded shared libraries. The functions in these libraries use the standard calling convention, and are assumed to return `int`. GIL is released during the call.
 * `ctypes.PyDLL`: This class works like `CDLL`, but GIL is not released during the call. After execution, the Python error flag is checked and an exception is raised if it is set. It is only useful when directly calling functions from the Python/C API.
@@ -28,9 +26,9 @@ To load a library, you can either instantiate one of the preceding classes with 
 * `ctypes.windll.LoadLibrary()` for `ctypes.WinDLL`
 * `ctypes.oledll.LoadLibrary()` for `ctypes.OleDLL`
 
- The main challenge when loading shared libraries is how to find them in a portable way. Different systems use different suffixes for shared libraries \(`.dll` on Windows, `.dylib` on OS X, `.so` on Linux\) and search for them in different places.
+  The main challenge when loading shared libraries is how to find them in a portable way. Different systems use different suffixes for shared libraries \(`.dll` on Windows, `.dylib` on OS X, `.so` on Linux\) and search for them in different places.
 
- Both library loading conventions \(the `LoadLibrary()` function and specific library-type classes\) require you to use the full library name. This means all the predefined library prefixes and suffixes need to be included. For example, to load the C standard library on Linux, you need to write the following:
+  Both library loading conventions \(the `LoadLibrary()` function and specific library-type classes\) require you to use the full library name. This means all the predefined library prefixes and suffixes need to be included. For example, to load the C standard library on Linux, you need to write the following:
 
 ```
 >>> import ctypes
@@ -38,7 +36,7 @@ To load a library, you can either instantiate one of the preceding classes with 
 <CDLL 'libc.so.6', handle 7f0603e5f000 at 7f0603d4cbd0>
 ```
 
- Fortunately, the `ctypes.util` submodule provides a `find_library()` function that allows to load a library using its name without any prefixes or suffixes and will work on any system that has a predefined scheme for naming shared libraries:
+Fortunately, the `ctypes.util` submodule provides a `find_library()` function that allows to load a library using its name without any prefixes or suffixes and will work on any system that has a predefined scheme for naming shared libraries:
 
 ```
 >>> import ctypes
@@ -55,7 +53,7 @@ To load a library, you can either instantiate one of the preceding classes with 
 
 ### Calling C functions using ctypes
 
- When the library is successfully loaded, the common pattern is to store it as a module-level variable with the same name as library. The functions can be accessed as object attributes, so calling them is like calling a Python function from any other imported module:
+When the library is successfully loaded, the common pattern is to store it as a module-level variable with the same name as library. The functions can be accessed as object attributes, so calling them is like calling a Python function from any other imported module:
 
 ```
 >>> import ctypes
@@ -68,15 +66,11 @@ Hello world!
 13
 ```
 
- Unfortunately, all the built-in Python types except integers, strings, and bytes are incompatible with C datatypes and thus must be wrapped in the corresponding classes provided by the `ctypes` module.
+Unfortunately, all the built-in Python types except integers, strings, and bytes are incompatible with C datatypes and thus must be wrapped in the corresponding classes provided by the `ctypes` module.
 
 ### Data Types
 
 ![](/assets/Capture.JPG)
-
-
-
-
 
 ### Importing a C Libary
 
