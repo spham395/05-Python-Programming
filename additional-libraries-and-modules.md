@@ -4,7 +4,7 @@
 
 ### **A few:**
 
-* sys, os, socket, subprocess, hashlib, shutil, math, json
+* sys, os, socket, glob, subprocess, hashlib, shutil, math, json
 * struct
 * 3rd party
 * Paramiko
