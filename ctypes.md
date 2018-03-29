@@ -8,11 +8,9 @@ _**CTypes are a Foreign Function Interface \(FFI\) library and provide an API fo
 
 ###### Reference: [CTypes](https://docs.python.org/2.7/library/ctypes.html)
 
-
-
 ### Loading Libraries:
 
-There are four types of dynamic library loaders available in `ctypes` and two conventions to use them. The classes that represent dynamic and shared libraries are `ctypes.CDLL`, `ctypes.PyDLL`, `ctypes.OleDLL`, and `ctypes.WinDLL`. The last two are only available on Windows.
+There are **four **types of **dynamic library loaders** available in `ctypes` and **two **conventions to use them. The classes that represent dynamic and shared libraries are `ctypes.CDLL`, `ctypes.PyDLL`, `ctypes.OleDLL`, and `ctypes.WinDLL`. The last two are only available on Windows.
 
 Differences between `CDLL` and `PyDLL:`
 
@@ -26,9 +24,11 @@ To load a library, you can either instantiate one of the preceding classes with 
 * `ctypes.windll.LoadLibrary()` for `ctypes.WinDLL`
 * `ctypes.oledll.LoadLibrary()` for `ctypes.OleDLL`
 
-  The main challenge when loading shared libraries is how to find them in a portable way. Different systems use different suffixes for shared libraries \(`.dll` on Windows, `.dylib` on OS X, `.so` on Linux\) and search for them in different places.
+The main challenge when loading shared libraries is how to find them in a portable way. Different systems use different suffixes for shared libraries \(`.dll` on Windows, `.dylib` on OS X, `.so` on Linux\) and search for them in different places. Unfortunately,  Windows does not have a predefined naming scheme for libraries.
 
-  Both library loading conventions \(the `LoadLibrary()` function and specific library-type classes\) require you to use the full library name. This means all the predefined library prefixes and suffixes need to be included. For example, to load the C standard library on Linux, you need to write the following:
+###### Reference: [CType Shared Libraries in Windows](https://docs.python.org/3.5/library/ctypes.html)
+
+Both library loading conventions \(the `LoadLibrary()` function and specific library-type classes\) require you to use the full library name. This means all the predefined library prefixes and suffixes need to be included. For example, to load the C standard library on Linux, you need to write the following:
 
 ```
 >>> import ctypes
@@ -63,7 +63,6 @@ When the library is successfully loaded, the common pattern is to store it as a 
 >>> 
 >>> libc.printf(b"Hello world!\n")
 Hello world!
-13
 ```
 
 Unfortunately, all the built-in Python types except integers, strings, and bytes are incompatible with C datatypes and thus must be wrapped in the corresponding classes provided by the `ctypes` module.
@@ -72,58 +71,19 @@ Unfortunately, all the built-in Python types except integers, strings, and bytes
 
 ![](/assets/Capture.JPG)
 
-### Importing a C Libary
-
-Bellow is an example of how to import a very small C library that simply prints "hello world".
-
-#### helloworld.c
-
-```c
-#include <stdio.h>
-
-void myprint(void);
-void myprint()
-{
-    printf("hello world\n");
-}
-```
-
-**Windows/Linux:**
+ As you can see, this table does not contain dedicated types that would reflect any of the Python collections as C arrays. The recommended way to create types for C arrays is to simply use the multiplication operator with the desired basic `ctypes` type:
 
 ```
-gcc -shared -Wl,-soname,hellworld -o helloworld.so -fPIC helloworld.c
+>>> import ctypes
+>>> IntArray5 = ctypes.c_int * 5
+>>> c_int_array = IntArray5(1, 2, 3, 4, 5)
+>>> FloatArray2 = ctypes.c_float * 2
+>>> c_float_array = FloatArray2(0, 3.14)
+>>> c_float_array[1]
+3.140000104904175
 ```
 
-**OS X:**
 
-```
-gcc -shared -Wl,-install_name,helloworld.so -o helloworld.so -fPIC helloworld.c
-```
-
-#### testlibwrapper.py
-
-```py
-import ctypes
-import platform
-
-# Import the library
-# If you did not create a dll, only use the else section of the code
-if platform.system() == 'Windows':
-    testlib = ctypes.CDLL('helloworld.dll')
-else:
-    testlib = ctypes.CDLL('helloworld.so')
-
-# Call upon the function in C
-testlib.myprint()
-```
-
-Then execute the testlibwrapper.py using either Python 2.7 or Python 3.x
-
-**Output:**
-
-```
-hello world
-```
 
 ### Defining Argument Types and Return Types
 
