@@ -31,6 +31,10 @@ class Final(metaclass=Meta):
     pass
 ```
 
+**\_\_new\_\_\(\): **  It’s a method which is called before \_\_init\_\_\(\). It creates the object and return it. 
+
+**\_\_init\_\_\(\): **  This method just initialize the created object passed as parameter
+
 **Example:**
 
 ```
