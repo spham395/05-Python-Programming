@@ -71,7 +71,7 @@ Unfortunately, all the built-in Python types except integers, strings, and bytes
 
 ![](/assets/Capture.JPG)
 
- As you can see, this table does not contain dedicated types that would reflect any of the Python collections as C arrays. The recommended way to create types for C arrays is to simply use the multiplication operator with the desired basic `ctypes` type:
+As you can see, this table does not contain dedicated types that would reflect any of the Python collections as C arrays. The recommended way to create types for C arrays is to simply use the multiplication operator with the desired basic `ctypes` type:
 
 ```
 >>> import ctypes
@@ -83,8 +83,6 @@ Unfortunately, all the built-in Python types except integers, strings, and bytes
 3.140000104904175
 ```
 
-
-
 ### Defining Argument Types and Return Types
 
 If a C library requires arguments to be passed and/or has a return value, it is a good practice to declare them like so:
@@ -92,7 +90,6 @@ If a C library requires arguments to be passed and/or has a return value, it is 
 ```py
 import ctypes
 
-# Do your system check here if needed
 
 calc = ctypes.CDLL("MyCalc.dll")
 addition = calc.addition()
@@ -132,5 +129,5 @@ print my_struct.field_1, my_struct.field_2
 1 Hello World
 ```
 
-
+---
 

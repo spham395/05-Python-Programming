@@ -16,9 +16,9 @@ Regular expressions, often referred to as REs or regexes, are bits of small and 
 
 **re.compile: **compiles regular expression into pattern objects which allows for repeated use
 
-**re.match: **apply pattern to the start of string, return match or None
+**re.match: **apply pattern to the start of a string, return match or None
 
-**re.search: **scan through string, return match or None
+**re.search: **scan through a string, return match or None
 
 **re.findall: **find all matches and return them as a list
 
@@ -47,7 +47,7 @@ patterns = ['Enterprise', 'Death Star']
 pharse = "The Enterprise is the flagship of the Federation."
 
 for pattern in patterns:
-    print 'Looking for "{}" in "{}": '.format(pattern, pharse)
+    print 'Looking for "{}" in "{}": '.format(pattern, phrase)
 
     if re.search(pattern, pharse):
         print "found a match!"
@@ -92,7 +92,7 @@ import re
 text = "I turned myself into a pickle. I'm Pickle Riiiiick"
 
 match = re.match("I turned myself", text)
-match2 = re.match("Picke", text)
+match2 = re.match("Pickle", text)
 
 if match == None:
     print 'Could not find "{}" in "{}"'.format(match.re.pattern, match.string)
@@ -100,14 +100,14 @@ else:
     print 'Found "{}" in "{}"'.format(match.re.pattern, match.string)
 
 if match2 == None:
-    print 'Cound not find "{}" in "{}"'.format(match.re.pattern, match.string)
+    print 'Cound not find "{}" in "{}"'.format(match2.re.pattern, match2.string)
 else:
-    print 'Found "{}" in "{}"'.format(match.re.pattern, match.string)
+    print 'Found "{}" in "{}"'.format(match2.re.pattern, match2.string)
 ```
 
 ```
 Found "I turned myself" in "I turned myself into a pickle. I'm Pickle Riiiiick"
-Cound not find "I turned myself" in "I turned myself into a pickle. I'm Pickle Riiiiick"
+Found "Pickle" in "I turned myself into a pickle. I'm Pickle Riiiiick"
 ```
 
 
