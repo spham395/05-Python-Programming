@@ -152,7 +152,7 @@ def function_name(parameters, named_default_parameter=value):
 
 **Object**
 
-* Everything in Python is an object. An object can be assigned to a variable or passed into a function as a argument. It's a unique data structure that's defined by it's class. Any data with state \(attributes or value\) and defined behavior \(methods\).
+* Any data with state \(attributes or value, etc...\) and defined behavior \(methods or functions, etc...\). An object can be assigned to a variable or passed into a function as a argument. It's a unique data structure that's defined by it's type or class, etc... **Everything **in Python is an object. 
 
 **Operator Overloading**
 
