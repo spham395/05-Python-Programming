@@ -2,17 +2,11 @@
 
 ---
 
-Unit testing is a development process where parts of small code \(called units\) are individually and independently tested for proper operation. This can of course be done manually... but it more often automated. This is an extremely important habit to build.
+Unit testing is a development process where parts of small code \(called units\) are individually and independently tested for proper operation. This can of course be done manually... but it is more often automated. This is an extremely important habit to build.
 
-Python offers a powerful built in unit testing module called unittest.
+Python offers a powerful built in unit testing module called unittest. 
 
-**HitchHiker's Guide**
-
-[http://docs.python-guide.org/en/latest/writing/tests/](http://docs.python-guide.org/en/latest/writing/tests/)
-
-**PyDocs**
-
-[https://docs.python.org/2/library/unittest.html](https://docs.python.org/2/library/unittest.html)
+###### References:  [**HitchHiker's Guide**](http://docs.python-guide.org/en/latest/writing/tests/),  [**PyDocs**](https://docs.python.org/2/library/unittest.html)
 
 **Example:**
 
