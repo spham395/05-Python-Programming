@@ -1,14 +1,14 @@
-ypes
+# CTypes
 
 ---
 
-CTypes provide C compatible data types and allow function calls from DLLs or shared libraries without having to write custom C extensions for every operation. So we can access the functionality of a C library from the safety and comfort of the Python Standard Library.
+**CTypes **provide C compatible data types and allow function calls from DLLs or shared libraries without having to write custom C extensions for every operation. So we can access the functionality of a C library from the safety and comfort of the **Python Standard Library.**
 
-**CTypes are a Foreign Function Interface \(FFI\) library and provide an API for creating C-compatible datatypes.**
+_**CTypes are a Foreign Function Interface \(FFI\) library and provide an API for creating C-compatible datatypes.**_
 
 ###### Reference: [CTypes](https://docs.python.org/2.7/library/ctypes.html)
 
-### Data Types
+
 
 ### Loading Libraries:
 
