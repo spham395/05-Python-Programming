@@ -2,6 +2,8 @@
 
 ---
 
+![](/assets/QQ0OK.png)
+
 **Defined as “the class of a class”.**
 
 * Any class whose instances are themselves classes.
