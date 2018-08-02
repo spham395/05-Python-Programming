@@ -29,7 +29,7 @@
   * [Lambda Functions \[Lab 4A\]](04_Functions/4.3_Lambda_Functions.md)
   * [List Comprehension](04_Functions/4.4_List_Comprehension.md)
   * [Closures, Iterators & Generators](04_Functions/4.5_Closures_Iterators_Generators.md)
-* [Object Oriented](05_OOP/README.md.md)
+* [Object Oriented](05_OOP/README.md)
   * [Capstone](05_OOP/5.1_Capstone.md)
   * [Modules](05_OOP/5.2_Modules.md)
   * [Packages](05_OOP/5.3_Packages.md)
