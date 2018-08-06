@@ -8,7 +8,7 @@ Now that we learned the background behind Python, lets get to coding. Since Pyth
 
 * Linux \(Fedora, Ubuntu, Arch, etc\)
 * OS X
-* Windows \(Windows is not my preferred OS for development at all. But Python works just fine on it\)
+* Windows
 
 #### **Recommended editors: **
 
@@ -28,3 +28,37 @@ Now that we learned the background behind Python, lets get to coding. Since Pyth
 * etc
 
 We flat out do not need a full fledged IDE. Python is easy to understand and type. The faster you memorize it... the faster you'll be dropping scripts.
+
+### If your Python is out of date (2.7.15 & 3.7):
+
+#### Python2
+
+**Fedora:**
+```
+sudo dnf install python2
+```
+* The command for python2 in Fedora will be: _python_ or _python2_
+
+**Windows:**
+* Install latest from https://www.python.org/downloads/windows/
+* Ensure you check the PATH setup box during install
+* The command for python2 in Windows will be: _py -2_
+
+#### Python3
+
+**Fedora:**
+```
+sudo dnf install python37
+```
+* The command for python37 in Fedora will be: _python3.7_
+    * Though that's a bit of a pain to write... so feel free to create an alias
+    * I myself will be using tese aliases:
+```
+alias py37=python3.7
+alias python37=python3.7
+```
+
+**Windows:**
+* Install latest from https://www.python.org/downloads/windows/
+* Ensure you check the PATH setup box during install
+* The command for python3 in Windows will be: _py_
