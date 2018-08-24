@@ -10,7 +10,7 @@ Now that we learned the background behind Python, lets get to coding. Since Pyth
 * OS X
 * Windows
 
-#### **Recommended editors: **
+#### **Recommended editors:**
 
 * Vim \(terminal based: steep learning curve\)
 * Nano \(terminal based\)
