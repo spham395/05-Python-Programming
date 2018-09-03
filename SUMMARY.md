@@ -22,7 +22,7 @@
   * [Tuples, xrange & buffer](02_Data_Types/2.6_Tuples.md)
   * [Mapping & Other Types](02_Data_Types/2.7_Mapping.md)
   * [Lab 2H](02_Data_Types/performance_labs/lab2H/README.md)
-* [Flow Control](03_Flow_Control/README.md)
+* [Control Flow](03_Flow_Control/README.md)
   * [Operators ](03_Flow_Control/3.1_Operators.md)
   * [I/O Print](03_Flow_Control/3.2_IO_Print.md)
   * [Lab 3A](03_Flow_Control/performance_labs/lab3A/README.md)
