@@ -4,13 +4,7 @@
 
 Now that we learned the background behind Python, lets get to coding. Since Python is cross-platform, you can use whatever OS and text editor/IDE that you'd like. Below are my recommendations:
 
-#### Recommended OS:
-
-* Linux \(Fedora, Ubuntu, Arch, etc\)
-* OS X
-* Windows
-
-#### **Recommended editors:**
+#### Recommended editors:
 
 * Vim \(terminal based: steep learning curve\)
 * Nano \(terminal based\)
@@ -18,6 +12,7 @@ Now that we learned the background behind Python, lets get to coding. Since Pyth
 * Sublime
 * Atom
 * Brackets
+* Notepad++
 
 #### Recommend against:
 
@@ -27,7 +22,7 @@ Now that we learned the background behind Python, lets get to coding. Since Pyth
 * EMacs
 * etc
 
-We flat out do not need a full fledged IDE. Python is easy to understand and type. The faster you memorize it... the faster you'll be dropping scripts.
+We flat out do not need a full fledged IDE for training. Python is easy to understand and type. We are going to focus on being independent and debugging with our own debugging code. 
 
 ### If your Python is out of date (2.7.15 & 3.7):
 

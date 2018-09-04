@@ -10,7 +10,7 @@
 
 * #### Features
 * #### Data Types
-* #### Flow Control
+* #### Control Flow 
 * #### Functions
 * #### Modules and Classes
 * #### Ctypes and Misc
