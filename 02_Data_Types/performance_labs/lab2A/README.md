@@ -1,6 +1,6 @@
 # LAB 2A: Variable Types
 
-Find the type of the following variables. Feel free to experiement with other variables and such.
+Using the Python interpreter: find the type of the following variables. Feel free to experiement with other variables and such.
 
 **Type of:​**
 
@@ -13,6 +13,8 @@ Find the type of the following variables. Feel free to experiement with other va
 * "Hello!"​
 
 * ""​
+  
+* ''
 
 * True​
 
