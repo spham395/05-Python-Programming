@@ -15,7 +15,8 @@
 
 * How to init variables and modify them
 * The types of variables and their mutability and properties
-* The operators and order of operations
+* The basic and bitwise operators and order of operations
+* How to use basic and bitwise operators
 * How to convert type
 * How to access Sequence Objects 
 * How to use prefixes

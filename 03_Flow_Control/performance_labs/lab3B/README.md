@@ -1,21 +1,16 @@
 # Lab 3B: File handling
 
-**Instructions: **Download the text file **Lab3D\_GG.txt** and follow the instructions below.
+## Instructions:
 
-**Create a Python program to **\(you can write one program to run all functions or each individually\)**:**
+* You are provided with a text file that contains the best song lyrics in the world
+    * Problem is... the song lyrics are encrypted with a simple XOR.
+* You will need to decrypt the lyrics
+    * The key is 27
+    * You have been provided with a decent chunk of the code with conditionals and loops already created...
+    * Feel free to create yours from scratch if you want a greater challange. 
+* You will need to think outside the box. Remember what XOR is, the type of data it acts on, how much data, etc. 
 
-**1.** Read the entire text file.
+## Requirments:
 
-**2.** Read the first n lines of the file.
-
-**3.** Append text to the file and read the last n lines of the file.
-
-**4.** Read the file line by line and store it into a list.
-
-**5.** Sort words from longest to shortest.
-
-**6.** Count the number of lines in the text file.
-
-**7.** Count how many times survive is used in the text.
-
-**8.** Copy the contents of the file to another file .
+* Adhere to PEP8 (Comments, formatting, style, etc)
+* Follow instructions above
