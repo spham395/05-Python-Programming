@@ -1,6 +1,27 @@
 # Lab 3C: The "Fun" House
 
+![](/assets/funhouse.jpg)
+
+## Instructions
 Create a text-based game where the user is navigating through a "Fun" House.  Prompt the user to make a decision and using **if/elif/else** statements, give them different outcomes based on their answers.  Begin with an introduction to your fun house and prompt the user to choose between at least three different options.  You can use nested if/elif/else statements to make the game more complex.
+
+## Requirments
+
+* Adhere to PEP8 (Comments, formatting, style, etc)
+* Utilize userinput
+* Utilize proper formatting
+* Utilize proper and clean if/elif/else statements
+* Follow instructions above
+
+## Additional
+
+* Take this a step further. Use some previous concepts. Here are some things you can do:
+    * Create a file that holds all of your prompts
+    * Store file prompts into a list, dict, etc
+    * Use if/elif/else statements to validate user input
+    * Use formatting to create UI elements and/or fancy prompts
+    * Use operators and user input to perform calculations based on prompts
+    * etc
 
 **Example:**
 

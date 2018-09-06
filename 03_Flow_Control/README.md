@@ -16,7 +16,7 @@
 
 ### By the end of this lesson you should know:
 
-* How to use bitwise and comparison operators
+* How to use comparison operators
 * When, why and how if, elif and else statements are used
 * When, why and how to use while and for loops
 * How to break and continue
