@@ -40,7 +40,7 @@
   * [Scope](04_Functions/4.1_Scope.md)
   * [User Functions](04_Functions/4.2_User_Functions.md)
   * [Lambda Functions](04_Functions/4.3_Lambda_Functions.md)
-  * [Lab 4A](04_Functions/performance_labs/lab4A/README.md)
+  * [Lab 4A & 4B](04_Functions/performance_labs/lab4A/README.md)
   * [List Comprehension](04_Functions/4.4_List_Comprehension.md)
   * [Closures, Iterators & Generators](04_Functions/4.5_Closures_Iterators_Generators.md)
 * [Object Oriented](05_OOP/README.md)
