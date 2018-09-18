@@ -1,21 +1,13 @@
-# Welcome to Python
+# Introduction
 
----
+![](.gitbook/assets/python-logo-master-v3-tm.png)
 
-![](/assets/python-logo-master-v3-TM.png)
+## Chapters:
 
----
-
-#### Chapters:
-
-* #### Features
-* #### Data Types
-* #### Control Flow 
-* #### Functions
-* #### Modules and Classes
-* #### Ctypes and Misc
-
-#### 
-
-
+* **Features**
+* **Data Types**
+* **Control Flow**
+* **Functions**
+* **Modules and Classes**
+* **Ctypes and Misc**
 
