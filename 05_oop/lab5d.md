@@ -50,5 +50,12 @@
 
 ## Additional:
 
-* Convert it to a racing game
+* Convert it to a racing game  
+
+
+## Bonus Lab: _Janken Pon!_
+
+Create a game of Rock, Paper, Scissors using classes.
+
+
 
