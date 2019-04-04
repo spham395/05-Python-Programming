@@ -1,11 +1,11 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Python Features](01_python_features/README.md)
-  * [Introduction to Python](01_python_features/1.1_python_intro.md)
-  * [PyDocs & PEP8](01_python_features/1.2_pydocs_pep8.md)
-  * [Objects](01_python_features/1.3_objects.md)
-  * [Lab 1A](01_python_features/lab1a.md)
+* [Python Features](01 python_features/README.md)
+  * [Introduction to Python](01 python_features/1.1_python_intro.md)
+  * [PyDocs & PEP8](01 python_features/1.2_pydocs_pep8.md)
+  * [Objects](01 python_features/1.3_objects.md)
+  * [Lab 1A](01 python_features/lab1a.md)
   * [Py2 vs Py3 Differences](01_python_features/1.4_py2_py3.md)
   * [Running Python](01_python_features/1.5_running_python.md)
 * [Data Types](02_data_types/README.md)
