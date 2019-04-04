@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/python-logo-master-v3-tm.png)
 
-**Note:** Please use 00-Table-of-Contents to navigate this curriculum. That will ensure that you accomplish this topic in the correct order.   
+**Note:** Please use 00-Table-of-Contents to navigate this curriculum. That will ensure that you accomplish the topics in the correct order.   
 
 ## Chapters:
 
