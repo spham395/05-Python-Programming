@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # I/O: Files
 
 #### Reference: [File Objects](https://docs.python.org/2.7/library/stdtypes.html#bltin-file-objects)
@@ -85,6 +87,6 @@ file.close()
 
 ## Continue to Lab 3B  
 
-
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
 
