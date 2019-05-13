@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lab5A
 
 ## Instructions
@@ -14,3 +16,4 @@ Using your calculator you created from Lab4A, split up the functionality into mo
 * All requirments from Lab4A
 * Utilize clean and proper dir and module names
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
