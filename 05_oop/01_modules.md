@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Modules
 
 Modules are reusable code that can be imported into other scripts or programs. Modules are single files in either .py, .pyc or .pyo format. When a module is imported, code that is not wrapped in a function is executed and the functions themselves are added to the namespace... allowing them to be called upon.
@@ -113,3 +115,4 @@ from triangle import *
 
 ### Reference: [Modules](https://docs.python.org/2.7/tutorial/modules.html)
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
