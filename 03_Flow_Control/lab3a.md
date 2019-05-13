@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lab 3A
 
 ![](../.gitbook/assets/madlibs.png)
@@ -30,3 +32,4 @@ Create your own mad libs game asking the user for input to fill in the blanks. P
 * Output the user inputs into the given pharse
 * Use formatting to not only output the user inputs, but to create a UI within the terminal. Space out certain UI elements such as title of program, choices, menu deceration, etc. 
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
