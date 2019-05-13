@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lab 4A & 4B
 
 ## Lab 4A: Calculator
@@ -35,3 +37,4 @@ Create a fully functional calculator using BOTH functions and lambdas. Create a 
 
 * Return to Lab 3E and follow instructions for Fibonacci recursive funtion. 
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
