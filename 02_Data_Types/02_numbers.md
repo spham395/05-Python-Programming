@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Numbers
 
 ### Prefixes
@@ -229,6 +231,6 @@ bin(10)
 _There are some differences between Python 2 and Python 3 numbers. The biggest difference being the removal of the Long Type in Python 3._  
 
 
-
-
 ## Continue to Lab 2B and 2C
+
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
