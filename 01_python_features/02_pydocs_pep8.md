@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # PyDocs & PEP8
 
 ### PyDoc\(s\)
@@ -82,3 +84,4 @@ Notice the seperation? Let's get into that and explain it.
   * Naming Conventions
   * Remember what else in contained within and return to PEP8 as we learn new concepts. You are expected to abide by PEP8 during the class. 
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
