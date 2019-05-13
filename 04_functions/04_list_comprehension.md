@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # List Comprehension
 
 Python supports something called "list comprehension". In short, this allows us to write minimal, easy and readable lists in a way like mathematicans do.
@@ -94,3 +96,4 @@ print square_list(a_list)
 set([16, 4])
 ```
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
