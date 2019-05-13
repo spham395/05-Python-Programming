@@ -9,4 +9,4 @@ Python has no unboxed or primitive types, no machine values. Instead, **everythi
 
 ## Proceed to Lab1A
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/01_python_features/lab1a.md" rel="Return to TOC"> Proceed to Lab 1a </a>
