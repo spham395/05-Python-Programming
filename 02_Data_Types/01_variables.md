@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Variables
 
 ![](../.gitbook/assets/isthisameme.jpg)
@@ -61,3 +63,5 @@ print 'a = {} b = {} c = {}'.format(a, b, c)
 ![](../.gitbook/assets/mutable.png)
 
 ## Continue to Lab 2A
+
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
