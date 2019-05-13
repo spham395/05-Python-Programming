@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # User Classes Pt2
 
 ## Encapsulation in Python
@@ -265,3 +267,4 @@ dog.my_method()  # Prints "I am a Dog"
 
 ## Continue to Lab 5C
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
