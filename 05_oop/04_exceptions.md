@@ -1,4 +1,4 @@
-# Exceptions
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a># Exceptions
 
 Python exceptions allow you to attempt code that may result in an error and execute additional functionality on said error.
 
@@ -71,3 +71,4 @@ launch()
 
 ![](../.gitbook/assets/screen-shot-2017-10-27-at-8.29.14-am.png)
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
