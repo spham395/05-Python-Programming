@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # While Loops
 
 While loops, just like C and C++, loop through each iteration until either the condition is met or a break statement is called. Being that this is a loop... it is possible and rather easy to get stuck in an infinite loop. Keep in mind, you cannot use the x++ incrementer in Python.
@@ -66,5 +68,5 @@ This gives us a clearer look at how Python increments variables.
 
 ## Continue to Lab 3D  
 
-
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
