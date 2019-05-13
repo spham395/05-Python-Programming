@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Mapping & Other Types
 
 ## Mapping Types
@@ -177,7 +179,6 @@ sys.getsizeof\(object\) --gets the size of the object passed in bytes. As you ca
 12​
 ```  
 
-
-
 ## Continue to Lab 2H
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
