@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lab 2A
 
 Using the Python interpreter: find the type of the following variables. Feel free to experiement with other variables and such.
@@ -22,3 +24,4 @@ Using the Python interpreter: find the type of the following variables. Feel fre
 * {'one':1}​
 * 5j​
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
