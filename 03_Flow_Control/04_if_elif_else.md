@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # If, Elif, Else
 
 Just like most other programming languages, Python includes the standard **if**, **else-if**, and **else** statements. The only difference is that Python's else-if statement is shortened to **elif**. The **if** statement checks for truth within a given condition. If the condition is false, the code within the if statement will not run. To counter this, you can use **elif** statements to check for further conditions. Finally we have the **else** statement which is a catch all if none of the previous statements evaluate to True.
@@ -45,3 +47,4 @@ while a <= 50:
 
 ## Continue to Lab 3C
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
