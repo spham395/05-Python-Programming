@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lab 2D & Lab2E
 
 ## Lab 2D: Strings
@@ -22,3 +24,4 @@ Write a program that takes a string as user input then counts the number of word
 
 ex: Output number of characters, number of uppercase letters, etc...
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
