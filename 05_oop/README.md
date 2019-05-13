@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Object Oriented
 
 ### **Topics:**
@@ -17,3 +19,4 @@
 * The different methods of class creation
 * How to handle error exceptions
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
