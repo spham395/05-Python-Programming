@@ -1,4 +1,6 @@
-# OOP Terminology Review 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
+## OOP Terminology Review 
 
 **Attribute**
 
@@ -187,4 +189,4 @@ def function_name(parameters, named_default_parameter=value):
 
 ## Continue to Lab 5D
 
-
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
