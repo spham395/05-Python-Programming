@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # I/O Print
 
 Python **print/print\(\)** is very powerful... taking styling from C string formating and adding some of it's own features; allowing for deeper functionality. Pull up PyDocs and reference Py2 and Py3 print, %, and formatting.
@@ -190,5 +192,5 @@ Sammy has 8 balloons today!
 
 ## Continue to Lab 3A  
 
-
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
