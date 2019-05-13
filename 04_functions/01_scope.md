@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Scope
 
 Scope refers to the visibility of variables. To be more clear, what parts of your program see which variables. In Python, we use the  **LEGB Rule:**
@@ -104,3 +106,4 @@ Inside h() :  3
 global :  3
 ```
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
