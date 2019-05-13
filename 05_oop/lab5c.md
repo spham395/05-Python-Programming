@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lab5C
 
 ![](../.gitbook/assets/ironman.jpg)
@@ -31,3 +33,4 @@ Update your hero class lab with the following additions:
   * Guess that Hero
   * etc
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
