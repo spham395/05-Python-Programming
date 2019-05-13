@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lab 1A
 
 Now that we learned the background behind Python, lets get to coding. Since Python is cross-platform, you can use whatever OS and text editor/IDE that you'd like. Below are my recommendations:
@@ -63,3 +65,4 @@ sudo dnf install python37
 * Ensure you check the PATH setup box during install
 * The command for python3 in Windows will be: _py_
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
