@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Break and Continue
 
 ## Looking at previous languages
@@ -71,6 +73,6 @@ for i in xrange(1, 100):​
 
 Notice how the second print is skipped entirely for even numbers!  
 
-
-
 ## Continue to Lab 3F
+
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
