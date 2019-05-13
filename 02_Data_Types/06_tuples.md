@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Tuples, xrange & buffer
 
 ## Tuples
@@ -121,4 +123,4 @@ for n in (100000, 200000, 300000, 400000):
     print 'memoryview', n, time.time()-start
 ```  
 
-
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
