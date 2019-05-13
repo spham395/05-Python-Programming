@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # User Classes Pt1
 
 Classes are used to create objects that bundle data and functionality together. With this, classes are highly reusable, cleaner and more efficient. In other languages, some entites are objects and some are not. In Python, everything is an object. Classes and built-in types were at one point different. But that has all since been merged and both are now objects of type **type**. \(more to come on this later\) Here are some considerations:
@@ -203,8 +205,7 @@ x = Person("James", "Bond", "08/21/1800", 200, "someEmail@email.com")
 x.printDetails()
 ```  
 
-
 ## Continue to Lab 5B  
 
-
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
