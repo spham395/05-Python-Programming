@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lab 2B & Lab2C
 
 ## Lab 2B: Numbers
@@ -17,3 +19,4 @@ Recommended Version: Python 2.7
   * Simple/ugly printing is allowed here. 
   * Hard code the user input
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
