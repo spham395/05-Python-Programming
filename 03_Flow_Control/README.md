@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Control Flow
 
 ### **Topics:**
@@ -19,3 +21,4 @@
 * How to use old and new style formatting
 * How to modify files
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
