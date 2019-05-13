@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Strings
 
 #### Reference: [Strings](https://docs.python.org/2.7/tutorial/introduction.html#strings)
@@ -304,6 +306,8 @@ x.split(“,”)
 * center​
 * ljust, rjust​  
   
-  
+ 
   
   ## Continue to Lab 2D and 2E
+
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
