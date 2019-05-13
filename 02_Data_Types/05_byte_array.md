@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Bytes and Bytearray
 
 ## Bytes\(\)
@@ -92,7 +94,6 @@ b​
 bytearray(b'I Um a string')​
 ```  
 
-
-
 ## Continue to Lab 2G
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
