@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Operators
 
 ## Comparison Operators
@@ -126,3 +128,4 @@ else:
 | &lt;&lt;= | x &lt;&lt;= 8 | x = x &lt;&lt; 8 |
 | &gt;&gt;= | x &gt;&gt;= 8 | x = x &gt;&gt; 8 |
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
