@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lambda Functions
 
 It's best to start off with some examples:
@@ -75,5 +77,5 @@ new_stuff = lambda x: x**2
 
 ## Continue to Lab 4A and 4B  
 
-
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
