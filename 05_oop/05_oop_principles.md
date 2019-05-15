@@ -103,4 +103,4 @@ All the other rules I’ve taught you about how to make a function nice apply he
 
 #### Reference: [PEP8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/06_oop_terminology.md" rel="Return to TOC"> Return to TOC </a>
