@@ -24,4 +24,4 @@ Using the Python interpreter: find the type of the following variables. Feel fre
 * {'one':1}​
 * 5j​
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/02_numbers.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/02_numbers.md" rel="Continue to Labs 2b and 2c"> Continue to Labs 2b and 2c </a>
