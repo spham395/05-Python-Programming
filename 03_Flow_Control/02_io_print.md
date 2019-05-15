@@ -192,5 +192,5 @@ Sammy has 8 balloons today!
 
 ## Continue to Lab 3A  
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/lab3a.md" rel="Continue to Lab 3A"> Continue to Lab 3A </a>
 
