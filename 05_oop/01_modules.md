@@ -115,4 +115,4 @@ from triangle import *
 
 ### Reference: [Modules](https://docs.python.org/2.7/tutorial/modules.html)
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/01_modules.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/02_packages.md" > Continue to Next Topic </a>
