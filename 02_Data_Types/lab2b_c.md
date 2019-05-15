@@ -19,4 +19,4 @@ Recommended Version: Python 2.7
   * Simple/ugly printing is allowed here. 
   * Hard code the user input
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/03_strings.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
