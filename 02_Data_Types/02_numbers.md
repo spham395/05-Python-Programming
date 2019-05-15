@@ -233,4 +233,4 @@ _There are some differences between Python 2 and Python 3 numbers. The biggest d
 
 ## Continue to Lab 2B and 2C
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/02_numbers.md" rel="Continue to Labs 2b and 2c"> Continue to Labs 2b and 2c </a>
