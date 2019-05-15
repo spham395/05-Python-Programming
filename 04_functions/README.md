@@ -23,4 +23,4 @@
 * What an iterator is
 * How to use generators
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/04_functions/01_scope.md"> Continue to Next Topic </a>
