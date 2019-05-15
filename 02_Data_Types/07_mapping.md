@@ -181,4 +181,4 @@ sys.getsizeof\(object\) --gets the size of the object passed in bytes. As you ca
 
 ## Continue to Lab 2H
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Continue to Lab 2H"> Continue to Lab 2H </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/lab2h.md" rel="Continue to Lab 2H"> Continue to Lab 2H </a>
