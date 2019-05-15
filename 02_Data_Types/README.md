@@ -25,4 +25,4 @@
 * A deep understanding of bytearray\(\) and how to use it
 * A deep understanding of xrange, buffer, set and frozenset and how to use them
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/01_variables.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
