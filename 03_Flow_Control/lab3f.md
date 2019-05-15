@@ -35,4 +35,5 @@ FizzBuzz​
 …​
 ```
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/lab3f.md"> Continue to Lab 3F </a>
+
