@@ -37,4 +37,4 @@ Create a fully functional calculator using BOTH functions and lambdas. Create a 
 
 * Return to Lab 3E and follow instructions for Fibonacci recursive funtion. 
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/04_functions/04_list_comprehension.md" > Continue to Next Topic </a>
