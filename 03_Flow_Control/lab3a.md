@@ -32,4 +32,4 @@ Create your own mad libs game asking the user for input to fill in the blanks. P
 * Output the user inputs into the given pharse
 * Use formatting to not only output the user inputs, but to create a UI within the terminal. Space out certain UI elements such as title of program, choices, menu deceration, etc. 
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/03_io_files.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/03_io_files.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
