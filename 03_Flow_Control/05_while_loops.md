@@ -68,5 +68,5 @@ This gives us a clearer look at how Python increments variables.
 
 ## Continue to Lab 3D  
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/lab3d.md" rel="Continue to Next Topic"> Continue to Lab 3D </a>
 
