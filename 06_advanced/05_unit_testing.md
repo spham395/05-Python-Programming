@@ -107,4 +107,4 @@ PS C:\Users\xconstaud\Documents\Python\re>
 
 As you have guessed, this can be insanly useful. In most cases, spending the extra time unit testing will save you a lot more time over debugging.
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/06_advanced/06_metaclasses.md" > Continue to Next Topic </a>
