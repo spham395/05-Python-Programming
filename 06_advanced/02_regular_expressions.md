@@ -111,4 +111,4 @@ Found "I turned myself" in "I turned myself into a pickle. I'm Pickle Riiiiick"
 Found "I did not" in "I did not turn myself into a pickle.  I am not Pickle Riiiiick."
 ```
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/06_advanced/03_additional_libaries_modules.md" > Continue to Next Topic </a>
