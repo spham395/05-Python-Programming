@@ -129,4 +129,4 @@ print my_struct.field_1, my_struct.field_2
 1 Hello World
 ```  
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/06_advanced/02_regular_expressions.md" > Continue to Next Topic </a>
