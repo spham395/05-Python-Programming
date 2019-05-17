@@ -96,4 +96,6 @@ print square_list(a_list)
 set([16, 4])
 ```
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/04_functions/05_closures_iterators_generators.md" > Continue to Next Topic </a>
