@@ -35,5 +35,6 @@ FizzBuzz​
 …​
 ```
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/04_functions/README.md"> Continue to Next Topic </a>
+---
 
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/04_functions/README.md"> Continue to Next Topic </a>
