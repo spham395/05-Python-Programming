@@ -59,5 +59,7 @@
 
 Create a game of Rock, Paper, Scissors using classes.
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/06_advanced/README.md" > Continue to Next Topic </a>
 
