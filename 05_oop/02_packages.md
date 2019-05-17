@@ -78,8 +78,7 @@ print help()
 # Try it
 ```  
 
-
+---
 ## Continue to Lab 5A  
 
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/lab5a.md" > Continue to Lab 5A </a>
-
