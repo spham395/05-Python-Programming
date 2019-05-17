@@ -10,4 +10,6 @@
   * Needed docstrings
   * User input \(only expecting one user input due to not having gone over loops yet\)
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/05_byte_array.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
