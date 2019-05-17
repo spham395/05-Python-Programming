@@ -265,6 +265,7 @@ dog.my_method()  # Prints "I am a Dog"
 * [Python Textbook Docs](https://python-textbok.readthedocs.io/en/1.0/Classes.html)
 * [Composition and Inheritance](http://blog.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-3-delegation-composition-and-inheritance/)  
 
+---
 ## Continue to Lab 5C
 
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/lab5c.md" > Continue to Lab 5C </a>
