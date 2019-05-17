@@ -22,4 +22,6 @@
 * Differences between Python 2 and 3
 * How to use the Python Interpreter and run Python source code
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/01_python_features/01_python_intro.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
