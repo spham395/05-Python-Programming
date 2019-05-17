@@ -64,4 +64,6 @@ print 'a = {} b = {} c = {}'.format(a, b, c)
 
 ## Continue to Lab 2A
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/lab2a.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
+---
+
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/lab2a.md" rel="Continue to Next Topic"> Continue to Lab 2A </a>
