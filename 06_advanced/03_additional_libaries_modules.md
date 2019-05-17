@@ -108,4 +108,6 @@ The HitchHiker's guide is an excellent guide on Python that is constantly being 
 
 [http://docs.python-guide.org/en/latest/](http://docs.python-guide.org/en/latest/)
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/06_advanced/04_multithreading.md" > Continue to Next Topic </a>
