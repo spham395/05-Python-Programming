@@ -67,4 +67,6 @@ thread 3 woke up
 
 Your output may not look like mine... that is okay. The time in which the workers start is almost always random due to how concurrent their launch sequences are.
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/06_advanced/05_unit_testing.md" > Continue to Next Topic </a>
