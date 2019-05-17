@@ -16,4 +16,6 @@ Using your calculator you created from Lab4A, split up the functionality into mo
 * All requirments from Lab4A
 * Utilize clean and proper dir and module names
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/03a_user_classes.md" > Continue to Next Topic </a>
