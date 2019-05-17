@@ -25,4 +25,6 @@ Create a very simple super hero class. Some attributes you will need:
 
 * Begin using encapsulation techniques
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/03b_user_classes_pt2.md" > Continue to Next Topic </a>
