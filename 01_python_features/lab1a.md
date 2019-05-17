@@ -65,4 +65,6 @@ sudo dnf install python37
 * Ensure you check the PATH setup box during install
 * The command for python3 in Windows will be: _py_
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/01_python_features/04_py2_py3.md" rel="Return to TOC"> Continue to Next Topic </a>
