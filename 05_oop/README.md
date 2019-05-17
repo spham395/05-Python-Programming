@@ -19,4 +19,6 @@
 * The different methods of class creation
 * How to handle error exceptions
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/01_modules.md" > Continue to Next Topic </a>
