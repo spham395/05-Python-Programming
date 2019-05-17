@@ -144,4 +144,6 @@ Taking a look at the code above... we created a sequence object and iterated ove
 
 **Note:** When functions return all state is lost, a yield preserves local state and returns a generator object.
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/README.md" > Continue to Next Topic </a>
