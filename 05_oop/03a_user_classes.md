@@ -205,6 +205,7 @@ x = Person("James", "Bond", "08/21/1800", 200, "someEmail@email.com")
 x.printDetails()
 ```  
 
+---
 ## Continue to Lab 5B  
 
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/lab5b.md" > Continue to Lab 5B </a>
