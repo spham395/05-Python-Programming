@@ -186,7 +186,7 @@ def function_name(parameters, named_default_parameter=value):
 
 ### Reference: [Python Glossary](https://docs.python.org/2/glossary.html)  
 
-
+---
 ## Continue to Lab 5D
 
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/05_oop/lab5d.md" rel="Return to TOC"> Continue to Lab 5D </a>
