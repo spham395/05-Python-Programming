@@ -64,4 +64,6 @@
   * [Multithreading](06_advanced/04_multithreading.md)
   * [UnitTesting](06_advanced/05_unit_testing.md)
   * [Metaclasses](06_advanced/06_metaclasses.md)
+*  [Algorithms PT-2]()
+*  [Test Driven Dev]()
 
