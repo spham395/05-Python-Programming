@@ -64,7 +64,7 @@ while loop executed... count is: 11
 
 This gives us a clearer look at how Python increments variables.  
 
-
+---
 
 ## Continue to Lab 3D  
 
