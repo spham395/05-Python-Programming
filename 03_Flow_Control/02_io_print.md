@@ -188,8 +188,7 @@ Sammy has 8 balloons today!
 | %e | exponent notation |
 | %f | floating point real number |  
 
-
-
+---
 ## Continue to Lab 3A  
 
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/lab3a.md" rel="Continue to Lab 3A"> Continue to Lab 3A </a>
