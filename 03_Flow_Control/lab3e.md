@@ -26,4 +26,5 @@
   * Utilize some Python modules or built in functionality
   * Ask user for range of numbers to calculate
 
+---
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/07_break_continue.md"> Continue to Next Topic </a>
