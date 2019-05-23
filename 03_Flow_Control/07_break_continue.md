@@ -73,6 +73,7 @@ for i in xrange(1, 100):​
 
 Notice how the second print is skipped entirely for even numbers!  
 
+---
 ## Continue to Lab 3F
 
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/lab3f.md"> Continue to Lab 3F </a>
