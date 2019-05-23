@@ -44,7 +44,7 @@ while a <= 50:
     a += 1
 ```  
 
-
+---
 ## Continue to Lab 3C
 
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/lab3c.md" rel="Continue to Lab 3c"> Continue to Lab 3C </a>
