@@ -61,6 +61,7 @@ When a loop repeatedly executes until the controlling condition becomes false.
 
 When a statement in a function calls itself repeatedly.  
 
+---
 ## Continue to Lab 3E
 
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/lab3e.md"> Continue to Lab 3E </a>
