@@ -74,7 +74,7 @@ new_stuff = lambda x: x**2
 
 #### [Examples](http://book.pythontips.com/en/latest/map_filter.html)  
 
-
+---
 ## Continue to Lab 4A and 4B  
 
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/04_functions/lab4a.md" > Continue to Lab 4a and 4B </a>
