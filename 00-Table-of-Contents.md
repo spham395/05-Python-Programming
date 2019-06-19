@@ -65,5 +65,9 @@
   * [UnitTesting](06_advanced/05_unit_testing.md)
   * [Metaclasses](06_advanced/06_metaclasses.md)
 *  [Algorithms PT-2 Under Construction](00-Table-of-Contents.md)
+  * [Resource Page] ()
+  * [Objectives] ()
+  * [Measuring Algorithm
+  *
 *  [Test Driven Dev, Under Construction](00-Table-of-Contents.md)
 
