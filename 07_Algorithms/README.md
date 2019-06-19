@@ -1,24 +1,23 @@
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
-# Advanced
+# Algorithms
 
 * **Topics:**
-  * **CTypes and Structures**
-  * **Regex**
-  * **Additional Libraries and Modules**
-  * **Multithreading**
-  * **Unit Testing**
-  * **Metaclasses**
+  * **Algorithmic Searching, Sorting, and Complexity**
+  * **Stacks**
+  * **Queues**
+  * **Trees**
 
-## By the end of this lesson you should know:
+## By the end of this lesson you should be able to:
 
-* What CTypes are and how to utilize them
-* How to utilize structures in Python
-* The purpose of RE and how to implement it
-* Some of the additional libraries and modules in Python and their uses
-* How to implement and utilize multithreading
-* What metaclasses are and a general understanding of how to use them
+
+* Describe how the sequential search and binary search algorithms work
+* Describe how the selection sort and quicksort algorithms work
+* Describe the features and behavior of a stack
+* Design and implement a backtracking algorithm that uses a stack
+* Describe the features of a queue and the operations on it
+* Describe the features and applications of a tree
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/06_advanced/01_ctypes.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/07_Algorithms/01_Algorith_SSC.md" > Continue to Next Topic </a>
