@@ -113,13 +113,13 @@ Byte Strings are simply just a sequence of bytes. In Python 2, **bytes** is an a
 
 ### Slicing
 
-Slicing allows you to grab a substring of a string. Just like C/C++, Python's indexing structure starts at 0. The only exception is when grabbing an element using a negative index. There is an example further below.
+Slicing allows you to grab a substring of a string. Python's indexing structure starts at 0. The only exception is when grabbing an element using a negative index. There is an example further below.
 
 **Grabbing a specific element**
 
 ```python
 >>> x = "hello world"​
->>> print x[4] # grabs 4th index
+>>> print(x[4]) # grabs 4th index
 o
 ```
 
@@ -127,7 +127,7 @@ o
 
 ```python
 >>> x = "hello world"
->>> print x[4:9] # grabs 4th index up until, but not including the 9th index. 
+>>> print(x[4:9]) # grabs 4th index up until, but not including the 9th index. 
 o wor
 ```
 
@@ -135,30 +135,30 @@ o wor
 
 ```python
 >>> x = "hello world"
->>> print x[-3] # grabs the 3rd to the last ELEMENT
+>>> print(x[-3]) # grabs the 3rd to the last ELEMENT
 r
 ```
 
 * Slicing with negative values start at -1, not 0​. So if we have a string \(x = "test"... t= -4, e = -3 s = -2 t = -1\)... Thus a -2 slice will grab the 's'.
-* When slicing a range, you grab everything UPTO \(not including\) the second defined number.
+* When slicing a range, you grab everything UPTO \(not including\) the second defined index number.
 
 ### More String Manipulation
 
-* Try the following in your PyInter
+* Try the following 
 
 ```python
 >>> my_string = "Hello World!"
->>> print my_string[0]​
+>>> print(my_string[0]​)
 H​
->>> print my_string[0:5]​
+>>> print(my_string[0:5])​
 Hello​
->>> print my_string[6:]​
+>>> print(my_string[6:]​)
 World!​
 
->>> print my_string[-6:] # ???​
->>> print my_string[::2] # ???​
->>> print my_string  * 2 # ???​
->>> print my_string + my_string # ???​
+>>> print(my_string[-6:]) # ???​
+>>> print(my_string[::2]) # ???​
+>>> print(my_string  * 2) # ???​
+>>> print(my_string + my_string) # ???​
 ```
 
 What did you get? Try different operations to manipulate strings!
@@ -210,20 +210,20 @@ As you more than likely guessed, the user input is assigned to the variable _nam
 ```python
 >>> my_string = "Hello World!”"
 >>> a = my_string.upper()​
->>> print a​
+>>> print(a)​
 'HELLO WORLD!'​
 >>> a = my_string.lower()​
->>> print a ​
+>>> print(a) ​
 'hello world!'​
 >>> a = len(my_string)​
->>> print a​
+>>> print(a)​
 12​
 >>> a = my_string.split(" ")​
 ['Hello', 'World!']​
->>> print my_string​
+>>> print(my_string)​
 'Hello World!'​
 >>> my_string = "+".join(a)​
->>> print my_string​
+>>> print(my_string​)
 'Hello+World!'
 ```
 
@@ -253,7 +253,7 @@ Example:
 ```python
 s = "-";
 seq = ("a", "b", "c"); # This is sequence of strings.
-print s.join( seq )
+print(s.join( seq ))
 
 #Output: a-b-c
 ```
@@ -274,22 +274,22 @@ str.split(str="", num=string.count(str))
 Example:
 
 ```python
-x = ‘blue,red,green’
-x.split(“,”)
+x = 'blue,red,green'
+x.split(",")
 
-[‘blue’, ‘red’, ‘green’]
+['blue', 'red', 'green']
 >>>
 
->>> a,b,c = x.split(“,”)
+>>> a,b,c = x.split(",")
 
 >>> a
-‘blue’
+'blue'
 
 >>> b 
-‘red’
+'red'
 
 >>> c
-‘green’
+'green'
 ```
 
 ### Additional Standard Library Functionality

@@ -12,7 +12,7 @@ Prefixes convert types like **binary, hex and octal** into int.
 * Prefix with **0o**, o for octal \(ex. 0o100 == 64\)​
 
 ```text
-$ python2
+$ py -3
 >>> 0b10
 2
 
@@ -24,7 +24,7 @@ $ python2
 
 >>> x = 0xF
 >>> type(x)
-<type 'int'>
+<class 'int'>
 
 >>> x
 15
@@ -49,11 +49,11 @@ $ python2
   x = 1.5 + 5j
   y = 2
   z = x + y
-  print z
+  print(z)
   #Output: (3.5+5j)
 
   z = z + 3j
-  print z
+  print(z)
   #Output: (3.5+8j)
   ```
 
@@ -62,24 +62,24 @@ $ python2
 Numbers cannot be modified in place. Be sure to either reassign your current variable or assign the number to a new variable.
 
 ```bash
-$ python2
+$ py -3
 
 >>> x = 10
->>> print x
+>>> print(x)
 10
 
 >>> x = 15
->>> print x
+>>> print(x)
 15
 
 >>> x = x + 5
->>> print x
+>>> print(x)
 20
 
 >>> x + 5
 25
 
->>> print x
+>>> print(x)
 20
 ```
 

@@ -35,12 +35,12 @@ a = b = c = 100
 # Will only reassign variable c
 c = 200
 
-print 'a = {} b = {} c = {}'.format(a, b, c)
+print ('a = {} b = {} c = {}'.format(a, b, c))
 # output: a = 100 b = 100 c = 200
 
 # will change all three variables
 a,b,c = 100, 'hello', {}
-print 'a = {} b = {} c = {}'.format(a, b, c)
+print ('a = {} b = {} c = {}'.format(a, b, c))
 #output: a = 100 b = hello c = {}
 ```
 
