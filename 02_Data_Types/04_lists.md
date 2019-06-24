@@ -4,7 +4,7 @@
 
 **Reference: Lists**
 
-Lists are very similar to C arrays. Lists **are mutable and nestable**. They are not ordered! There is no variable length per say, aside from what the system itself can handle. In other words, lists are dynamically adjusted to fit their contents. Lists can be multidimensional and can contain elements of different types. You can create a list using \[\].
+Lists are very similar to C arrays. Lists **are mutable and nestable**. They are not ordered! There is no variable length per se, aside from what the system itself can handle. In other words, lists are dynamically adjusted to fit their contents. Lists can be multidimensional and can contain elements of different types. You can create a list using \[\].
 
 **List example:**
 
@@ -47,7 +47,7 @@ Much like strings, you can slice lists. There are some differences though. Slici
 
 ## Indexing Lists
 
-**index\(\)** will output the index of an element that matches **index\(\)s** argument. **index\(\)** looks for strict matches. Overall, this is useful for finding the index of a specific item. For example:
+**index\(\)** will output the index (starting at 0) of an element that matches the **index\(\)** argument. **index\(\)** looks for strict matches. Overall, this is useful for finding the index of a specific item. For example:
 
 ```python
 >>> my_list = ['Hello World', 15, True, 'w']​
@@ -55,7 +55,7 @@ Much like strings, you can slice lists. There are some differences though. Slici
 1​
 >>> my_list.index('Hello')​
 Traceback (most recent call last):………​
-# index method looks for strict matches​
+# index method looks for strict matches​, ValueError: 'Hello' is not in list
 # useful for finding index of a specific item
 ```
 
@@ -79,7 +79,7 @@ Remember, lists are **MUTABLE!** This simply means we can modify it in place via
 ### Updating Lists:
 
 * append\(\)
-  * Adds onto the end of the list​
+  * Adds on to the end of the list​
 * insert\(i,x\)​
   * Inserts object x into the list at offset index i\)​
 * sort, sorted\(\)​
@@ -105,10 +105,16 @@ Remember, lists are **MUTABLE!** This simply means we can modify it in place via
 >>> messy_list = [2,1,4,5,3,5,100,222,44]​
 >>> sorted(messy_list)​
 # ??????​
+>>> print(messy_list)
+
+>>> messy_list.sort()
+# ??????
+>>> print(messy_list)
 
 >>> messy_list.sort(reverse=True)​
 >>> messy_list​
 # ??????​
+>>> print(messy_list)
 ```
 
 ### Combining Lists:
