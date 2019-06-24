@@ -37,7 +37,7 @@ You are required to look up each and everything we go over, using the PyDocs/pyd
 
 #### Documenting Code:
 
-Python brings many features we are already familiar with in other programming languages, but gives the user a bit more power in their documentaiton.
+Python brings many features we are already familiar with in other programming languages, but gives the user a bit more power in their documentation.
 
 ```python
 # This is a comment
@@ -55,7 +55,7 @@ comment
 ```python
 """This is a multiline docstring
 
-Notice the seperation? Let's get into that and explain it. 
+Notice the separation? Let's get into that and explain it. 
 """
 ```
 
@@ -66,7 +66,7 @@ Notice the seperation? Let's get into that and explain it.
   * No implementation details unless they relate to the use
   * Notice the gap in the multiline docstring? 
     * On a multiline docstring, the first line is a short description. This should only be one line. 
-    * Second line is left blank to visually seperate the summary form the rest of the desc.
+    * Second line is left blank to visually separate the summary from the rest of the description.
     * The following lines are used for additional details
 * **Comments** are used to explain what, why and how something is going on to other programmers. These are no different than C/C++ aside from syntax.  
 
