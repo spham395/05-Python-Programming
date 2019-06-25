@@ -21,7 +21,7 @@
   * [Lab 2F](02_Data_Types/lab2f.md)
   * [Bytes and Bytearray](02_Data_Types/05_byte_array.md)
   * [Lab 2G](02_Data_Types/lab2g.md)
-  * [Tuples, xrange & buffer](02_Data_Types/06_tuples.md)
+  * [Tuples, range & buffer](02_Data_Types/06_tuples.md)
   * [Mapping & Other Types](02_Data_Types/07_mapping.md)
   * [Lab 2H](02_Data_Types/lab2h.md)
 * [Control Flow](03_Flow_Control/README.md)
