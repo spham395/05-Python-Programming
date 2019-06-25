@@ -1,12 +1,12 @@
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
-# Mapping & Other Types
+# Dictionaries and Sets
 
 ## Mapping Types
 
 ### Dictionary
 
-Dictionaries **are mutable** objects and consist of key-value mappings. \(ex: {key: ‘value’, key: ‘value’} \). They are initiialized using the curly-brackets {}. Dictionaries are not ordered and support all value types.
+Dictionaries **are mutable** objects and consist of key-value mappings. \(ex: {key: ‘value’, key: ‘value’} \). They are initialized using the curly-brackets {}. Dictionaries are not ordered and support all value types.
 
 ```python
 >>> my_dict = {} # create empty dictionary​
@@ -73,7 +73,7 @@ subnestedValue
 
 ## Set and Frozenset
 
-A set is an unordered collection of unique elements. Sets **are muteable** but contain no hash value-- so they can't be used as dict keys or as an element of another set.
+A set is an unordered collection of unique elements. Sets **are mutable** but contain no hash value-- so they can't be used as dict keys or as an element of another set.
 
 ```python
 >>> new_set = set() # create an empty set​
