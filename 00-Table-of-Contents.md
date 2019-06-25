@@ -22,7 +22,7 @@
   * [Bytes and Bytearray](02_Data_Types/05_byte_array.md)
   * [Lab 2G](02_Data_Types/lab2g.md)
   * [Tuples, range & buffer](02_Data_Types/06_tuples.md)
-  * [Mapping & Other Types](02_Data_Types/07_mapping.md)
+  * [Dictionaries & Sets](02_Data_Types/07_mapping.md)
   * [Lab 2H](02_Data_Types/lab2h.md)
 * [Control Flow](03_Flow_Control/README.md)
   * [Operators](03_Flow_Control/01_operators.md)
