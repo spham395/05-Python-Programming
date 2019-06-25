@@ -1,6 +1,6 @@
 <a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
-# Tuples, xrange & buffer
+# Tuples, range & buffer
 
 ## Tuples
 
@@ -32,19 +32,48 @@ Tuples are still sequence objects. You can still:​
 * Returning multiple results from functions​
 * Since they are immutable, they can be used as keys for a dictionary.​
 
-## xrange\(\)
+## range\(\)
+Python 3's range() is essentially a combination of Python 2's range() and xrange() so luckily in Python 3 we only need to worry about using range(). We will mention xrange() so you have some exposure to it and are aware of its existence. 
 
-xrange\(\) is Similar to range\(\), returns xrange object \(sequence object\) instead of list. Intended to be a simple, efficient \(uses less resources due to one-at-time loading method vs loading all increments\) and a fast way to iterate through a range. In most cases, xrange\(\) will be the way to go. The only time you should use range\(\) is when you are going to be iterating over the list multiple times. This is because xrange\(\) will use more processing power over the length of the repeated iteration vs range... which will return a list and that list will stay and can be referenced whenever.
+range() represents an immutable iterable object that always takes the small and same amount of memory irrespective of the size of range because it only stores start, stop, and step values and calculates values as needed.
 
 #### Syntax
 
-**xrange**_\(stop\)_ **xrange**_\(start, stop\[, step\]\)_
+**range**_\(stop\)_ **range**_\(start, stop,\[ step\]\)_
 
 _**start:**_ Required when full syntax is used. An integer specifying start value for the range.
 
 _**stop:**_ Required. The boundary value for the range.
 
 _**step:**_ Optional. Step value.
+
+```python
+
+>>> range(4)
+range(0,4)
+
+# if we want to see what is contained within our range
+>>> list(range(4))
+[0, 1, 2, 3]
+
+>>> list(range(2,6))
+[2, 3, 4, 5]
+
+>>> list(range(0,50,5))
+[0, 5, 10, 15, 20, 25, 30, 35, 40, 45]
+
+>>> list(range(4,12,3))
+# ???
+
+>>> list(range(0,-10,-2))
+# ???
+```
+We will cover range() more in depth and use it a lot more when we get to loops.
+
+## xrange\(\)
+
+xrange\(\) is from Python 2 and is similar to range\(\), returns xrange object \(sequence object\) instead of list. Intended to be a simple, efficient \(uses less resources due to one-at-time loading method vs loading all increments\) and a fast way to iterate through a range. In most cases, xrange\(\) will be the way to go. The only time you should use range\(\) is when you are going to be iterating over the list multiple times. This is because xrange\(\) will use more processing power over the length of the repeated iteration vs range... which will return a list and that list will stay and can be referenced whenever.
+
 
 ```python
 >>> for i in xrange(10):
@@ -84,7 +113,7 @@ _**step:**_ Optional. Step value.
 
 ## Buffer \(memoryview\)
 
-Buffer \(memoryview\) is useful if you don’t want to or can’t hold multiple copies of data in memory. It can also be lightening fast since it's not copying the data. Buffer \(or memoryview\) essentially expose \(by reference\) raw byte arrays to other Python objects. That means the argument passed must be in bytes \(ints representing bytes\).
+Buffer \(memoryview\) is useful if you don’t want to or can’t hold multiple copies of data in memory. It can also be lightning fast since it's not copying the data. Buffer \(or memoryview\) essentially expose \(by reference\) raw byte arrays to other Python objects. That means the argument passed must be in bytes \(ints representing bytes\).
 
 ```python
 # Python 2
