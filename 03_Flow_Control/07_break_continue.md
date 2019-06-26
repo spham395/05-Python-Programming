@@ -2,20 +2,18 @@
 
 # Break and Continue
 
-## Looking at previous languages
-
-The concept is exactly the same as it was in C/C++. If further examples are needed of how Break/Continue works, reference C/C++ material or PyDocs.
+If further examples are needed of how Break/Continue works, please reference PyDocs.
 
 ### Break
 
 The break statement simply breaks out of the innermost enclosing loop.
 
 ```python
-for i in xrange(1, 101):
+for i in range(1, 101):
     if i == 10:
-        print "NEOW MORE LIVES!"
+        print("WE BROKE IT!")
         break
-    print i
+    print(i)
 ```
 
 **Output:**
@@ -30,7 +28,7 @@ for i in xrange(1, 101):
 7
 8
 9
-NEOW MORE LIVES!
+WE BROKE IT!
 ```
 
 ### Continue
@@ -38,11 +36,11 @@ NEOW MORE LIVES!
 The continue statement continues with the next iteration of the loop.
 
 ```python
-for i in xrange(1, 100):​
+for i in range(1, 100):​
     if i % 2 == 0:​
-        print "{} is an even number!".format(i)​
+        print("{} is an even number!".format(i)​)
         continue #prevents second print from running​
-    print "{} is an odd number!".format(i) ​
+    print("{} is an odd number!".format(i))
 ```
 
 **Output:**
