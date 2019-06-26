@@ -15,36 +15,46 @@ for (int i = 0; i < strlen(my_string); i++) {
 
 ```python
 my_string = "Python"
-for i in xrange(len(my_string)):
+for i in range(len(my_string)):
     print(my_string[i])
 ```
 
-While the Python one certainly is shorter and looks cleaner... it's still not Pythonic for our use. Though, there will be times where xrange\(len\(\)\) formula is useful... mostly when dealing with mutable types.
+While the Python one certainly is shorter and looks cleaner... it's still not Pythonic for our use. Though, there will be times where range\(len\(\)\) formula is useful... mostly when dealing with mutable types.
 
 #### For Loop... Python Style
 
 ```python
 my_string = "Python"
 for letter in my_string:
-    print letter
+    print(letter)
 ```
 
 So easy, a caveman can do it! But, how does this happen under the hood?
 
-Remember Data Types chapter? Strings are iterable just like in C. The "in" operator simply calculates the count of my\_string and iterates through it as var letter. The value of letter is my\_string\[i\].
+Remember Data Types chapter? Strings are iterable. The "in" operator simply calculates the count of my\_string and iterates through it as var letter. The value of letter is my\_string\[i\].
 
 ## For Looping Dictionaries
 
+One way to set up looping for a dictionary
+
 ```python
+#In python 2 uses the method iteritems()
 for key, value in dict.iteritems():
     pass
 ```
 
+```python 3
+#In python 3 the method is now just items()
+for key, value in dict.items():
+    pass
+```
+Here is an example of how to do this
+
 ```python
 x = {'stu1':'James', 'stu2':'Bob', 'stu3':'Rengar'}
 
-for stu_id, name in x.iteritems():
-    print "{}'s name is {}".format(stu_id, name)
+for stu_id, name in x.items():
+    print("{}'s name is {}".format(stu_id, name))
 ```
 
 ### Loops: Iterative vs Recursive
