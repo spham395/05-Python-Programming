@@ -39,10 +39,10 @@ Python allows for the use of a **While-Else Statement.** The while-else runs lik
 ```python
 count = 0
 while count <= 10:
-    print 'count: {}'.format(count)
+    print('count: {}'.format(count))
     count += 1
 else:
-    print 'while loop executed... count is: {}'.format(count)
+    print('while loop executed... count is: {}'.format(count))
 ```
 
 **Output:**
