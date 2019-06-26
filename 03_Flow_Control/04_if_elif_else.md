@@ -29,19 +29,16 @@ a is equal to 100
 What is the output?
 
 ```python
-a = 0
-
-# We will introduce while loops the right way, next lesson
-while a <= 50:
+ 
+for a in range(51):
     if a == 0:
-        print "{} you can't divide by zero!".format(a)
+        print("{} you can't divide by zero!".format(a))
     elif a % 10 == 0:
-        print '{} can be divided by 10!!!'.format(a)
+        print ('{} can be divided by 10!!!'.format(a))
     elif a % 2 == 0:
-        print '{} is even!'.format(a)
+        print('{} is even!'.format(a))
     else:
-        print '{} is odd!'.format(a)
-    a += 1
+        print('{} is odd!'.format(a))
 ```  
 
 ---
