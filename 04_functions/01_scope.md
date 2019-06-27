@@ -15,7 +15,7 @@ def sales_tax(amount):
     rate = 0.0625 # Local variable
     tax_total = amount * rate # rate can be seen here
     total = tax_total + amount
-    print total
+    print(total)
 
 # Call function and pass parameter
 sales_tax(200)  # Rate cannot be seen here
@@ -32,7 +32,7 @@ def program():
         rate = 0.0625
         tax_total = amount * rate # Amount can be seen here
         total = tax_total + amount
-        print total
+        print(total)
     sales_tax() # Amount could be seen here
 
 # Amount could not be seen here
@@ -50,7 +50,7 @@ def sales_tax():
     rate = 0.0625
     tax_total = amount * rate
     total = tax_total + amount
-    print total
+    print(total)
 
 # Did not pass parameters
 sales_tax()
@@ -71,27 +71,27 @@ a = 1
 
 # Uses global because there is no local 'a'
 def f():
-    print 'Inside f() : ', a
+    print('Inside f() : ', a)
 
 # Uses local variable a
 def g():    
     a = 2
-    print 'Inside g() : ',a
+    print('Inside g() : ', a)
 
 # Uses global keyword to grant access to global a, allowing modification
 def h():    
     global a
     a = 3
-    print 'Inside h() : ',a
+    print('Inside h() : ',a)
 
 # Global scope
-print 'global : ',a
+print('global : ', a)
 f()
-print 'global : ',a
+print('global : ', a)
 g()
-print 'global : ',a
+print('global : ', a)
 h()
-print 'global : ',a
+print('global : ', a)
 ```
 
 **Output:**
