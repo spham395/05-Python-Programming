@@ -38,6 +38,7 @@
   * [Lab 3E](03_Flow_Control/lab3e.md)
   * [Break and Continue](03_Flow_Control/07_break_continue.md)
   * [Lab 3F](03_Flow_Control/lab3f.md)
+  * [Recursion](03_Flow_Control/08_recursion.md)
 * [Functions](04_functions/README.md)
   * [Scope](04_functions/01_scope.md)
   * [User Functions](04_functions/02_user_functions.md)
