@@ -8,7 +8,7 @@ Recursion is a function that calls itself. In other words a function will contin
 
 **Base Case**
 
-If the problem can be solved now, then the functions solves it and returns
+If the problem can be solved now, then the function solves it and returns
 
 **Recursive Case**
 
@@ -53,6 +53,9 @@ def annoying_message():
     print('Nudge Nudge, Wink Wink, Say No More Say No More')
     message()
 ```
+
+![](../.gitbook/assets/nudge.jpg)
+
 #### Recursion for the Fibonacci Series
 
 A very common way to present recursion is by writing a program to calculate Fibonacci numbers. After the second number, every number in the series is the sum of the two previous numbers. The sequence is the following:
