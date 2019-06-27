@@ -38,7 +38,7 @@ Remember Data Types chapter? Strings are iterable. The "in" operator simply calc
 One way to set up looping for a dictionary
 
 ```python
-#In python 2 uses the method iteritems()
+#In python 2 use the method iteritems()
 for key, value in dict.iteritems():
     pass
 ```
