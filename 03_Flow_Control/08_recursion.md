@@ -54,7 +54,7 @@ def annoying_message():
     message()
 ```
 #### Recursion for the Fibonacci Series
-![](../.gitbook/assets/fibonacci.jpg)
+![](../.gitbook/assets/Fibonacci.jpg)
 
 A very common way to present recursion is by writing a program to calculate Fibonacci numbers. After the second number, every number in the series is the sum of the two previous numbers. The sequence is the following:
 0,1,1,2,3,5,8,13,21,34,55,89,144,233,...
