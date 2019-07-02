@@ -16,7 +16,7 @@ def generate_power_func(n):
 
 
 x = generate_power_func(10)
-print x
+print(x)
 # What happens? How is this possible?
 ```
 
@@ -28,10 +28,10 @@ def generate_power_func(n):
 
 
 x = generate_power_func(10)
-print x
+print(x)
 
 y = x(4)
-print y
+print(y)
 
 # What happens now?
 ```
@@ -49,13 +49,17 @@ print y
 
 ## Iterators
 
-An iterator is just an object with a state that remembers where it is during iteration. Iterable objects can range from while loops to the actual iter object.
+An iterator is just an object with a state that remembers where it is during iteration, something that can be looped upon. We've gone over some Iterable objects like for loops, strings, lists, dictionaries, etc. Now we will learn how to make our own iterator using iter object.
+
+### Why use Iterators?
+
+Building your own iterator means that you can save memory space. If you have a very large data set you can use iterators for lazy evaluation.
 
 **Example of iter function:**
 
 ```python
 >>> x = iter([1, 2, 3, 4, 5, 6])
->>> print x
+>>> print(x)
 <listiterator object at 0x02B2AB30>
 x.next()
 1
@@ -75,7 +79,7 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-The one we will be using the most is the xrange\(\) function. Below is an iterator, implemented as a class that works like xrange. This is your first major look at classes... don't freak out! Let's break this down.
+The one we will be using the most is the range\(\) function. Below is an iterator, implemented as a class that works like range. This is your first major look at classes... don't freak out! Let's break this down.
 
 ```python
 class yrange:
@@ -109,11 +113,13 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-As we learned in the Data Types lecture... xrange\(\) loads one at a time. The yrange\(\) class here does the same thing. There are lists, tuples, etc... loaded up. Instead, we deal with two variables: i and n.
+As we learned in the Data Types lecture... range\(\) loads one at a time. The yrange\(\) class here does the same thing. There are lists, tuples, etc... loaded up. Instead, we deal with two variables: i and n.
 
 ## Generators
 
 Generators are also iterators \(iterators are not always generators though\). Generators simplify the creation of iterators. A generator is simply a function that produces a sequence of values to iterate through rather than a single value.
+
+Before we go over the example lets discuss yield. Yield is similar to return however yield produces a sequence of values. If there is a yield in the body of the function then it is a generator. 
 
 ```python
 def yrange(n):
@@ -122,7 +128,7 @@ def yrange(n):
         yield i
         i += 1
 my_gen = yrange(10)
-print my_gen
+print(my_gen)
 for i in my_gen:
     print(i)
 
