@@ -20,10 +20,10 @@ Create a fully functional calculator using BOTH functions and lambdas. Create a 
 ### Requirments
 
 * Adhere to PEP8
-* Functionality requirments above
+* Functionality requirements above
 * Utilize user input and proper validation
 * Utilize proper formatting
-* Utilize proper and clean statements and loop
+* Utilize proper and clean statements and loops
 
 ### Additional
 
@@ -35,7 +35,7 @@ Create a fully functional calculator using BOTH functions and lambdas. Create a 
 
 ## Lab 4B: Lab 3E Part 2
 
-* Return to Lab 3E and follow instructions for Fibonacci recursive funtion. 
+* Return to Lab 3E and follow instructions for Fibonacci recursive function. 
 
 ---
 

@@ -22,8 +22,8 @@ Update your hero class lab with the following additions:
 * Utilize a `__init__()` 
 * Ensure variables are correct type \(class vs instance variables\)
 * Utilize methods for getters and setters
-* Create an few instances of your class. Populate it with data utilzing a init and/or getters and setters
-* Split your classes into seperate files and import them properly
+* Create a few instances of your class. Populate it with data utilizing an init and/or getters and setters
+* Split your classes into separate files and import them properly
 
 ## Additional:
 
