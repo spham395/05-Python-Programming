@@ -50,12 +50,12 @@ def launch():
     else:
         divisible_by(int(num), int(amount))
 
-# Checks num divisable numbers up to amount or itself
+# Checks num divisible numbers up to amount or itself
 def divisible_by(num, amount):
     i = 1.0
     while (num / i >= 1 and amount > 0):
         if num % i == 0:
-            print('{} is divsable by {}'.format(int(num), int(i)))
+            print('{} is divisible by {}'.format(int(num), int(i)))
             amount -= 1
         i += 1
 
