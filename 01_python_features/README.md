@@ -1,4 +1,4 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md"> Return to TOC </a>
 
 # Python Features
 
@@ -24,4 +24,4 @@
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/01_python_features/01_python_intro.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/01_python_features/01_python_intro.md" > Continue to Next Topic </a>
