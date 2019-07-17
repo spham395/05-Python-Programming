@@ -61,6 +61,6 @@ Finally, create a FooBar class from Foo.
 ---
 **End of Python Subject**
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Network Programming Subject </a>
+<a href="https://github.com/CyberTrainingUSAF/06-Intro-to-Algorithms/blob/master/00-Table-of-Contents.md" > Continue to Intro to Algorithms</a>
 
 <a href="https://github.com/CyberTrainingUSAF/01-Course-Introduction-and-setup/blob/master/README.md" > Return to Course introduction </a>
