@@ -4,8 +4,6 @@
 
 ## Lab 2D: Strings
 
-Recommended Version: Python 2.7
-
 **Instructions:**
 
 Write a program that reverses a user inputted string then outputs the new string, in all uppercase letters.
@@ -13,8 +11,6 @@ Write a program that reverses a user inputted string then outputs the new string
 **Bonus:** Add additional functionality, experiment with other string methods.
 
 ## Lab 2E: Count Words
-
-Recommended Version: Python 2.7
 
 **Instructions:**
 
