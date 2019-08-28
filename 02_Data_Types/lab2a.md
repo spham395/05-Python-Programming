@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Lab 2A
+---
+
+## Lab 2A
 
 Using the Python interpreter: find the type of the following variables. Feel free to experiement with other variables and such.
 
@@ -26,4 +29,5 @@ Using the Python interpreter: find the type of the following variables. Feel fre
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/02_numbers.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
+|[Next Topic](/02_Data_Types/02_numbers.md)|
+|---|
