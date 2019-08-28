@@ -1,8 +1,11 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Lab 2D & Lab2E
+---
 
-## Lab 2D: Strings
+## Lab 2D & Lab2E
+
+**Lab 2D: Strings**
 
 **Instructions:**
 
@@ -22,4 +25,5 @@ ex: Output number of characters, number of uppercase letters, etc...
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/04_lists.md" > Continue to Next Topic </a>
+|[Next Topic](/02_Data_Types/04_lists.md)|
+|---|
