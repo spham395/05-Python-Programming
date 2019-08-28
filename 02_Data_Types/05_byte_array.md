@@ -1,8 +1,11 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Bytes and Bytearray
+---
 
-## Bytes\(\)
+## Bytes and Bytearray
+
+**Bytes\(\)**
 
 It's worth re-mentioning that Python 2 and Python 3 have differences when it comes to bytes and strings. Python 2 strings are bytes naturally whereas Python 3 is unicode and needs to be defined as bytes when you want to use bytes type. Here are a couple ways to turn Python 3 strings and such.. into bytes. This functionality is backwards compatible with Python 2. It's highly recommended you define Python 2 strings the same way if you are going to be modifying the bytes. Even though it doesn't do anything in Python 2... it will make the job of refactoring code easier, if you had to up Python version to 3.x.
 
@@ -94,6 +97,10 @@ b​
 bytearray(b'I Um a string')​
 ```  
 
-## Continue to Lab 2G
+---
+**Continue to Performance Lab** 2G
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/lab2g.md" rel="Continue to Lab 2G"> Continue to Next Lab 2G </a>
+---
+
+|[Lab 2G](/02_Data_Types/lab2g.md)|
+|---|
