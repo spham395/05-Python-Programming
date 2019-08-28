@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Strings
+---
+
+## Strings
 
 #### Reference: [Strings](https://docs.python.org/2.7/tutorial/introduction.html#strings)
 
@@ -306,8 +309,10 @@ x.split(",")
 * center​
 * ljust, rjust​  
   
- 
 ---  
-  ## Continue to Lab 2D and 2E
-
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/lab2d_e.md" > Continue to Lab 2D and 2 E </a>
+ **Continue to Performance Labs:** 2D and 2E
+ 
+ ---
+  
+|[Lab 2D & 2E](/02_Data_Types/lab2d_e.md)|
+|---|
