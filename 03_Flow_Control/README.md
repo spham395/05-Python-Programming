@@ -1,8 +1,12 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Control Flow
+---
+
+## Control Flow
 
 ### **Topics:**
+
 
 * **Operators**
 * **If, Elif, Else**
@@ -23,4 +27,5 @@
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/03_Flow_Control/01_operators.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
+|[Next Topic](/03_Flow_Control/01_operators.md)|
+|---|
