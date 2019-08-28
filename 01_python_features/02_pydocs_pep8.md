@@ -87,5 +87,5 @@ Notice the separation? Let's get into that and explain it.
 
 ---
 
-|[Next Topic](/01_python_features/02_pydocs_pep8.md)|
+|[Next Topic](/01_python_features/03_objects.md)|
 |---|
