@@ -1,8 +1,11 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Tuples, range & buffer
+---
 
-## Tuples
+## Tuples, range & buffer
+
+**Tuples**
 
 Tuples are very similar to lists. The major difference is that tuples are **IMMUTABLE!** So just like strings and numbers, you cannot modify it's contents without reassigning. This also means that the length of tuples are set in stone. Parentheses \(round brackets like these\) are commonly used to declare tuples. But unlike lists, the parentheses are not required! You can declare tuples by just using commas.
 
@@ -154,4 +157,5 @@ for n in (100000, 200000, 300000, 400000):
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/02_Data_Types/07_mapping.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
+|[Next Topic](/02_Data_Types/07_mapping.md)|
+|---|
