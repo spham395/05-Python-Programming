@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Lab 1A
+---
+
+# Setup (Lab 1A)
 
 Now that we learned the background behind Python, lets get to coding. Since Python is cross-platform, you can use whatever OS and text editor/IDE that you'd like. Below are my recommendations:
 
@@ -67,4 +70,5 @@ sudo dnf install python37
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/01_python_features/04_py2_py3.md" rel="Return to TOC"> Continue to Next Topic </a>
+|[Next Topic](/01_python_features/04_py2_py3.md)|
+|---|
