@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Functions
+---
+
+## Functions
 
 ### Topics:
 
@@ -25,4 +28,5 @@
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/04_functions/01_scope.md"> Continue to Next Topic </a>
+|[Next Topic](/04_functions/01_scope.md)|
+|---|
