@@ -1,8 +1,11 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Lab 4A & 4B
+---
 
-## Lab 4A: Calculator
+## Lab 4A & 4B
+
+### Lab 4A: Calculator
 
 ![](../.gitbook/assets/doge.jpg)
 
@@ -33,10 +36,11 @@ Create a fully functional calculator using BOTH functions and lambdas. Create a 
 * Additonal math algorithms
 * etc
 
-## Lab 4B: Lab 3E Part 2
+### Lab 4B: Lab 3E Part 2
 
 * Return to Lab 3E and follow instructions for Fibonacci recursive function. 
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/04_functions/04_list_comprehension.md" > Continue to Next Topic </a>
+|[Next Topic](/04_functions/04_list_comprehension.md)|
+|---|
