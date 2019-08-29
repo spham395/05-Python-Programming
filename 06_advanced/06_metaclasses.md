@@ -1,11 +1,11 @@
-|[Table of Contents](/00-Table-of-Contents.md)|
+|[Return to Table of Contents](/00-Table-of-Contents.md)|
 |---|
 
 ---
 
 ## Metaclasses  
 
-![](/assets/qq0ok.png)
+![](/assets/QQ0OK.png)
 
 **Defined as “the class of a class”.**
 
