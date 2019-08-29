@@ -1,8 +1,11 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Metaclasses  
+---
 
-![](../.gitbook/assets/qq0ok.png)
+## Metaclasses  
+
+![](/assets/qq0ok.png)
 
 **Defined as “the class of a class”.**
 
@@ -59,6 +62,7 @@ Finally, create a FooBar class from Foo.
 * Notice how it too was built using Meta?
 
 ---
+
 **End of Python Subject**
 
 <a href="https://github.com/CyberTrainingUSAF/06-Intro-to-Algorithms/blob/master/00-Table-of-Contents.md" > Continue to Intro to Algorithms</a>
