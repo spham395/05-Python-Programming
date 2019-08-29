@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Return to Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# User Functions
+---
+
+## User Functions
 
 Python functions are blocks of reusable code that can be called to accomplish some sort of functionality. Functions are meant to split up the code into functionally organized code that can be reused. In Python, you do not have to return a value.
 
@@ -283,4 +286,7 @@ launch()
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/04_functions/03_lambda_functions.md" > Continue to Next Topic </a>
+---
+
+|[Next Topic](/04_functions/03_lambda_functions.md)|
+|---|
