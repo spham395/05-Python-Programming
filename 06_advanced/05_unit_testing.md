@@ -1,8 +1,11 @@
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# UnitTesting  
+---
 
-## UnitTesting
+## UnitTesting  
+
+### UnitTesting
 
 Unit testing is a development process where parts of small code \(called units\) are individually and independently tested for proper operation. This can of course be done manually... but it is more often automated. This is an extremely important habit to build.
 
@@ -103,10 +106,11 @@ Got:
 PS C:\Users\xconstaud\Documents\Python\re>
 ```
 
-## Conclusion
+### Conclusion
 
 As you have guessed, this can be insanly useful. In most cases, spending the extra time unit testing will save you a lot more time over debugging.
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/07-Python-Programming/blob/master/06_advanced/06_metaclasses.md" > Continue to Next Topic </a>
+|[Next Topic](/06_advanced/06_metaclasses.md)|
+|---|
