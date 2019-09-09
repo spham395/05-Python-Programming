@@ -9,7 +9,7 @@
 
 ## EVERYTHING IN PYTHON IS AN OBJECT!
 
-This is the single, most important thing I can teach you. The sooner you have an understanding of Python Objects, the quicker everything else falls into place.
+This is the single, most important thing taught in Python. The sooner you have an understanding of Python Objects, the quicker everything else falls into place. *Objects* are pieces of code that are designed to be interchangaeble and thus reused, but more on this later.
 
 **Data types are dynamic based on the variable stored. To check type, use:**
 
@@ -50,7 +50,7 @@ print ('a = {} b = {} c = {}'.format(a, b, c))
 ## Data Types
 
 * **Numbers**
-  * int, long, float, complex
+  * int, long, float, *complex*
 * **Strings**
 * **Lists**
   * Think array
