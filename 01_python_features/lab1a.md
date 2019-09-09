@@ -31,13 +31,13 @@ We flat out do not need a full fledged IDE for training. Python is easy to under
 
 ### Python2
 
-**Fedora:**
+**Ubuntu(debian based):**
 
 ```text
-sudo dnf install python2
+sudo apt install python
 ```
 
-* The command for python2 in Fedora will be: _python_ or _python2_
+* The command for python2 in Ubuntu will be: _python_ or _python2_
 
 **Windows:**
 
@@ -47,15 +47,15 @@ sudo dnf install python2
 
 ### Python3
 
-**Fedora:**
+**Ubuntu(debian based):**
 
 ```text
-sudo dnf install python37
+sudo apt install python3
 ```
 
-* The command for python37 in Fedora will be: _python3.7_
+* The command for python3.7 in Ubuntu will be: _python3_
   * Though that's a bit of a pain to write... so feel free to create an alias
-  * I myself will be using tese aliases:
+  * The following are some suggested aliases:
 
     ```text
     alias py37=python3.7
