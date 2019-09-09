@@ -19,7 +19,7 @@ Using the Python interpreter: find the type of the following variables. Feel fre
 * 0​
 * type​
 * object​
-* b"10101101" \*\*Try in Py2 and Py3 ​
+* b"10101101" **Try in Py2 and Py3** ​
 * 0b10101101​
 * \[1,2,3\]​
 * \(1,2,3\)​
