@@ -9,7 +9,7 @@
 
 ## Python Interpreter
 
-There are a couple of ways to execute Python code. One way is through the **Python Interpreter,** which allows for on the fly code testing and sandboxing. The Python Interpreter uses a concept called **REPL:**
+There are a couple of ways to execute Python code. One way is through the **Python Interpreter,** which allows for *on the fly* code testing and sandboxing. The Python Interpreter uses a concept called **REPL:**
 
 * **Read** the user input
   * Some constructs like loops might be multiple lines
@@ -34,8 +34,8 @@ The Python Interpreter can be launched from the command prompt or terminal using
 
 #### Windows
 
-* **py -2** generally opens up Python 2
-* **py -3** or **py** generally opens up Python 3
+* **py -2** *generally* opens up Python 2
+* **py -3** or **py** *generally* opens up Python 3
 * Again, this is all dependent on a number of factors
 
 ### Additional Commands/Info
@@ -61,7 +61,7 @@ The Python Interpreter can be launched from the command prompt or terminal using
 
 ## Python Source Files
 
-The other way to run Python code is using source files with the extension of .py. Python does not require compilation on the user's end. Executing .py source code is similar to starting the Interpreter.
+The other way to run Python code is using source files with the extension of **.py**. Python does not require compilation on the user's end. Executing **.py** source code is similar to starting the Interpreter.
 
 **Be sure to:**
 
