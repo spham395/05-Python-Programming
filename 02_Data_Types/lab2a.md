@@ -5,7 +5,7 @@
 
 ## Lab 2A
 
-Using the Python interpreter: find the type of the following variables. Feel free to experiement with other variables and such.
+Using the Python interpreter: find the type of the following variables. Feel free to experiment with other variables and such.
 
 **Type of:​**
 
